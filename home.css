@@ -1,0 +1,657 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#ID01_Home {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	
+	#Bottom_menu {
+		position: absolute;
+		width: 1080px;
+		height: 174px;
+		left: 0px;
+		top: 1746px;
+		overflow: visible;
+	}
+	#bottom_bar {
+		position: absolute;
+		width: 1080px;
+		height: 174px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_Bottom {
+		position: absolute;
+		width: 1080px;
+		height: 174px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Home_Button {
+		position: absolute;
+		width: 91px;
+		height: 103px;
+		left: 61px;
+		top: 34px;
+		overflow: visible;
+	}
+	#home_icon { 
+    color: rgba(0,188,212,1);
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    }
+	#Home {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,188,212,1);
+	}
+	#Calendar_Button {
+		position: absolute;
+		width: 135px;
+		height: 103px;
+		left: 234px;
+		top: 34.133px;
+		overflow: visible;
+	}
+	#Calendar {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#calendar_icon {
+    color: grey;
+    font-size: 70px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 30px;
+    }
+	#Add_Button {
+		position: absolute;
+		width: 126px;
+		height: 101px;
+		left: 480px;
+		top: 33.688px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#New_Trip {
+		position: absolute;
+		left: 0px;
+		top: 56px;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#add_icon {
+    color: grey;
+    font-size: 100px;
+    line-height: 1px;
+    margin-top: 28px;
+    }
+	#My_Trips_Button {
+		position: absolute;
+		width: 129px;
+		height: 104px;
+		left: 711px;
+		top: 34px;
+		overflow: visible;
+	}
+	#Trips {
+		position: absolute;
+		left: 0px;
+		top: 59px;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#myTrips_icon {
+    color: grey;
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 25px;
+    }
+	#Profile_Button {
+		position: absolute;
+		width: 97px;
+		height: 103px;
+		left: 923px;
+		top: 35.008px;
+		overflow: visible;
+	}
+	#Profile {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#profile_icon {
+    color: grey;
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 6px;
+    }
+	#App_bar {
+		position: absolute;
+		width: 1080px;
+		height: 229px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#app_bar {
+		position: absolute;
+		width: 1080px;
+		height: 229px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FliyingCarpet {
+		position: absolute;
+		left: 449px;
+		top: 32px;
+		overflow: visible;
+		width: 182px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#Hello_ {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+	#Profile_picture {
+		position: absolute;
+		overflow: visible;
+		width: 155px;
+		height: 155px;
+		left: 843px;
+		top: 44px;
+	}
+	#My_trips_carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 540px;
+		left: 0px;
+		top: 229px;
+		overflow: visible;
+	}
+	#My_Trips_Carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 540px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_Carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 540px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(216,214,214,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#My_Trips {
+		position: absolute;
+		left: 60px;
+		top: 35px;
+		overflow: visible;
+		width: 157px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+	#Banner_Trip1 {
+		position: absolute;
+		width: 796px;
+		height: 369px;
+		left: 142px;
+		top: 124px;
+		overflow: visible;
+	}
+	#Trip_1 {
+		position: absolute;
+		width: 796px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Progress_bar {
+		position: absolute;
+		width: 796px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Status_bar {
+		position: absolute;
+		width: 720px;
+		height: 24px;
+		left: 17px;
+		top: 326px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Status_1 {
+		position: absolute;
+		width: 522px;
+		height: 24px;
+		left: 17px;
+		top: 326px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#ID80 {
+		position: absolute;
+		left: 742px;
+		top: 320px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Brazil {
+		position: absolute;
+		left: 21px;
+		top: 17px;
+		overflow: hidden;
+		width: 153px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(162,162,162,1);
+	}
+	#ID05_10_2020 {
+		position: absolute;
+		left: 22px;
+		top: 81px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(162,162,162,1);
+	}
+	#Banner_trip2 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 972px;
+		top: 124px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#footer_2 {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Banner_trip3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 124px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#footer_2_A {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#ID1 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 530px;
+		top: 508px;
+	}
+	#ID2 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 570px;
+		top: 508px;
+	}
+	#ID3 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 490px;
+		top: 508px;
+	}
+	#Task_list1 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 909px;
+		overflow: visible;
+	}
+	#Task1_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task1_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.18px;
+	}
+	#Rectangle_Date1 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task1_Date {
+		position: absolute;
+		left: 21px;
+		top: 4px;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+	.check_no {
+		overflow: visible;
+		position: absolute;
+		left: 890px;
+		top: 21px;
+        stroke: rgba(0,188,212,1);
+        stroke-width:4px;
+	}
+	#Task_list2 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 1145px;
+		overflow: visible;
+	}
+	#Task2_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task2_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.18px;
+	}
+	#Rectangle_Date2 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task2_Date {
+		position: absolute;
+		left: 21px;
+		top: 4px;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+	#Task_list3 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 1381px;
+		overflow: visible;
+	}
+	#Task3_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task3_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+	}
+	#Rectangle_Date3 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task3_Date {
+		position: absolute;
+		left: 15px;
+		top: 4px;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+	#Upcoming_Deadlines {
+		position: absolute;
+		left: 80px;
+		top: 816px;
+		overflow: visible;
+		width: 381px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(162,162,162,1);
+	}
