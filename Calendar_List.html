@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/calendar_list.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/fab.css" media="screen"/>  
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <script src="js/flyingcarpet.js" async></script>
@@ -59,12 +60,14 @@
 			</div>
 		</div>
         </a>
+        <a href="AddTrip_Start.html">
 		<div class="Add_Button">
             <i class="material-icons add_icon">add</i>
 			<div class="New_Trip">
                 <span>Add Trip</span>
             </div>
 		</div>
+        </a>
         <a href="MyTrips_Overview.html">
 		<div class="My_Trips_Button">
             <i class="material-icons myTrips_icon">flight_takeoff</i>
@@ -81,9 +84,7 @@
 		</div>
 	</div>
     <!-- floating action button -->
-	<div id="FAB" class="FAB" onclick="popupTask();">
-        <i class="material-icons" id="FAB_icon">add_circle</i>
-    </div>
+	<div class="fab" onclick="popupTask();"> + </div>
     <!-- content of the screen: tasks -->
 	<div id="Task_list1">
 		<svg class="Surface_task" viewBox="0 0 960 195">

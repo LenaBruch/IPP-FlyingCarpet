@@ -68,20 +68,6 @@
 		color: rgba(255,255,255,1);
 	}
 
-/* FAB */
-	#FAB {
-		position: absolute;
-		width: 174px;
-		height: 174px;
-		left: 845px;
-		top: 1500px;
-		overflow: visible;
-	}
-    #FAB_icon {
-    color: rgba(0,188,212,1);
-    font-size: 200px;
-    }
-
 /* task 1 */
 	#Task_list1 {
 		position: absolute;

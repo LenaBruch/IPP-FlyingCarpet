@@ -1,0 +1,18 @@
+/* floating action button */
+
+.fab {
+   width: 150px;
+   height: 150px;
+   background-color: #FFA726;
+   border-radius: 50%;
+   box-shadow: 0 6px 10px 0 #666;
+   
+   font-size: 90px;
+   line-height: 150px;
+   color: white;
+   text-align: center;
+   
+   position: fixed;
+   right: 3300px;
+   bottom: 700px;
+}

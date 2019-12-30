@@ -191,20 +191,6 @@
 		font-size: 30px;
 		color: rgba(162,162,162,1);
 	}
-	
-/*FAB*/
-	#FAB {
-		position: absolute;
-		width: 174px;
-		height: 174px;
-		left: 845px;
-		top: 1500px;
-		overflow: visible;
-	}
-    #FAB_icon {
-    color: rgba(0,188,212,1);
-    font-size: 200px;
-    }
 
 /* items of the checklist */
 	#Sunscreen {

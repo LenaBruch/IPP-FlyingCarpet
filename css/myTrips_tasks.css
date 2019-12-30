@@ -442,20 +442,6 @@
         stroke-width:4px;
 	}
 
-/* FAB */
-		#FAB {
-		position: absolute;
-		width: 174px;
-		height: 174px;
-		left: 845px;
-		top: 1500px;
-		overflow: visible;
-	}
-    #FAB_icon {
-    color: rgba(0,188,212,1);
-    font-size: 200px;
-    }
-
 /* CSS popup window task */
 
 	#Popup_Task {
