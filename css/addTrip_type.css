@@ -1,0 +1,389 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#ID04_My_Trips___Type_unselected {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/* header wording of the current menu item */
+	#Add_Trip {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+/* inspirational image */
+	#Inspirational_Image {
+		position: absolute;
+		width: 960px;
+		height: 423px;
+		left: 60px;
+		top: 490px;
+		overflow: visible;
+	}
+	#Image_placeholder {
+		position: absolute;
+		width: 960px;
+		height: 423px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Icon_ionic_md_images {
+		position: absolute;
+		width: 159px;
+		height: 136px;
+		left: 400px;
+		top: 143px;
+		overflow: visible;
+	}
+	#image_icon {
+    color: grey;
+    font-size: 85px;
+}
+	
+/* text of "Waht are you doing?"*/
+	#What_are_you_doing_ {
+		position: absolute;
+		left: 85px;
+		top: 951px;
+		overflow: visible;
+		width: 369px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+		letter-spacing: 0.095px;
+	}
+/*timeline*/
+	#Timeline {
+		position: absolute;
+		width: 905px;
+		height: 84px;
+		left: 85px;
+		top: 338px;
+		overflow: visible;
+	}
+	.Linie_3 {
+		overflow: visible;
+		position: absolute;
+		width: 880px;
+		height: 5px;
+		left: 15px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Start {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.lets_go {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 885px;
+		top: 5px;
+	}
+	.company {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 704px;
+		top: 5px;
+	}
+	.type {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 528px;
+		top: 1px;
+	}
+	.Transportation {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 352px;
+		top: 5px;
+	}
+	#Type {
+		position: absolute;
+		left: 501px;
+		top: 31px;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	.destination {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 176px;
+		top: 5px;
+	}
+	.Linie_4 {
+		overflow: visible;
+		position: absolute;
+		width: 528px;
+		height: 5px;
+		left: 15.5px;
+		top: 15.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Destination {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 176px;
+		top: 0px;
+	}
+	.Transportation_big {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 352px;
+		top: 0px;
+	}
+
+/*buttons to enter the type of your trip */
+	#citytrip_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 1058px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#City_Trip {
+		position: absolute;
+		left: 247px;
+		top: 1225px;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#city_icon {
+		position: absolute;
+		width: 88px;
+		height: 70px;
+		left: 255px;
+		top: 1129px;
+		overflow: visible;
+	}
+	#active_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 1058px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Active {
+		position: absolute;
+		left: 512px;
+		top: 1225px;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#active_icon {
+		position: absolute;
+		width: 52.563px;
+		height: 70px;
+		left: 514px;
+		top: 1129px;
+		overflow: visible;
+	}
+	#backpacking_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 1058px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Backpacking {
+		position: absolute;
+		left: 738px;
+		top: 1232px;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#backpacking_icon {
+		position: absolute;
+		width: 45.692px;
+		height: 52px;
+		left: 773px;
+		top: 1138px;
+		overflow: visible;
+	}
+	#wellnes_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 1295px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Wellness {
+		position: absolute;
+		left: 244px;
+		top: 1468px;
+		overflow: visible;
+		width: 82px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#wellness_icon {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 260px;
+		top: 1377.56px;
+		overflow: visible;
+	}
+	
+	#beach_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 1295px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Beach {
+		position: absolute;
+		left: 512px;
+		top: 1468px;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#beach_icon {
+		position: absolute;
+		width: 45px;
+		height: 36px;
+		left: 517px;
+		top: 1383px;
+		overflow: visible;
+	}
+	#roadtrip_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 1295px;
+		background-color: rgba(230,230,230,1);
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Roadtrip {
+		position: absolute;
+		left: 758px;
+		top: 1468px;
+		overflow: visible;
+		width: 78px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#roadtrip_icon {
+		position: absolute;
+		width: 45px;
+		height: 36px;
+		left: 773px;
+		top: 1383px;
+		overflow: visible;
+	}
+    .type_icon {
+        margin-top: -35px;
+        margin-left: -22px;
+        width: 100px;
+        height: 100px;
+    }

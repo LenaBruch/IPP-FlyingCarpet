@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Add Trip – Transportation</title>
+<link rel="stylesheet" type="text/css" href="css/addTrip_transportation.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/next_back_button.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+<div id="ID04_My_Trips___Transportation">
+    <!-- menubar -->
+	<div class="Bottom_menu">
+		<div class="bottom_bar">
+			<div class="Rectangle_Bottom">
+			</div>
+		</div>
+        <a href="Home.html">
+		<div class="Home_Button">
+			<i class="material-icons home_icon">home</i>
+			<div class="Home">
+				<span>Home</span>
+			</div>
+		</div>
+        </a>
+        <a href="Calendar_Calendar.html">
+		<div class="Calendar_Button">
+            <i class="material-icons calendar_icon">calendar_today</i>
+			<div class="Calendar">
+				<span>Calendar</span>
+			</div>
+		</div>
+        </a>
+		<div class="Add_Button">
+            <i class="material-icons add_icon">add</i>
+			<div class="New_Trip">
+                <span>Add Trip</span>
+            </div>
+		</div>
+        <a href="MyTrips_Overview.html">
+		<div class="My_Trips_Button">
+            <i class="material-icons myTrips_icon">flight_takeoff</i>
+			<div class="Trips">
+				<span>My Trips</span>
+			</div>
+		</div>
+        </a>
+		<div class="Profile_Button">
+            <i class="material-icons profile_icon">person</i>
+			<div class="Profile">
+				<span>Profile</span>
+			</div>
+		</div>
+	</div>
+    <!-- header -->
+	<div class="App_bar">
+			<svg viewBox="0 0 1080 228">
+                <rect class="rect_header"/>
+			</svg>
+		<div class="FliyingCarpet">
+			<span>FliyingCarpet</span>
+		</div>
+		<div id="Add_Trip">
+			<span>Add Trip</span>
+		</div>
+	</div>
+    <!-- inspirational image placeholder -->
+	<div id="Inspirational_Image">
+		<div id="Rectangle_Image">
+		</div>
+		<div id="Icon_ionic_md_images">
+			<i id="image_icon" class="material-icons">insert_photo</i>
+		</div>
+	</div>
+  <!-- back & next button -->
+    <a href="AddTrip_Type.html">
+	<div class="Next_Button">
+		<div class="Rectangle_Next">
+		</div>
+		<div class="NEXT">
+			<span>NEXT</span>
+		</div>
+	</div>
+    </a>
+    <a href="AddTrip_Destination.html">
+	<div class="Back_Button">
+		<div class="Rectangle_Back">
+		</div>
+		<div class="BACK">
+			<span>BACK</span>
+		</div>
+	</div>
+    </a>
+  <!-- content of the screen: drop down menu for how to travel and luggage reqirements & next/back button -->
+	<div id="How">
+		<div class="Surface">
+		</div>
+		<div id="Plane">
+			   <form action="/action_page.php">
+            <input list="enter_transportation" class="enter_transport_luggage" placeholder="e.g. Plane">
+            <datalist id="enter_transportation">
+              <option value="Car">
+              <option value="Plane">
+              <option value="Train">
+              <option value="Motorbike">
+              <option value="Bicycle">
+              <option value="Ship">
+            </datalist> 
+          </form>
+		</div>
+		<i class="material-icons" id="arrow_traveling">keyboard_arrow_down</i>
+		<div id="How_are_you_traveling_">
+			<span>How are you traveling?</span>
+		</div>
+	</div>
+	<div id="Lugagge">
+		<div class="Surface">
+		</div>
+		<div id="Backpack">
+            <form action="/action_page.php">
+            <input list="enter_luggage" class="enter_transport_luggage" placeholder="e.g. 30L Backpack">
+            <datalist id="enter_luggage">
+              <option value="10L Backpack">
+              <option value="30L Backpack">
+              <option value="50L Backpack">
+              <option value="70L Backpack">
+            </datalist> 
+          </form>
+		</div>
+        <i class="material-icons" id="arrow_luggage">keyboard_arrow_down</i>
+		<div id="Any_luggage_requirements_">
+			<span>Any luggage requirements?</span>
+		</div>
+	</div>
+    <!-- timeline -->
+	<div id="Timeline">
+		<svg class="Linie_3" viewBox="0 0 880 5">
+			<path fill="transparent" stroke="rgba(210,208,208,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linie_3" d="M 0 0 L 880 0">
+			</path>
+		</svg>
+		<svg class="Start">
+			<ellipse fill="rgba(0,188,212,1)" id="Start" rx="15" ry="15" cx="15" cy="15">
+			</ellipse>
+		</svg>
+		<svg class="lets_go">
+			<ellipse fill="rgba(210,208,208,1)" id="lets_go" rx="10" ry="10" cx="10" cy="10">
+			</ellipse>
+		</svg>
+		<svg class="company">
+			<ellipse fill="rgba(210,208,208,1)" id="company" rx="10" ry="10" cx="10" cy="10">
+			</ellipse>
+		</svg>
+		<svg class="type">
+			<ellipse fill="rgba(210,208,208,1)" id="type" rx="10" ry="10" cx="10" cy="10">
+			</ellipse>
+		</svg>
+		<svg class="Transportation">
+			<ellipse fill="rgba(210,208,208,1)" id="Transportation" rx="10" ry="10" cx="10" cy="10">
+			</ellipse>
+		</svg>
+		<div id="Transportation">
+			<span>Transportation</span>
+		</div>
+		<svg class="destination">
+			<ellipse fill="rgba(210,208,208,1)" id="destination" rx="10" ry="10" cx="10" cy="10">
+			</ellipse>
+		</svg>
+		<svg class="Linie_4" viewBox="0 0 352 5">
+			<path fill="transparent" stroke="rgba(0,188,212,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linie_4" d="M 0 0 L 352 0">
+			</path>
+		</svg>
+		<svg class="Destination">
+			<ellipse fill="rgba(0,188,212,1)" id="Destination" rx="15" ry="15" cx="15" cy="15">
+			</ellipse>
+		</svg>
+		<svg class="Transportation_big">
+			<ellipse fill="rgba(0,188,212,1)" id="Transportation_big" rx="15" ry="15" cx="15" cy="15">
+			</ellipse>
+		</svg>
+	</div>
+</div>
+</body>
+</html>

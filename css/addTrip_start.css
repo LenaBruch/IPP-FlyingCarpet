@@ -1,0 +1,199 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+
+/* header wording of the current menu item */
+	#Add_Trip {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/* timeline */
+	#Timeline {
+		position: absolute;
+		width: 933px;
+		height: 84px;
+		left: 57px;
+		top: 338px;
+		overflow: visible;
+	}
+	.Linie_3 {
+		overflow: visible;
+		position: absolute;
+		width: 880px;
+		height: 5px;
+		left: 43px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Start {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 28px;
+		top: 0px;
+	}
+	.lets_go {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 913px;
+		top: 5px;
+	}
+	.company {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 732px;
+		top: 5px;
+	}
+	.type {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 556px;
+		top: 5px;
+	}
+	.Transportation {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 380px;
+		top: 5px;
+	}
+	.destination {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 204px;
+		top: 5px;
+	}
+	#Start {
+		position: absolute;
+		left: 0px;
+		top: 31px;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+
+/* inspirational image */
+	#Inspirational_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 60px;
+		top: 489px;
+		overflow: visible;
+	}
+	#Rectangle_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Icon_ionic_md_images {
+		position: absolute;
+		width: 159.433px;
+		height: 136px;
+		left: 400px;
+		top: 191.533px;
+		overflow: visible;
+	}
+#image_icon {
+    color: grey;
+    font-size: 85px;
+}
+	#Text_Field {
+		position: absolute;
+		width: 960px;
+		height: 83px;
+		left: 60px;
+		top: 1275px;
+		overflow: visible;
+	}
+
+/* content of the current screen */
+#Trip_Name {
+    font-size: 26pt;
+    width: 900px;
+    height: 63px; 
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0,188,212,1);
+    padding-left: 15px;
+}
+	#Let_s_get_Started {
+		position: absolute;
+		left: 60px;
+		top: 1113px;
+		overflow: visible;
+		width: 365px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(0,188,212,1);
+	}
+	#give_your_trip_a_name {
+		position: absolute;
+		left: 60px;
+		top: 1194px;
+		overflow: visible;
+		width: 332px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	
+/* text of the cancel button */
+	#CANCEL {
+		position: absolute;
+		left: 52px;
+		top: 17px;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.38);
+	}

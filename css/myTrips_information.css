@@ -1,0 +1,294 @@
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#My_Trips___Information {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/* header wording of the current menu item */
+	#My_Trips {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/* tab bar: information, checklist, tasks */
+	#tab_bar {
+		position: absolute;
+		width: 1099px;
+		height: 135px;
+		left: 0px;
+		top: 424px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#tab_selection {
+		position: absolute;
+		width: 360px;
+		height: 8px;
+		left: 0px;
+		top: 550px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#INFORMATION {
+		position: absolute;
+		left: 48px;
+		top: 470px;
+		overflow: visible;
+		width: 266px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	#CHECKLIST {
+		position: absolute;
+		left: 449px;
+		top: 470px;
+		overflow: visible;
+		width: 211px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: darkgrey;
+	}
+	#TASKS {
+		position: absolute;
+		left: 859px;
+		top: 470px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: darkgrey;
+	}
+/* banner: brazil, date, progress bar */
+	#Trip_1 {
+		position: absolute;
+		width: 1080px;
+		height: 180px;
+		left: 0px;
+		top: 230px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Progress_bar {
+		position: absolute;
+		width: 1080px;
+		height: 64px;
+		left: 0px;
+		top: 346px;
+		background-color: rgba(162,162,162,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Status_bar {
+		position: absolute;
+		width: 893px;
+		height: 24px;
+		left: 70px;
+		top: 367px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Status_1 {
+		position: absolute;
+		width: 718px;
+		height: 24px;
+		left: 70px;
+		top: 367px;
+		background-color: rgba(0,188,212,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#ID80 {
+		position: absolute;
+		left: 980px;
+		top: 354px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+	#Brazil {
+		position: absolute;
+		left: 70px;
+		top: 248px;
+		overflow: hidden;
+		width: 153px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(162,162,162,1);
+	}
+	#ID05_10_2020 {
+		position: absolute;
+		left: 870px;
+		top: 275px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(162,162,162,1);
+	}
+
+/* visa requirements */
+	#Visa_Text {
+		position: absolute;
+		left: 70px;
+		top: 713px;
+		overflow: hidden;
+		width: 941px;
+		height: 221px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(162,162,162,1);
+	}
+	#Visa_Requirements {
+		position: absolute;
+		left: 70px;
+		top: 620px;
+		overflow: visible;
+		width: 341px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#More_Info1 {
+		position: absolute;
+		left: 70px;
+		top: 967px;
+		overflow: visible;
+		width: 173px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+		text-decoration: true;
+	}
+	#Add_to_Task1 {
+		position: absolute;
+		left: 758px;
+		top: 967px;
+		overflow: visible;
+		width: 253px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+
+/* health advise */
+	#Health_Text {
+		position: absolute;
+		left: 70px;
+		top: 1223px;
+		overflow: hidden;
+		width: 941px;
+		height: 221px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(162,162,162,1);
+	}
+	#Health_Advise {
+		position: absolute;
+		left: 70px;
+		top: 1130px;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#More_Info2 {
+		position: absolute;
+		left: 70px;
+		top: 1468px;
+		overflow: visible;
+		width: 173px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+		text-decoration: true;
+	}
+	#Add_to_Task2 {
+		position: absolute;
+		left: 758px;
+		top: 1468px;
+		overflow: visible;
+		width: 253px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}

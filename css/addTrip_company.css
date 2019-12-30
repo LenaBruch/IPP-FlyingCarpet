@@ -1,0 +1,264 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Add_Trip_Company {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+
+/*header wording current menu item*/
+
+	#Add_Trip {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/* timeline */
+	#Timeline {
+		position: absolute;
+		width: 905px;
+		height: 84px;
+		left: 85px;
+		top: 338px;
+		overflow: visible;
+	}
+	.Pfad_993 {
+		overflow: visible;
+		position: absolute;
+		width: 880px;
+		height: 5px;
+		left: 15px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Start {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.lets_go {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 885px;
+		top: 5px;
+	}
+	.company {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 704px;
+		top: 0px;
+	}
+	.type {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 528px;
+		top: 1px;
+	}
+	.Transportation {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 352px;
+		top: 5px;
+	}
+	#Company {
+		position: absolute;
+		left: 635px;
+		top: 31px;
+		overflow: visible;
+		width: 170px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	.destination {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 176px;
+		top: 5px;
+	}
+	.Linie_4 {
+		overflow: visible;
+		position: absolute;
+		width: 704px;
+		height: 5px;
+		left: 15.5px;
+		top: 15.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Destination {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 176px;
+		top: 0px;
+	}
+	.Transportation_big {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 352px;
+		top: 0px;
+	}
+
+/* inspirational image placeholder */
+	#Inspirational_Image {
+		position: absolute;
+		width: 960px;
+		height: 423px;
+		left: 60px;
+		top: 490px;
+		overflow: visible;
+	}
+	#Image_placeholder {
+		position: absolute;
+		width: 960px;
+		height: 423px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Icon_ionic_md_images {
+		position: absolute;
+		width: 159.433px;
+		height: 136.658px;
+		left: 400.284px;
+		top: 143.684px;
+		overflow: visible;
+	}
+#image_icon {
+    color: grey;
+    font-size: 85px;
+}
+
+
+	#Travelling_alone_company {
+		position: absolute;
+		width: 752px;
+		height: 53px;
+		left: 85px;
+		top: 981px;
+		overflow: visible;
+	}
+	#alone_company {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 753px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+    #check_alone {
+		overflow: visible;
+		position: absolute;
+		left: 196px;
+		top: 1185px;
+        stroke: rgba(0,188,212,1);
+        stroke-width:6px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	  #check_with {
+		overflow: visible;
+		position: absolute;
+		left: 196px;
+		top: 1332px;
+        stroke: rgba(0,188,212,1);
+        stroke-width:6px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Alone {
+		position: absolute;
+		left: 280px;
+		top: 1189px;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.871);
+	}
+	#With_ {
+		position: absolute;
+		left: 280px;
+		top: 1335px;
+		overflow: visible;
+		width: 70px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.871);
+	}
+	#_friend {
+		position: absolute;
+		left: 418px;
+		top: 1323px;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,0.6);
+	}
+
+/* input field for friend's name */
+#Friend_Name {
+    font-size: 26pt;
+    width: 500px;
+    height: 70px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0,188,212,1);
+    padding-left: 15px;
+}

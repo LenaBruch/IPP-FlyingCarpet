@@ -1,0 +1,334 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#My_Trips___Checklist {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/* header wording current menu item*/
+	#My_Trips {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/* tab bar: information, checklist, tasks */
+	#Tabs {
+		position: absolute;
+		width: 1080px;
+		height: 135px;
+		left: 0px;
+		top: 410px;
+		overflow: visible;
+	}
+	#tab_bar {
+		position: absolute;
+		width: 1080px;
+		height: 135px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#tab_selection {
+		position: absolute;
+		width: 360px;
+		height: 8px;
+		left: 360px;
+		top: 126px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#INFORMATION {
+		position: absolute;
+		left: 48px;
+		top: 46px;
+		overflow: visible;
+		width: 266px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: darkgrey;
+	}
+	#CHECKLIST {
+		position: absolute;
+		left: 439px;
+		top: 46px;
+		overflow: visible;
+		width: 211px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	#TASKS {
+		position: absolute;
+		left: 840px;
+		top: 46px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: darkgrey;
+	}
+
+/* banner: brazil, date, progress bar */
+	#Banner_Trip1 {
+		position: absolute;
+		width: 1080px;
+		height: 180px;
+		left: 0px;
+		top: 230px;
+		overflow: visible;
+	}
+	#Trip_1 {
+		position: absolute;
+		width: 1080px;
+		height: 180px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Progress_bar {
+		position: absolute;
+		width: 1080px;
+		height: 64px;
+		left: 0px;
+		top: 116px;
+		background-color: rgba(162,162,162,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Status_bar {
+		position: absolute;
+		width: 893px;
+		height: 24px;
+		left: 70px;
+		top: 137px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Status_1 {
+		position: absolute;
+		width: 718px;
+		height: 24px;
+		left: 70px;
+		top: 137px;
+		background-color: rgba(0,188,212,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#ID80 {
+		position: absolute;
+		left: 980px;
+		top: 125px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+	#Brazil {
+		position: absolute;
+		left: 70px;
+		top: 18px;
+		overflow: hidden;
+		width: 153px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(162,162,162,1);
+	}
+	#ID05_10_2020 {
+		position: absolute;
+		left: 870px;
+		top: 45px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(162,162,162,1);
+	}
+	
+/*FAB*/
+	#FAB {
+		position: absolute;
+		width: 174px;
+		height: 174px;
+		left: 845px;
+		top: 1500px;
+		overflow: visible;
+	}
+    #FAB_icon {
+    color: rgba(0,188,212,1);
+    font-size: 200px;
+    }
+
+/* items of the checklist */
+	#Sunscreen {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 65px;
+		top: 876px;
+		overflow: visible;
+	}
+	#Rectangle_Sunscreen {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#ID_Sunscreen {
+		opacity: 0.5;
+		position: absolute;
+		left: 29px;
+		top: 22px;
+		overflow: visible;
+		width: 190px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+    #check_circle {
+    	position: absolute;
+		left: 866px;
+		top: 20px;
+		overflow: hidden;
+    }
+    #check_icon {
+    color: rgba(0,188,212,1);
+    font-size: 58px;
+    opacity: 50%;
+    }
+	#Shirts {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 65px;
+		top: 750px;
+		overflow: visible;
+	}
+	#Rectangle_Shirts {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#ID10_Shirts {
+		position: absolute;
+		left: 29px;
+		top: 22px;
+		overflow: visible;
+		width: 162px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(162,162,162,1);
+	}
+ .check_no {
+		overflow: visible;
+		position: absolute;
+		left: 877px;
+		top: 21px;
+        stroke: rgba(0,188,212,1);
+        stroke-width:4px;
+	}
+	#Pants {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 65px;
+		top: 625px;
+		overflow: visible;
+	}
+	#Rectangle_Pants {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#ID_Pants {
+		position: absolute;
+		left: 29px;
+		top: 22px;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(162,162,162,1);
+	}
+	.Icon_material_radio_button_unc {
+		overflow: visible;
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 880px;
+		top: 26.14px;
+		transform: matrix(1,0,0,1,0,0);
+	}

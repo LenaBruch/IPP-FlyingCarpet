@@ -1,0 +1,69 @@
+/* next button */
+	.Next_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 765px;
+		top: 1592px;
+		overflow: visible;
+	}
+	.Rectangle_Next {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	.NEXT {
+		position: absolute;
+		left: 79px;
+		top: 17px;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+
+/* back button */
+	.Back_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 60px;
+		top: 1592px;
+		overflow: visible;
+	}
+	.Rectangle_Back {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(162,162,162,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	.BACK {
+		position: absolute;
+		left: 78px;
+		top: 19px;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.38);
+	}

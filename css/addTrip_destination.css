@@ -1,0 +1,329 @@
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#ID03_My_Trips___Destination {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+
+/* header wording current menu item */
+	#Add_Trip {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+/* inspirational image */
+	#Inspirational_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 60px;
+		top: 490px;
+		overflow: visible;
+	}
+	#Rectangle_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Icon_ionic_md_images {
+		position: absolute;
+		width: 159px;
+		height: 136px;
+		left: 400px;
+		top: 191px;
+		overflow: visible;
+	}
+    #image_icon {
+    color: grey;
+    font-size: 85px;
+    }  
+
+/* content of the screen */
+	#Text_Field___from_Destination {
+		position: absolute;
+		width: 510px;
+		height: 83px;
+		left: 60px;
+		top: 1141px;
+		overflow: visible;
+	}
+	#Surface {
+		opacity: 0.07;
+		position: absolute;
+		width: 510px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,0,0,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#destination {
+		position: absolute;
+		left: 62px;
+		top: 17px;
+		overflow: visible;
+		width: 178px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+	}
+#location_icon {
+    color: grey;
+    font-size: 45px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+	#Text_Field___to_Destination {
+		position: absolute;
+		width: 425px;
+		height: 83px;
+		left: 595px;
+		top: 1141px;
+		overflow: visible;
+	}
+	#destination_9 {
+		position: absolute;
+		left: 16px;
+		top: 18px;
+		overflow: visible;
+		width: 178px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+	}
+	#From_and_where_to {
+		position: absolute;
+		left: 60px;
+		top: 1062px;
+		overflow: visible;
+		width: 677px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Text_Field___from_Date {
+		position: absolute;
+		width: 510px;
+		height: 83px;
+		left: 60px;
+		top: 1276px;
+		overflow: visible;
+	}
+#calendar_icon_little {
+    color: grey;
+    font-size: 45px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+	#dd_mm_yy {
+		position: absolute;
+		left: 65px;
+		top: 18px;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Text_Field___to_Date {
+		position: absolute;
+		width: 425px;
+		height: 83px;
+		left: 595px;
+		top: 1276px;
+		overflow: visible;
+	}
+	#dd_mm_yy_C {
+		position: absolute;
+		left: 16px;
+		top: 18px;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+/* timeline */
+	#Icon_ionic_md_add_circle_outli {
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		left: 722px;
+		top: 1411px;
+		overflow: visible;
+	}
+	.Pfad_989 {
+		overflow: visible;
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		left: 9.063px;
+		top: 9.063px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Pfad_990 {
+		overflow: visible;
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Add_destination {
+		position: absolute;
+		left: 771px;
+		top: 1355px;
+		overflow: visible;
+		width: 250px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-size: 35px;
+		color: rgba(0,188,212,1);
+	}
+#add_destination_icon {
+    font-size: 40px;
+    margin-top: 77px
+}
+
+	#Timeline {
+		position: absolute;
+		width: 905px;
+		height: 84px;
+		left: 85px;
+		top: 338px;
+		overflow: visible;
+	}
+	.Linie_3 {
+		overflow: visible;
+		position: absolute;
+		width: 880px;
+		height: 5px;
+		left: 15px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Start {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.lets_go {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 885px;
+		top: 5px;
+	}
+	.company {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 704px;
+		top: 5px;
+	}
+	.type {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 528px;
+		top: 5px;
+	}
+	.Transportation {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 352px;
+		top: 5px;
+	}
+	.destination_6 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 176px;
+		top: 5px;
+	}
+	.Linie_4 {
+		overflow: visible;
+		position: absolute;
+		width: 176px;
+		height: 5px;
+		left: 15.5px;
+		top: 15.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Destination {
+		position: absolute;
+		left: 90px;
+		top: 31px;
+		overflow: visible;
+		width: 203px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	.Destination_big {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 176px;
+		top: 0px;
+	}

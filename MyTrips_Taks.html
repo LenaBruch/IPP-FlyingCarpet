@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>My Trips - Tasks</title>
+<link rel="stylesheet" type="text/css" href="css/myTrips_tasks.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<script src="js/flyingcarpet.js" async></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="My_Trips___Tasks">
+    <!-- header -->
+	<div class="App_bar">
+		<svg viewBox="0 0 1080 228">
+            <rect width="1086px" height="400px" fill="rgba(0,188,212,1)"/>
+        </svg>
+	</div>
+	<div id="My_Trips">
+		<span>My Trips</span>
+	</div>
+	<div class="FliyingCarpet">
+		<span>FliyingCarpet</span>
+	</div>
+    <!-- tabbar -->
+	<div id="Tabs">
+		<div id="tab_bar">
+		</div>
+		<div id="tab_selection">
+		</div>
+        <a href="MyTrips_Information.html">
+		<div id="INFORMATION">
+			<span>INFORMATION</span>
+		</div>
+        </a>
+        <a href="MyTrips_Checklist.html">
+		<div id="CHECKLIST">
+			<span>CHECKLIST</span>
+		</div>
+        </a>
+		<div id="TASKS">
+			<span>TASKS</span>
+		</div>
+	</div>
+    <!-- trip details: name, date & progress -->
+	<div id="Banner_Trip1">
+		<div id="Trip_1">
+		</div>
+		<div id="Progress_bar">
+		</div>
+		<div id="Status_bar">
+		</div>
+		<div id="Status_1">
+		</div>
+		<div id="ID80">
+			<span>80%</span>
+		</div>
+		<div id="Brazil">
+			<span>Brazil</span>
+		</div>
+		<div id="ID05_10_2020">
+			<span>05.10.2020</span>
+		</div>
+	</div>
+    <!-- menubar -->
+	<div class="Bottom_menu">
+		<div class="bottom_bar">
+			<div class="Rectangle_Bottom">
+			</div>
+		</div>
+        <a href="Home.html">
+		<div class="Home_Button">
+			<i class="material-icons home_icon">home</i>
+			<div class="Home">
+				<span>Home</span>
+			</div>
+		</div>
+        </a>
+        <a href="Calendar_Calendar.html">
+		<div class="Calendar_Button">
+            <i class="material-icons calendar_icon">calendar_today</i>
+			<div class="Calendar">
+				<span>Calendar</span>
+			</div>
+		</div>
+        </a>
+		<div class="Add_Button">
+            <i class="material-icons add_icon">add</i>
+			<div class="New_Trip">
+                <span>Add Trip</span>
+            </div>
+		</div>
+        <a href="MyTrips_Overview.html">
+		<div class="My_Trips_Button">
+            <i class="material-icons myTrips_icon">flight_takeoff</i>
+			<div class="Trips">
+				<span>My Trips</span>
+			</div>
+		</div>
+        </a>
+		<div class="Profile_Button">
+            <i class="material-icons profile_icon">person</i>
+			<div class="Profile">
+				<span>Profile</span>
+			</div>
+		</div>
+	</div>
+    <!-- content of the screen: tasks -->
+	<div id="Task_list1">
+		<svg class="Surface_Task" viewBox="0 0 960 195">
+            <rect width="960px" height="195px" fill ="white" stroke="rgba(210,208,208,1)"/>
+		</svg>
+		<div id="Task1_Headline">
+			<span>Make visa appointment</span>
+		</div>
+		<div id="Task1_Description">
+			<span>Brazil Embassy<br/>Date not later than June 2020</span><br>
+		</div>
+		<div id="Rectangle_Date1">
+		</div>
+		<div id="Task1_Date">
+			<span>12<br/>DEC</span>
+		</div>
+		<div id="check_circle">
+            <i class="material-icons" id="check_icon">check_circle</i>
+        </div>
+	</div>
+	<div id="Task_list2">
+		<svg class="Surface_Task" viewBox="0 0 960 195">
+			  <rect width="960px" height="195px" fill ="white" stroke="rgba(0,188,212,1)"/>
+		</svg>
+		<div id="Task2_Headline">
+			<span>Vaccine Yellow Fever</span>
+		</div>
+		<div id="Task2_Description">
+			<span>Dr. Müller<br/>Goethestr. 25, 80337 München</span><br>
+		</div>
+		<div id="Rectangle_Date2">
+		</div>
+		<div id="Task2_Date">
+			<span>13<br/>SEP</span>
+		</div>
+	   <svg class="check_no">
+			<ellipse fill="white" rx="25" ry="25" cx="18" cy="25">
+			</ellipse>
+		</svg>
+	</div>
+	<div id="Next_Week">
+		<span>Next Week</span>
+	</div>
+	<div id="September_2019">
+		<span>September 2019</span>
+	</div>
+	<div id="Task_list3">
+		<svg class="Surface_Task" viewBox="0 0 960 195">
+			 <rect width="960px" height="195px" fill ="white" stroke="rgba(0,188,212,1)"/>
+		</svg>
+		<div id="Task3_Headline">
+			<span>Put room up for rent</span>
+		</div>
+		<div id="Task3_Description">
+			<span>October 'til December 2020<br/>600 € per month</span>
+		</div>
+		<div id="Rectangle_Date3">
+		</div>
+		<div id="Task3_Date">
+			<span>17<br/>DEC</span>
+		</div>
+      <svg class="check_no">
+			<ellipse fill="white" rx="25" ry="25" cx="18" cy="25">
+			</ellipse>
+		</svg>
+	</div>
+    <!-- floating action button -->
+	<div id="FAB" class="FAB" onclick="popupTask();">
+        <i class="material-icons" id="FAB_icon">add_circle</i>
+    </div>
+    
+    <!-- Popup window: Only shown when you click the FAB button -->
+    <div id="Popup_Task">
+	<div id="Task_Description">
+		<span>Task Description</span>
+	</div>
+	<div id="description_rect">
+	</div>
+	<div id="Text_Field_datetask">
+		<div class="Surface">
+		</div>
+		<div id="dd_mm_yy">
+			<span>dd.mm.yy</span>
+		</div>
+	<i class="material-icons" id="calendar_popup">calendar_today</i>
+	</div>
+	<div id="Deadline">
+		<span>Deadline</span>
+	</div>
+	<div id="Text_Field_timetask">
+		<div class="Surface">
+		</div>
+		<div id="hh_mm">
+			<span>hh.mm</span>
+		</div>
+        <i class="material-icons" id="time_popup">access_time</i>
+	</div>
+	<div id="Task_Name">
+		<span>Task Name</span>
+	</div>
+	<div id="name_rect">
+	</div>
+	<div id="Assign_to">
+		<span>Assign to</span>
+	</div>
+	<div id="trash">
+		<div id="rectangle">
+		</div>
+		<i class="material-icons" id="delete_icon">delete</i>
+	</div>
+	<div id="Delete_Task">
+		<span>Delete Task</span>
+	</div>
+	<div id="assign_to_rect">
+	</div>
+	<div id="Save_Button" onclick="popupTaskHide();">
+		<div id="Rectangle_Save">
+		</div>
+		<div id="SAVE">
+			<span>SAVE</span>
+		</div>
+	</div>
+	<div id="Cancel_Button" onclick="popupTaskHide();">
+		<div id="Rectangle_Cancel">
+		</div>
+		<div id="CANCEL">
+			<span>CANCEL</span>
+		</div>
+	</div>
+</div>
+    
+</div>
+</body>
+</html>

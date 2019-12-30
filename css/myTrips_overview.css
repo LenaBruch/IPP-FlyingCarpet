@@ -1,0 +1,517 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#My_Trips___Overview {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/*menubar*/
+	#bottom_bar {
+		position: absolute;
+		width: 1080px;
+		height: 174px;
+		left: 0px;
+		top: 1746px;
+		overflow: visible;
+	}
+	#Rectangle_Bottom {
+		position: absolute;
+		width: 1080px;
+		height: 174px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Home_Button {
+		position: absolute;
+		width: 91px;
+		height: 103px;
+		left: 61px;
+		top: 1780px;
+		overflow: visible;
+	}
+	#home_icon { 
+    color: grey;
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    }
+	#Home {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#Calendar_Button {
+		position: absolute;
+		width: 135px;
+		height: 103px;
+		left: 234px;
+		top: 1780px;
+		overflow: visible;
+	}
+	#Calendar {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 136px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+    #calendar_icon {
+    color: grey;
+    font-size: 70px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 30px;
+    } 
+	#Add_Button {
+		position: absolute;
+		width: 126px;
+		height: 101px;
+		left: 480px;
+		top: 1779px;
+		overflow: visible;
+	}
+	#New_Trip {
+		position: absolute;
+		left: 0px;
+		top: 56px;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#add_icon {
+    color: grey;
+    font-size: 100px;
+    line-height: 1px;
+    margin-top: 28px;
+    }
+	#My_Trips_Button {
+		position: absolute;
+		width: 129px;
+		height: 104px;
+		left: 711px;
+		top: 1780px;
+		overflow: visible;
+	}
+	#Trips {
+		position: absolute;
+		left: 0px;
+		top: 59px;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,188,212,1);
+	}
+    #myTrips_icon {
+    color: rgba(0,188,212,1);
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 25px;
+    }   
+	#Profile_Button {
+		position: absolute;
+		width: 97px;
+		height: 103px;
+		left: 923px;
+		top: 1781px;
+		overflow: visible;
+	}
+	#Profile {
+		position: absolute;
+		left: 0px;
+		top: 58px;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+    #profile_icon {
+    color: grey;
+    font-size: 85px;
+    line-height: 1px;
+    margin-top: 28px;
+    margin-left: 6px;
+    }
+
+/* header wording of the current menu item*/
+	#My_Trips {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+/*content of the current screen*/
+	#My_trips_carrousel2 {
+		position: absolute;
+		width: 1080px;
+		height: 530px;
+		left: 0px;
+		top: 916px;
+		overflow: visible;
+	}
+	#My_Trips_Carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 433px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Rectangle_Carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 433px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Past_Trips {
+		position: absolute;
+		left: 60px;
+		top: 37px;
+		overflow: visible;
+		width: 183px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	.Banner_Trip1 {
+		position: absolute;
+		width: 796px;
+		height: 369px;
+		left: 142px;
+		top: 126px;
+		overflow: visible;
+	}
+	.Trip_1 {
+		position: absolute;
+		width: 796px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	.Footer_1 {
+		position: absolute;
+		width: 796px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	.Status_bar {
+		position: absolute;
+		width: 720px;
+		height: 24px;
+		left: 17px;
+		top: 326px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	.Status_1 {
+		position: absolute;
+		width: 522px;
+		height: 24px;
+		left: 17px;
+		top: 326px;
+		background-color: rgba(0,188,212,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	.percent {
+		position: absolute;
+		left: 742px;
+		top: 320px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#London {
+		position: absolute;
+		left: 21px;
+		top: 17px;
+		overflow: hidden;
+		width: 239px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(162,162,162,1);
+	}
+	#ID15_07_2019 {
+		position: absolute;
+		left: 22px;
+		top: 81px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(162,162,162,1);
+	}
+	#Banner_trip2 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 972px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#footer_2 {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Banner_trip3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#footer_2_A {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	.ID1 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 530px;
+		top: 510px;
+	}
+	.ID2 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 570px;
+		top: 510px;
+	}
+	.ID3 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 490px;
+		top: 510px;
+	}
+	#My_trips_carrousel1 {
+		position: absolute;
+		width: 1080px;
+		height: 530px;
+		left: 0px;
+		top: 299px;
+		overflow: visible;
+	}
+	#My_Trips_Carrousel {
+		position: absolute;
+		width: 1080px;
+		height: 433px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Upcoming_Trips {
+		position: absolute;
+		left: 60px;
+		top: 37px;
+		overflow: visible;
+		width: 284px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Brazil {
+		position: absolute;
+		left: 21px;
+		top: 17px;
+		overflow: hidden;
+		width: 153px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(162,162,162,1);
+	}
+	#ID05_10_2020 {
+		position: absolute;
+		left: 22px;
+		top: 81px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(162,162,162,1);
+	}
+	#Banner_trip2 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 972px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#footer_2_H {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Banner_trip3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Trip_3 {
+		position: absolute;
+		width: 108px;
+		height: 369px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}
+	#footer_2_J {
+		position: absolute;
+		width: 108px;
+		height: 64px;
+		left: 0px;
+		top: 305px;
+		background-color: rgba(162,162,162,1);
+		border:  1px solid rgba(162,162,162,1);
+		overflow: hidden;
+	}

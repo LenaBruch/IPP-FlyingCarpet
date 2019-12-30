@@ -1,0 +1,278 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#ID04_My_Trips___Transportation {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/* header wording of the current menu item */
+	#Add_Trip {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/*inspirational image*/
+	#Inspirational_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 60px;
+		top: 490px;
+		overflow: visible;
+	}
+	#Rectangle_Image {
+		position: absolute;
+		width: 960px;
+		height: 519px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(225,222,222,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Icon_ionic_md_images {
+		position: absolute;
+		width: 159.433px;
+		height: 136px;
+		left: 400px;
+		top: 191px;
+		overflow: visible;
+	}
+    #image_icon {
+    color: grey;
+    font-size: 85px;
+    }   
+	
+/* content of the current screen */
+	#How {
+		position: absolute;
+		width: 960px;
+		height: 188px;
+		left: 60px;
+		top: 1062px;
+		overflow: visible;
+	}
+	.Surface {
+		opacity: 0.07;
+		position: absolute;
+		width: 960px;
+		height: 110px;
+		left: 0px;
+		top: 78px;
+		background-color: rgba(0,0,0,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Plane {
+		position: absolute;
+		left: 16px;
+		top: 111px;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+    #arrow_traveling {
+		overflow: visible;
+		position: absolute;
+        font-size: 70px;
+        color: rgba(0,188,212,1);
+		left: 875px;
+		top: 105px;
+	}
+	#How_are_you_traveling_ {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 411px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Lugagge {
+		position: absolute;
+		width: 960px;
+		height: 188px;
+		left: 60px;
+		top: 1278px;
+		overflow: visible;
+	}
+	#Backpack {
+		position: absolute;
+		left: 16px;
+		top: 110.464px;
+		overflow: visible;
+		width: 280px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+	}
+    #arrow_luggage {
+		overflow: visible;
+		position: absolute;
+        font-size: 70px;
+        color: rgba(0,188,212,1);
+		left: 875px;
+		top: 105px;
+	}
+	#Any_luggage_requirements_ {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 494px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+.enter_transport_luggage {
+    width: 930px;
+    height: 60px;
+    font-size: 35px;
+    padding-left: 15px;
+    margin-top: -85px;
+    color: rgba(112,112,112,1);
+}
+
+/*timeline*/
+	#Timeline {
+		position: absolute;
+		width: 905px;
+		height: 84px;
+		left: 85px;
+		top: 338px;
+		overflow: visible;
+	}
+	.Linie_3 {
+		overflow: visible;
+		position: absolute;
+		width: 880px;
+		height: 5px;
+		left: 15px;
+		top: 15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Start {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	.lets_go {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 885px;
+		top: 5px;
+	}
+	.company {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 704px;
+		top: 5px;
+	}
+	.type {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 528px;
+		top: 5px;
+	}
+	.Transportation {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 352px;
+		top: 5px;
+	}
+	#Transportation {
+		position: absolute;
+		left: 236px;
+		top: 31px;
+		overflow: visible;
+		width: 263px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,188,212,1);
+	}
+	.destination {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 176px;
+		top: 5px;
+	}
+	.Linie_4 {
+		overflow: visible;
+		position: absolute;
+		width: 352px;
+		height: 5px;
+		left: 15.5px;
+		top: 15.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Destination {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 176px;
+		top: 0px;
+	}
+	.Transportation_big {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 352px;
+		top: 0px;
+	}

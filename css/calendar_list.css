@@ -1,0 +1,643 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Calendar___List {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1920px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+/* header wording of the current menu item */
+	#calendar {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 259px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+
+/* tab bar: calendar, list */
+	#tab_selection {
+		position: absolute;
+		width: 540px;
+		height: 15px;
+		left: 540px;
+		top: 317px;
+		background-color: rgba(255,255,255,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#CALENDAR {
+		position: absolute;
+		left: 160px;
+		top: 247px;
+		overflow: visible;
+		width: 204px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+        font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(235,237,238,1);
+	}
+	#LIST {
+		position: absolute;
+		left: 779px;
+		top: 247px;
+		overflow: visible;
+		width: 82px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+
+/* FAB */
+	#FAB {
+		position: absolute;
+		width: 174px;
+		height: 174px;
+		left: 845px;
+		top: 1500px;
+		overflow: visible;
+	}
+    #FAB_icon {
+    color: rgba(0,188,212,1);
+    font-size: 200px;
+    }
+
+/* task 1 */
+	#Task_list1 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 530px;
+		overflow: visible;
+	}
+	.Surface_task {
+		overflow: visible;
+		position: absolute;
+		width: 962px;
+		height: 197px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Task1_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task1_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.18px;
+	}
+	#Rectangle_Date1 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(210,208,208,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task1_Date {
+		position: absolute;
+		left: 21px;
+		top: 4px;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+    #check_circle {
+    	position: absolute;
+		left: 880px;
+		top: 20px;
+		overflow: hidden;
+    }
+    #check_icon {
+    color: grey;
+    font-size: 55px;
+    opacity: 50%;
+    }
+
+/* task 2 */
+	#Task_list2 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 766px;
+		overflow: visible;
+	}
+	.Surface {
+		overflow: visible;
+		position: absolute;
+		width: 962px;
+		height: 197px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Task2_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task2_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.18px;
+	}
+	#Rectangle_Date2 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task2_Date {
+		position: absolute;
+		left: 21px;
+		top: 4px;
+		overflow: visible;
+		width: 147px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+/* task 3 */
+	#Task_list3 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 1161px;
+		overflow: visible;
+	}
+	.Surface {
+		overflow: visible;
+		position: absolute;
+		width: 962px;
+		height: 197px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Task3_Headline {
+		position: absolute;
+		left: 255px;
+		top: 14px;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Task3_Description {
+		position: absolute;
+		left: 255px;
+		top: 79px;
+		overflow: hidden;
+		width: 451px;
+		height: 85px;
+		line-height: 40px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.18px;
+	}
+	#Rectangle_Date3 {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(210,208,208,1);
+		border: 0;
+		overflow: hidden;
+	}
+	#Task3_Date {
+		position: absolute;
+		left: 15px;
+		top: 4px;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		color: rgba(255,255,255,1);
+	}
+
+/* task not completed --> only empty circle */
+   .check_no {
+		overflow: visible;
+		position: absolute;
+		left: 890px;
+		top: 21px;
+        stroke: rgba(0,188,212,1);
+        stroke-width:4px;
+	}
+
+	#September_2020 {
+		position: absolute;
+		left: 60px;
+		top: 436px;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Oktober_2020 {
+		position: absolute;
+		left: 70px;
+		top: 1067px;
+		overflow: visible;
+		width: 246px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+
+/* search icon */
+	#search {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 960px;
+		top: 429px;
+		overflow: visible;
+	}
+#search_icon {
+    color: grey;
+    font-size: 60px
+}
+
+/* CSS popup window */
+
+	#Popup_Task {
+		position: absolute;
+        top: 360px;
+        left: 146px;
+		background: #E5E5E5;
+		width: 789px;
+		height: 1213.667px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(0,188,212,1);
+        display: none;
+	}
+	#Task_Description {
+		position: absolute;
+		left: 63px;
+		top: 373px;
+		overflow: visible;
+		width: 302px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#description_rect {
+		position: absolute;
+		width: 635px;
+		height: 80px;
+		left: 63px;
+		top: 445px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Text_Field_datetask {
+		position: absolute;
+		width: 301px;
+		height: 83px;
+		left: 63px;
+		top: 666px;
+		overflow: visible;
+	}
+	#dd_mm_yy {
+		position: absolute;
+		left: 62px;
+		top: 17px;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+	}
+    #calendar_popup {
+        color: grey;
+        font-size: 41.5px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+	#Deadline {
+		position: absolute;
+		left: 63px;
+		top: 593px;
+		overflow: visible;
+		width: 158px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Text_Field_timetask {
+		position: absolute;
+		width: 301px;
+		height: 83px;
+		left: 423px;
+		top: 666px;
+		overflow: visible;
+	}
+	.Surface {
+		opacity: 0.07;
+		position: absolute;
+		width: 301px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,0,0,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#hh_mm {
+		position: absolute;
+		left: 62px;
+		top: 17px;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+	}
+	 #time_popup {
+        color: grey;
+        font-size: 41.5px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+	#Task_Name {
+		position: absolute;
+		left: 63px;
+		top: 153px;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#name_rect {
+		position: absolute;
+		width: 635px;
+		height: 80px;
+		left: 63px;
+		top: 225px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Assign_to {
+		position: absolute;
+		left: 63px;
+		top: 817px;
+		overflow: visible;
+		width: 170px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#trash {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 550px;
+		top: 44px;
+		overflow: visible;
+	}
+	#rectangle {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,0,0,0);
+		border: 0;
+		overflow: hidden;
+	}
+    #delete_icon {
+        color: grey;
+        font-size: 50px;
+        margin-top: 2px;
+        
+    }
+	#Delete_Task {
+		position: absolute;
+		left: 602px;
+		top: 53px;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(112,112,112,1);
+	}
+	#assign_to_rect {
+		position: absolute;
+		width: 635px;
+		height: 80px;
+		left: 63px;
+		top: 890px;
+		background-color: rgba(255,255,255,1);
+		border:  1px solid rgba(112,112,112,1);
+		overflow: hidden;
+	}
+	#Save_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 470px;
+		top: 1067px;
+		overflow: visible;
+	}
+	#Rectangle_Save {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,188,212,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#SAVE {
+		position: absolute;
+		left: 79px;
+		top: 17px;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+	#Cancel_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 64px;
+		top: 1067px;
+		overflow: visible;
+	}
+	#Rectangle_Cancel {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(162,162,162,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#CANCEL {
+		position: absolute;
+		left: 52px;
+		top: 17px;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.38);
+	}
