@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -34,7 +34,7 @@
 		width: 1099px;
 		height: 135px;
 		left: 0px;
-		top: 424px;
+		top: 410px;
 		background-color: rgba(255,255,255,1);
 		border:  1px solid rgba(162,162,162,1);
 		overflow: hidden;
@@ -44,7 +44,7 @@
 		width: 360px;
 		height: 8px;
 		left: 0px;
-		top: 550px;
+		top: 535px;
 		background-color: rgba(0,188,212,1);
 		border: 0;
 		overflow: hidden;
@@ -52,7 +52,7 @@
 	#INFORMATION {
 		position: absolute;
 		left: 48px;
-		top: 470px;
+		top: 455px;
 		overflow: visible;
 		width: 266px;
 		white-space: nowrap;
@@ -66,7 +66,7 @@
 	#CHECKLIST {
 		position: absolute;
 		left: 449px;
-		top: 470px;
+		top: 455px;
 		overflow: visible;
 		width: 211px;
 		white-space: nowrap;
@@ -80,7 +80,7 @@
 	#TASKS {
 		position: absolute;
 		left: 859px;
-		top: 470px;
+		top: 455px;
 		overflow: visible;
 		width: 123px;
 		white-space: nowrap;
@@ -179,7 +179,7 @@
 	#Visa_Text {
 		position: absolute;
 		left: 70px;
-		top: 713px;
+		top: 703px;
 		overflow: hidden;
 		width: 941px;
 		height: 221px;
@@ -193,7 +193,7 @@
 	#Visa_Requirements {
 		position: absolute;
 		left: 70px;
-		top: 620px;
+		top: 610px;
 		overflow: visible;
 		width: 341px;
 		white-space: nowrap;
@@ -207,7 +207,7 @@
 	#More_Info1 {
 		position: absolute;
 		left: 70px;
-		top: 967px;
+		top: 957px;
 		overflow: visible;
 		width: 173px;
 		white-space: nowrap;
@@ -222,7 +222,7 @@
 	#Add_to_Task1 {
 		position: absolute;
 		left: 758px;
-		top: 967px;
+		top: 957px;
 		overflow: visible;
 		width: 253px;
 		white-space: nowrap;
@@ -238,7 +238,7 @@
 	#Health_Text {
 		position: absolute;
 		left: 70px;
-		top: 1223px;
+		top: 1193px;
 		overflow: hidden;
 		width: 941px;
 		height: 221px;
@@ -252,7 +252,7 @@
 	#Health_Advise {
 		position: absolute;
 		left: 70px;
-		top: 1130px;
+		top: 1100px;
 		overflow: visible;
 		width: 251px;
 		white-space: nowrap;
@@ -266,7 +266,7 @@
 	#More_Info2 {
 		position: absolute;
 		left: 70px;
-		top: 1468px;
+		top: 1438px;
 		overflow: visible;
 		width: 173px;
 		white-space: nowrap;
@@ -281,7 +281,7 @@
 	#Add_to_Task2 {
 		position: absolute;
 		left: 758px;
-		top: 1468px;
+		top: 1438px;
 		overflow: visible;
 		width: 253px;
 		white-space: nowrap;

@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -345,8 +345,8 @@
 		position: absolute;
 		width: 960px;
 		height: 195px;
-		left: 80px;
-		top: 1339px;
+		left: 70px;
+		top: 1289px;
 		overflow: visible;
 	}
 	#Task3_Headline {
@@ -420,7 +420,7 @@
 	#September_2019 {
 		position: absolute;
 		left: 80px;
-		top: 1231px;
+		top: 1185px;
 		overflow: visible;
 		width: 300px;
 		white-space: nowrap;
