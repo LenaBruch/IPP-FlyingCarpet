@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -238,7 +238,7 @@
 	#My_trips_carrousel {
 		position: absolute;
 		width: 1080px;
-		height: 540px;
+		height: 460px;
 		left: 0px;
 		top: 229px;
 		overflow: visible;
@@ -246,7 +246,7 @@
 	#My_Trips_Carrousel {
 		position: absolute;
 		width: 1080px;
-		height: 540px;
+		height: 460px;
 		left: 0px;
 		top: 0px;
 		overflow: visible;
@@ -254,7 +254,7 @@
 	#Rectangle_Carrousel {
 		position: absolute;
 		width: 1080px;
-		height: 540px;
+		height: 460px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(216,214,214,1);
@@ -278,7 +278,7 @@
 	#Banner_Trip1 {
 		position: absolute;
 		width: 796px;
-		height: 369px;
+		height: 289px;
 		left: 142px;
 		top: 124px;
 		overflow: visible;
@@ -286,7 +286,7 @@
 	#Trip_1 {
 		position: absolute;
 		width: 796px;
-		height: 369px;
+		height: 289px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
@@ -298,7 +298,7 @@
 		width: 796px;
 		height: 64px;
 		left: 0px;
-		top: 305px;
+		top: 225px;
 		background-color: rgba(162,162,162,1);
 		border: 0;
 		overflow: hidden;
@@ -308,7 +308,7 @@
 		width: 720px;
 		height: 24px;
 		left: 17px;
-		top: 326px;
+		top: 246px;
 		background-color: rgba(255,255,255,1);
 		border: 0;
 		overflow: hidden;
@@ -318,7 +318,7 @@
 		width: 522px;
 		height: 24px;
 		left: 17px;
-		top: 326px;
+		top: 246px;
 		background-color: rgba(0,188,212,1);
 		border: 0;
 		overflow: hidden;
@@ -326,7 +326,7 @@
 	#ID80 {
 		position: absolute;
 		left: 742px;
-		top: 320px;
+		top: 241px;
 		overflow: visible;
 		width: 39px;
 		white-space: nowrap;
@@ -368,15 +368,16 @@
 	#Banner_trip2 {
 		position: absolute;
 		width: 108px;
-		height: 369px;
+		height: 289px;
 		left: 972px;
 		top: 124px;
 		overflow: visible;
 	}
-	#Trip_3 {
+
+    #Trip_2 {
 		position: absolute;
 		width: 108px;
-		height: 369px;
+		height: 289px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
@@ -388,7 +389,7 @@
 		width: 108px;
 		height: 64px;
 		left: 0px;
-		top: 305px;
+		top: 225px;
 		background-color: rgba(162,162,162,1);
 		border: 0;
 		overflow: hidden;
@@ -396,7 +397,7 @@
 	#Banner_trip3 {
 		position: absolute;
 		width: 108px;
-		height: 369px;
+		height: 289px;
 		left: 0px;
 		top: 124px;
 		overflow: visible;
@@ -404,7 +405,7 @@
 	#Trip_3 {
 		position: absolute;
 		width: 108px;
-		height: 369px;
+		height: 289px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
@@ -416,7 +417,7 @@
 		width: 108px;
 		height: 64px;
 		left: 0px;
-		top: 305px;
+		top: 225px;
 		background-color: rgba(162,162,162,1);
 		border: 0;
 		overflow: hidden;
@@ -427,7 +428,7 @@
 		width: 20px;
 		height: 20px;
 		left: 530px;
-		top: 508px;
+		top: 428px;
 	}
 	#ID2 {
 		position: absolute;
@@ -435,7 +436,7 @@
 		width: 20px;
 		height: 20px;
 		left: 570px;
-		top: 508px;
+		top: 428px;
 	}
 	#ID3 {
 		position: absolute;
@@ -443,14 +444,14 @@
 		width: 20px;
 		height: 20px;
 		left: 490px;
-		top: 508px;
+		top: 428px;
 	}
 	#Task_list1 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
 		left: 60px;
-		top: 909px;
+		top: 829px;
 		overflow: visible;
 	}
 	#Task1_Headline {
@@ -521,7 +522,7 @@
 		width: 960px;
 		height: 195px;
 		left: 60px;
-		top: 1145px;
+		top: 1065px;
 		overflow: visible;
 	}
 	#Task2_Headline {
@@ -584,7 +585,7 @@
 		width: 960px;
 		height: 195px;
 		left: 60px;
-		top: 1381px;
+		top: 1301px;
 		overflow: visible;
 	}
 	#Task3_Headline {
@@ -644,7 +645,7 @@
 	#Upcoming_Deadlines {
 		position: absolute;
 		left: 80px;
-		top: 816px;
+		top: 736px;
 		overflow: visible;
 		width: 381px;
 		white-space: nowrap;
