@@ -13,7 +13,7 @@
 		height: 83px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color:  #1A237E;
 		border-radius: 4px 4px 4px 4px;
 		border: 0;
 		overflow: hidden;
@@ -28,7 +28,7 @@
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 35px;
 		color: rgba(255,255,255,1);
 	}
@@ -63,7 +63,7 @@
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 35px;
 		color: rgba(0,0,0,0.38);
 	}

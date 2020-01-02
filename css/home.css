@@ -3,7 +3,8 @@
 		padding: 0;
 		box-sizing: border-box;
 		border: none;
-	}
+        font-family: Roboto;   
+}
 	#ID01_Home {
 		position: absolute;
 		background: #E5E5E5;
@@ -15,7 +16,7 @@
 	
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color: #1A237E;
 }
 
 /* header */
@@ -26,7 +27,9 @@
 		left: 0px;
 		top: 0px;
 		overflow: visible;
+        background: #1A237E;
 	}
+
 	#app_bar {
 		position: absolute;
 		width: 1080px;
@@ -35,6 +38,7 @@
 		top: 0px;
 		overflow: visible;
 	}
+ 
 	#FliyingCarpet {
 		position: absolute;
 		left: 449px;
@@ -43,8 +47,7 @@
 		width: 182px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
+        font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
 		color: rgba(255,255,255,1);
@@ -57,7 +60,6 @@
 		width: 167px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 65px;
@@ -95,7 +97,7 @@
 		height: 460px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(216,214,214,1);
+		background-color: #EBEDEE;
 		border: 0;
 		overflow: hidden;
 	}
@@ -107,11 +109,10 @@
 		width: 157px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 40px;
-		color: rgba(255,255,255,1);
+		color: #1A237E;
 	}
 	#Banner_Trip1 {
 		position: absolute;
@@ -169,7 +170,6 @@
 		width: 39px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 25px;
@@ -183,9 +183,8 @@
 		width: 153px;
 		height: 66px;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 60px;
 		color: rgba(162,162,162,1);
 	}
@@ -197,7 +196,6 @@
 		width: 152px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
@@ -222,16 +220,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#footer_2 {
-		position: absolute;
-		width: 108px;
-		height: 64px;
-		left: 0px;
-		top: 225px;
-		background-color: rgba(162,162,162,1);
-		border: 0;
-		overflow: hidden;
-	}
+
 	#Banner_trip3 {
 		position: absolute;
 		width: 108px;
@@ -250,16 +239,8 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#footer_2_A {
-		position: absolute;
-		width: 108px;
-		height: 64px;
-		left: 0px;
-		top: 225px;
-		background-color: rgba(162,162,162,1);
-		border: 0;
-		overflow: hidden;
-	}
+
+
 	#ID1 {
 		position: absolute;
 		overflow: visible;
@@ -292,6 +273,7 @@
 		height: 195px;
 		left: 60px;
 		top: 829px;
+        box-shadow: 5px 5px 15px #D8D6D6;  
 		overflow: visible;
 	}
 	#Task1_Headline {
@@ -302,13 +284,14 @@
 		width: 377px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Task1_Description {
+
+	
+    #Task1_Description {
 		position: absolute;
 		left: 255px;
 		top: 79px;
@@ -318,7 +301,6 @@
 		line-height: 40px;
 		margin-top: -7.5px;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 25px;
@@ -331,7 +313,7 @@
 		height: 195px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
 	}
@@ -343,9 +325,8 @@
 		width: 147px;
 		white-space: nowrap;
 		text-align: center;
-		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
@@ -356,7 +337,7 @@
 		position: absolute;
 		left: 890px;
 		top: 21px;
-        stroke: rgba(0,188,212,1);
+        stroke:  #534BAE;
         stroke-width:4px;
 	}
 
@@ -368,6 +349,7 @@
 		left: 60px;
 		top: 1065px;
 		overflow: visible;
+        box-shadow: 5px 5px 15px #D8D6D6; 
 	}
 	#Task2_Headline {
 		position: absolute;
@@ -377,7 +359,6 @@
 		width: 377px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
@@ -393,7 +374,6 @@
 		line-height: 40px;
 		margin-top: -7.5px;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 25px;
@@ -406,7 +386,7 @@
 		height: 195px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
 	}
@@ -418,9 +398,8 @@
 		width: 147px;
 		white-space: nowrap;
 		text-align: center;
-		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
@@ -433,6 +412,7 @@
 		left: 60px;
 		top: 1301px;
 		overflow: visible;
+        box-shadow: 5px 5px 15px #D8D6D6; 
 	}
 	#Task3_Headline {
 		position: absolute;
@@ -442,7 +422,6 @@
 		width: 377px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
@@ -458,7 +437,6 @@
 		line-height: 40px;
 		margin-top: -7.5px;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 25px;
@@ -470,7 +448,7 @@
 		height: 195px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
 	}
@@ -482,9 +460,8 @@
 		width: 159px;
 		white-space: nowrap;
 		text-align: center;
-		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
@@ -496,9 +473,9 @@
 		width: 381px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 40px;
-		color: rgba(162,162,162,1);
+		color: #1A237E;
+
 	}

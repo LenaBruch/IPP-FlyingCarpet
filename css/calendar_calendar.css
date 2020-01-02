@@ -3,6 +3,8 @@
 		padding: 0;
 		box-sizing: border-box;
 		border: none;
+        font-family: Roboto;
+
 	}
 	#Calendar___Calendar {
 		position: absolute;
@@ -29,7 +31,7 @@
 	}
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color: #1A237E;
 }
 /* tab bar: calendar, list */
 	#tab_selection {
@@ -79,6 +81,7 @@
 		left: 44px;
 		top: 1167px;
 		overflow: visible;
+        box-shadow: 5px 5px 15px #D8D6D6; 
 	}
 	.Surface_task {
 		overflow: visible;
@@ -125,7 +128,7 @@
 		height: 195px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
 	}
@@ -139,7 +142,7 @@
 		text-align: center;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
@@ -149,7 +152,7 @@
 		position: absolute;
 		left: 890px;
 		top: 21px;
-        stroke: rgba(0,188,212,1);
+        stroke: #534BAE;
         stroke-width:4px;
 	}
 
