@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -154,7 +154,7 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 60px;
 		top: 490px;
 		overflow: visible;
@@ -162,7 +162,7 @@
 	#Image_placeholder {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -186,7 +186,7 @@
 	#text_hooray {
 		position: absolute;
 		left: 103px;
-		top: 1142px;
+		top: 1042px;
 		overflow: visible;
 		width: 875px;
 		white-space: nowrap;
@@ -200,7 +200,7 @@
 	#text_save_your_process {
 		position: absolute;
 		left: 180px;
-		top: 1276px;
+		top: 1126px;
 		overflow: visible;
 		width: 670px;
 		white-space: nowrap;
