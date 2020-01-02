@@ -6,7 +6,8 @@
 	}
 
 /* header wording of the current menu item */
-	#Add_Trip {
+ 
+    #Add_Trip {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -22,7 +23,7 @@
 	}
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color: #1A237E;
 }
 
 /* timeline */
@@ -103,7 +104,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(0,188,212,1);
+		color: #FFA726;
 	}
 
 /* inspirational image */
@@ -142,7 +143,7 @@
 		width: 960px;
 		height: 83px;
 		left: 60px;
-		top: 1165px;
+		top: 1120px;
 		overflow: visible;
 	}
 
@@ -150,10 +151,8 @@
 #Trip_Name {
     font-size: 26pt;
     width: 900px;
-    height: 63px; 
-    border: solid;
-    border-width: 1px;
-    border-color: rgba(0,188,212,1);
+    height: 68px;
+    background: #F3F2F9;
     padding-left: 15px;
 }
 	#Let_s_get_Started {
@@ -166,14 +165,14 @@
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 50px;
-		color: rgba(0,188,212,1);
+		color: #FFA726;
 	}
 	#give_your_trip_a_name {
 		position: absolute;
 		left: 60px;
-		top: 1064px;
+		top: 1040px;
 		overflow: visible;
 		width: 332px;
 		white-space: nowrap;
@@ -182,7 +181,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 35px;
-		color: rgba(0,0,0,0.6);
+		color: #000000;
 		letter-spacing: 0.095px;
 	}
 	
@@ -197,7 +196,7 @@
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 35px;
 		color: rgba(0,0,0,0.38);
 	}
