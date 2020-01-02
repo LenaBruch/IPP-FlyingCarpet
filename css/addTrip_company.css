@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -140,7 +140,7 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 60px;
 		top: 490px;
 		overflow: visible;
@@ -148,7 +148,7 @@
 	#Image_placeholder {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -174,7 +174,7 @@
 		width: 752px;
 		height: 53px;
 		left: 85px;
-		top: 981px;
+		top: 891px;
 		overflow: visible;
 	}
 	#alone_company {
@@ -195,7 +195,7 @@
 		overflow: visible;
 		position: absolute;
 		left: 196px;
-		top: 1185px;
+		top: 1035px;
         stroke: rgba(0,188,212,1);
         stroke-width:6px;
 		transform: matrix(1,0,0,1,0,0);
@@ -204,7 +204,7 @@
 		overflow: visible;
 		position: absolute;
 		left: 196px;
-		top: 1332px;
+		top: 1182px;
         stroke: rgba(0,188,212,1);
         stroke-width:6px;
 		transform: matrix(1,0,0,1,0,0);
@@ -212,7 +212,7 @@
 	#Alone {
 		position: absolute;
 		left: 280px;
-		top: 1189px;
+		top: 1039px;
 		overflow: visible;
 		width: 79px;
 		white-space: nowrap;
@@ -226,7 +226,7 @@
 	#With_ {
 		position: absolute;
 		left: 280px;
-		top: 1335px;
+		top: 1185px;
 		overflow: visible;
 		width: 70px;
 		white-space: nowrap;
@@ -240,7 +240,7 @@
 	#_friend {
 		position: absolute;
 		left: 418px;
-		top: 1323px;
+		top: 1175px;
 		overflow: visible;
 		width: 107px;
 		white-space: nowrap;
