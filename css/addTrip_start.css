@@ -27,7 +27,7 @@
 		width: 933px;
 		height: 84px;
 		left: 57px;
-		top: 338px;
+		top: 288px;
 		overflow: visible;
 	}
 	.Linie_3 {
@@ -106,15 +106,15 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 363px;
+		height: 463px;
 		left: 60px;
-		top: 489px;
+		top: 390px;
 		overflow: visible;
 	}
 	#Rectangle_Image {
 		position: absolute;
 		width: 960px;
-		height: 363px;
+		height: 463px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);

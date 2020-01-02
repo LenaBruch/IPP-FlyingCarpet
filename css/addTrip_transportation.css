@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -32,15 +32,15 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 363px;
+		height: 433px;
 		left: 60px;
-		top: 490px;
+		top: 390px;
 		overflow: visible;
 	}
 	#Rectangle_Image {
 		position: absolute;
 		width: 960px;
-		height: 363px;
+		height: 433px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -177,7 +177,7 @@
 		width: 905px;
 		height: 84px;
 		left: 85px;
-		top: 338px;
+		top: 288px;
 		overflow: visible;
 	}
 	.Linie_3 {

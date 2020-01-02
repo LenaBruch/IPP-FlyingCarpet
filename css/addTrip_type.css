@@ -8,7 +8,7 @@
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
-		height: 1920px;
+		height: 1729px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
@@ -31,15 +31,15 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 60px;
-		top: 490px;
+		top: 390px;
 		overflow: visible;
 	}
 	#Image_placeholder {
 		position: absolute;
 		width: 960px;
-		height: 423px;
+		height: 363px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -63,7 +63,7 @@
 	#What_are_you_doing_ {
 		position: absolute;
 		left: 85px;
-		top: 951px;
+		top: 801px;
 		overflow: visible;
 		width: 369px;
 		white-space: nowrap;
@@ -81,7 +81,7 @@
 		width: 905px;
 		height: 84px;
 		left: 85px;
-		top: 338px;
+		top: 288px;
 		overflow: visible;
 	}
 	.Linie_3 {
@@ -187,7 +187,7 @@
 		width: 168px;
 		height: 213px;
 		left: 200px;
-		top: 1058px;
+		top: 908px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -196,7 +196,7 @@
 	#City_Trip {
 		position: absolute;
 		left: 247px;
-		top: 1225px;
+		top: 1075px;
 		overflow: visible;
 		width: 76px;
 		white-space: nowrap;
@@ -212,7 +212,7 @@
 		width: 88px;
 		height: 70px;
 		left: 255px;
-		top: 1129px;
+		top: 979px;
 		overflow: visible;
 	}
 	#active_rect {
@@ -220,7 +220,7 @@
 		width: 168px;
 		height: 213px;
 		left: 456px;
-		top: 1058px;
+		top: 908px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -229,7 +229,7 @@
 	#Active {
 		position: absolute;
 		left: 512px;
-		top: 1225px;
+		top: 1075px;
 		overflow: visible;
 		width: 58px;
 		white-space: nowrap;
@@ -245,7 +245,7 @@
 		width: 52.563px;
 		height: 70px;
 		left: 514px;
-		top: 1129px;
+		top: 979px;
 		overflow: visible;
 	}
 	#backpacking_rect {
@@ -253,7 +253,7 @@
 		width: 168px;
 		height: 213px;
 		left: 712px;
-		top: 1058px;
+		top: 908px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -262,7 +262,7 @@
 	#Backpacking {
 		position: absolute;
 		left: 738px;
-		top: 1232px;
+		top: 1082px;
 		overflow: visible;
 		width: 117px;
 		white-space: nowrap;
@@ -278,7 +278,7 @@
 		width: 45.692px;
 		height: 52px;
 		left: 773px;
-		top: 1138px;
+		top: 988px;
 		overflow: visible;
 	}
 	#wellnes_rect {
@@ -286,7 +286,7 @@
 		width: 168px;
 		height: 213px;
 		left: 200px;
-		top: 1295px;
+		top: 1145px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -295,7 +295,7 @@
 	#Wellness {
 		position: absolute;
 		left: 244px;
-		top: 1468px;
+		top: 1318px;
 		overflow: visible;
 		width: 82px;
 		white-space: nowrap;
@@ -311,7 +311,7 @@
 		width: 48px;
 		height: 48px;
 		left: 260px;
-		top: 1377.56px;
+		top: 1227.56px;
 		overflow: visible;
 	}
 	
@@ -320,7 +320,7 @@
 		width: 168px;
 		height: 213px;
 		left: 456px;
-		top: 1295px;
+		top: 1145px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -329,7 +329,7 @@
 	#Beach {
 		position: absolute;
 		left: 512px;
-		top: 1468px;
+		top: 1318px;
 		overflow: visible;
 		width: 57px;
 		white-space: nowrap;
@@ -345,7 +345,7 @@
 		width: 45px;
 		height: 36px;
 		left: 517px;
-		top: 1383px;
+		top: 1233px;
 		overflow: visible;
 	}
 	#roadtrip_rect {
@@ -353,7 +353,7 @@
 		width: 168px;
 		height: 213px;
 		left: 712px;
-		top: 1295px;
+		top: 1145px;
 		background-color: rgba(230,230,230,1);
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
@@ -362,7 +362,7 @@
 	#Roadtrip {
 		position: absolute;
 		left: 758px;
-		top: 1468px;
+		top: 1318px;
 		overflow: visible;
 		width: 78px;
 		white-space: nowrap;
@@ -378,7 +378,7 @@
 		width: 45px;
 		height: 36px;
 		left: 773px;
-		top: 1383px;
+		top: 1233px;
 		overflow: visible;
 	}
     .type_icon {
