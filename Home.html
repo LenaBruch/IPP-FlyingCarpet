@@ -4,6 +4,7 @@
 <meta charset="utf-8"/>
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href="css/home.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -12,47 +13,45 @@
 </head>
 <body>
 <div id="ID01_Home">
-    <!-- menubar -->
-    <div id="Bottom_menu">
-		<div id="bottom_bar" class="bottom_bar">
-			<div id="Rectangle_Bottom">
+  <!-- menubar -->
+	<div class="Bottom_menu">
+		<div class="bottom_bar">
+			<div class="Rectangle_Bottom">
 			</div>
 		</div>
         <a href="Home.html">
-		<div id="Home_Button">
-			<i id="home_icon" class="material-icons">home</i>
-			<div id="Home">
+		<div class="Home_Button">
+			<i class="material-icons home_icon" id="current_menuItem">home</i>
+			<div class="Home" id="current_menuItem">
 				<span>Home</span>
 			</div>
 		</div>
         </a>
         <a href="Calendar_Calendar.html">
-		<div id="Calendar_Button">
-            <i id="calendar_icon" class="material-icons">calendar_today</i>
-			<div id="Calendar">
+		<div class="Calendar_Button">
+            <i class="material-icons calendar_icon">calendar_today</i>
+			<div class="Calendar">
 				<span>Calendar</span>
 			</div>
 		</div>
         </a>
-        <a href="AddTrip_Start.html">
-		<div id="Add_Button">
-            <i id="add_icon" class="material-icons">add</i>
-			<div id="New_Trip">
+		<div class="Add_Button">
+            <i class="material-icons add_icon">add</i>
+			<div class="New_Trip">
                 <span>Add Trip</span>
             </div>
 		</div>
-        </a>
         <a href="MyTrips_Overview.html">
-		<div id="My_Trips_Button">
-            <i id="myTrips_icon" class="material-icons">flight_takeoff</i>
-			<div id="Trips">
+		<div class="My_Trips_Button">
+            <i class="material-icons myTrips_icon">flight_takeoff</i>
+			<div class="Trips">
 				<span>My Trips</span>
 			</div>
 		</div>
         </a>
-		<div id="Profile_Button">
-            <i id="profile_icon" class="material-icons">person</i>
-			<div id="Profile">
+		<div class="Profile_Button">
+            <i class="material-icons profile_icon">person</i>
+			<div class="Profile">
 				<span>Profile</span>
 			</div>
 		</div>

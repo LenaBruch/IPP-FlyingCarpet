@@ -54,8 +54,8 @@
         </a>
         <a href="Calendar_Calendar.html">
 		<div class="Calendar_Button">
-            <i class="material-icons calendar_icon">calendar_today</i>
-			<div class="Calendar">
+            <i class="material-icons calendar_icon" id="current_menuItem">calendar_today</i>
+			<div class="Calendar" id="current_menuItem">
 				<span>Calendar</span>
 			</div>
 		</div>
@@ -105,16 +105,17 @@
 		</svg>
 	</div>
     <!-- floating action button -->
-	<div class="fab" onclick="popupTask();"> + </div>
+	<div class="fab" onclick="popupTaskItem();"> + </div>
     <!-- image for the calendar -->
 	<img id="Bild_1" src="pictures/Bild_1.png">
     
     <!-- Popup window: Only shown when you click the FAB button -->
-    <div id="Popup_Task">
+    <div id="Popup_Task_Item">
 	<div id="Task_Description">
 		<span>Task Description</span>
 	</div>
 	<div id="description_rect">
+        <input type="text" name="" id="textfield_description" placeholder="">
 	</div>
 	<div id="Text_Field_datetask">
 		<div class="Surface">
@@ -139,9 +140,13 @@
 		<span>Task Name</span>
 	</div>
 	<div id="name_rect">
+        <input type="text" name="" id="textfield_name" placeholder="">
 	</div>
 	<div id="Assign_to">
 		<span>Assign to</span>
+	</div>
+    <div id="assign_to_rect">
+        <input type="text" name="" id="textfield_asignTo" placeholder="@Friend">
 	</div>
 	<div id="trash">
 		<div id="rectangle">
@@ -151,16 +156,14 @@
 	<div id="Delete_Task">
 		<span>Delete Task</span>
 	</div>
-	<div id="assign_to_rect">
-	</div>
-	<div id="Save_Button" onclick="popupTaskHide();">
+	<div id="Save_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Save">
 		</div>
 		<div id="SAVE">
 			<span>SAVE</span>
 		</div>
 	</div>
-	<div id="Cancel_Button" onclick="popupTaskHide();">
+	<div id="Cancel_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Cancel">
 		</div>
 		<div id="CANCEL">

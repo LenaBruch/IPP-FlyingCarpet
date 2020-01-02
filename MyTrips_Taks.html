@@ -99,8 +99,8 @@
         </a>
         <a href="MyTrips_Overview.html">
 		<div class="My_Trips_Button">
-            <i class="material-icons myTrips_icon">flight_takeoff</i>
-			<div class="Trips">
+            <i class="material-icons myTrips_icon" id="current_menuItem">flight_takeoff</i>
+			<div class="Trips" id="current_menuItem">
 				<span>My Trips</span>
 			</div>
 		</div>
@@ -179,14 +179,15 @@
 		</svg>
 	</div>
     <!-- floating action button -->
-	<div class="fab" onclick="popupTask();"> + </div>
+	<div class="fab" onclick="popupTaskItem();"> + </div>
     
     <!-- Popup window: Only shown when you click the FAB button -->
-    <div id="Popup_Task">
+    <div id="Popup_Task_Item">
 	<div id="Task_Description">
 		<span>Task Description</span>
 	</div>
 	<div id="description_rect">
+        <input type="text" name="" id="textfield_description" placeholder="">
 	</div>
 	<div id="Text_Field_datetask">
 		<div class="Surface">
@@ -211,9 +212,13 @@
 		<span>Task Name</span>
 	</div>
 	<div id="name_rect">
+        <input type="text" name="" id="textfield_name" placeholder="">
 	</div>
 	<div id="Assign_to">
 		<span>Assign to</span>
+	</div>
+    <div id="assign_to_rect">
+        <input type="text" name="" id="textfield_asignTo" placeholder="@Friend">
 	</div>
 	<div id="trash">
 		<div id="rectangle">
@@ -223,16 +228,14 @@
 	<div id="Delete_Task">
 		<span>Delete Task</span>
 	</div>
-	<div id="assign_to_rect">
-	</div>
-	<div id="Save_Button" onclick="popupTaskHide();">
+	<div id="Save_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Save">
 		</div>
 		<div id="SAVE">
 			<span>SAVE</span>
 		</div>
 	</div>
-	<div id="Cancel_Button" onclick="popupTaskHide();">
+	<div id="Cancel_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Cancel">
 		</div>
 		<div id="CANCEL">

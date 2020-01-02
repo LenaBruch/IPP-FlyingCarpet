@@ -28,6 +28,11 @@
 		color: rgba(255,255,255,1);
 	}
 
+/* current menu item is highlighted */
+#current_menuItem {
+    color: rgba(0,188,212,1);
+}
+
 /* tab bar: calendar, list */
 	#tab_selection {
 		position: absolute;
@@ -353,11 +358,11 @@
     font-size: 60px
 }
 
-/* CSS popup window */
+/* CSS popup window task */
 
-	#Popup_Task {
+	#Popup_Task_Item {
 		position: absolute;
-        top: 360px;
+        top: 300px;
         left: 146px;
 		background: #E5E5E5;
 		width: 789px;
@@ -366,8 +371,10 @@
 		overflow: hidden;
         border-style: solid;
         border-width: 1px;
-        border-color: rgba(0,188,212,1);
+        border-color: #1A237E;
+        box-shadow: 10px 10px 15px grey;
         display: none;
+        z-index: 2;
 	}
 	#Task_Description {
 		position: absolute;
@@ -383,16 +390,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-	#description_rect {
-		position: absolute;
-		width: 635px;
-		height: 80px;
-		left: 63px;
-		top: 445px;
-		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
+#textfield_description {
+    position: absolute;
+    width: 635px;
+    height: 80px;
+    left: 63px;
+    top: 445px;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+    border:  1px solid rgba(112,112,112,1);
+    border-width: 1px;
+    padding-left: 15px;
+    outline: none;
+}
+
 	#Text_Field_datetask {
 		position: absolute;
 		width: 301px;
@@ -489,16 +500,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-	#name_rect {
-		position: absolute;
-		width: 635px;
-		height: 80px;
-		left: 63px;
-		top: 225px;
-		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
+	
+#textfield_name {
+    position: absolute;
+    width: 635px;
+    height: 80px;
+    left: 63px;
+    top: 225px;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+    border:  1px solid rgba(112,112,112,1);
+    border-width: 1px;
+    padding-left: 15px;
+    outline: none;
+}
 	#Assign_to {
 		position: absolute;
 		left: 63px;
@@ -513,6 +528,19 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
+#textfield_asignTo {
+    position: absolute;
+    width: 635px;
+    height: 80px;
+    left: 63px;
+    top: 890px;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+    border:  1px solid rgba(112,112,112,1);
+    border-width: 1px;
+    padding-left: 15px;
+    outline: none;
+}
 	#trash {
 		position: absolute;
 		width: 50px;
@@ -532,10 +560,9 @@
 		overflow: hidden;
 	}
     #delete_icon {
-        color: grey;
+        color: #1A237E;
         font-size: 50px;
         margin-top: 2px;
-        
     }
 	#Delete_Task {
 		position: absolute;
@@ -549,18 +576,9 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 28px;
-		color: rgba(112,112,112,1);
+		color: #1A237E;
 	}
-	#assign_to_rect {
-		position: absolute;
-		width: 635px;
-		height: 80px;
-		left: 63px;
-		top: 890px;
-		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
+
 	#Save_Button {
 		position: absolute;
 		width: 255px;
@@ -575,7 +593,7 @@
 		height: 83px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(0,188,212,1);
+		background-color: #1A237E;
 		border-radius: 4px 4px 4px 4px;
 		border: 0;
 		overflow: hidden;

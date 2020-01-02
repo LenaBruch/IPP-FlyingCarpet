@@ -6,10 +6,11 @@
 <link rel="stylesheet" type="text/css" href="css/myTrips_checklist.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
-<link rel="stylesheet" type="text/css" href="css/fab.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/fab.css" media="screen" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
+<script src="js/flyingcarpet.js" async></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="My_Trips___Checklist">
@@ -87,18 +88,16 @@
 			</div>
 		</div>
         </a>
-        <a href="AddTrip_Start.html">
 		<div class="Add_Button">
             <i class="material-icons add_icon">add</i>
 			<div class="New_Trip">
                 <span>Add Trip</span>
             </div>
 		</div>
-        </a>
         <a href="MyTrips_Overview.html">
 		<div class="My_Trips_Button">
-            <i class="material-icons myTrips_icon">flight_takeoff</i>
-			<div class="Trips">
+            <i class="material-icons myTrips_icon" id="current_menuItem">flight_takeoff</i>
+			<div class="Trips" id="current_menuItem">
 				<span>My Trips</span>
 			</div>
 		</div>
@@ -111,7 +110,8 @@
 		</div>
 	</div>
     <!-- floating action button -->
-	<div class="fab"> + </div>
+    <div class="fab" onclick="popupTaskItem();"> + </div>
+    
     <!-- content of the screen: checklist -->
 	<div id="Sunscreen">
 		<div id="Rectangle_Sunscreen">
@@ -146,6 +146,43 @@
 			</ellipse>
 		</svg>
 	</div>
+    <!-- Popup window: Only shown when you click the FAB button -->
+    <div id="Popup_Task_Item">
+	<div id="Task_Name">
+		<span>Task Name</span>
+	</div>
+	<div id="item_name">
+        <input type="text" name="" id="textfield_name" placeholder="Item Name">
+	</div>
+	<div id="Assign_to">
+		<span>Assign to</span>
+	</div>
+    <div id="item_assign_to">
+        <input type="text" name="" id="textfield_assignTo" placeholder="@Friend">
+	</div>
+	<div id="trash">
+		<div id="rectangle">
+		</div>
+		<i class="material-icons" id="delete_icon">delete</i>
+	</div>
+	<div id="Delete_Task">
+		<span>Delete Task</span>
+	</div>
+	<div id="Save_Button" onclick="popupTaskItemHide();">
+		<div id="Rectangle_Save">
+		</div>
+		<div id="SAVE">
+			<span>SAVE</span>
+		</div>
+	</div>
+	<div id="Cancel_Button" onclick="popupTaskItemHide();">
+		<div id="Rectangle_Cancel">
+		</div>
+		<div id="CANCEL">
+			<span>CANCEL</span>
+		</div>
+	</div>
+</div>
 </div>
 </body>
 </html>

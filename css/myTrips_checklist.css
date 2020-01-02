@@ -28,6 +28,11 @@
 		color: rgba(255,255,255,1);
 	}
 
+/* current menu item is highlighted */
+#current_menuItem {
+    color: rgba(0,188,212,1);
+}
+
 /* tab bar: information, checklist, tasks */
 	#Tabs {
 		position: absolute;
@@ -317,4 +322,183 @@
 		left: 880px;
 		top: 26.14px;
 		transform: matrix(1,0,0,1,0,0);
+	}
+
+/* CSS popup window task */
+
+	#Popup_Task_Item {
+		position: absolute;
+        top: 460px;
+        left: 146px;
+		background: #E5E5E5;
+		width: 789px;
+		height: 768px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #1A237E;
+        display: none;
+        box-shadow: 10px 10px 15px grey;
+        z-index: 2;
+	}
+
+	#Task_Name {
+		position: absolute;
+		left: 63px;
+		top: 153px;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+
+#textfield_name {
+    position: absolute;
+    width: 635px;
+    height: 80px;
+    left: 63px;
+    top: 225px;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+    border:  1px solid rgba(112,112,112,1);
+    border-width: 1px;
+    padding-left: 15px;
+    outline: none;
+}
+	#Assign_to {
+		position: absolute;
+		left: 63px;
+		top: 373px;
+		overflow: visible;
+		width: 170px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+#textfield_assignTo {
+    position: absolute;
+    width: 635px;
+    height: 80px;
+    left: 63px;
+	top: 445px;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+    border:  1px solid rgba(112,112,112,1);
+    border-width: 1px;
+    padding-left: 15px;
+    outline: none;
+}
+	#trash {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 550px;
+		top: 44px;
+		overflow: visible;
+	}
+	#rectangle {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(0,0,0,0);
+		border: 0;
+		overflow: hidden;
+	}
+    #delete_icon {
+        color: #1A237E;
+        font-size: 50px;
+        margin-top: 2px;
+        
+    }
+	#Delete_Task {
+		position: absolute;
+		left: 602px;
+		top: 53px;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: #1A237E;
+	}
+	#Save_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 470px;
+		top: 622px;
+		overflow: visible;
+	}
+	#Rectangle_Save {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: #1A237E;
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#SAVE {
+		position: absolute;
+		left: 79px;
+		top: 17px;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+	#Cancel_Button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 64px;
+		top: 622px;
+		overflow: visible;
+	}
+	#Rectangle_Cancel {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(162,162,162,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#CANCEL {
+		position: absolute;
+		left: 52px;
+		top: 17px;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.38);
 	}

@@ -2,15 +2,15 @@
 * Using the floating action button, the popup window for a new task will be shown
 */
 
-function popupTask () {
-    $('#Popup_Task').show();
+function popupTaskItem () {
+    $('#Popup_Task_Item').show();
 }
 
 /** 
 * The popup window for a new task will disappear
 */
-function popupTaskHide () {
-    $('#Popup_Task').hide();
+function popupTaskItemHide () {
+    $('#Popup_Task_Item').hide();
 }
 
 /*function cityClicked () {

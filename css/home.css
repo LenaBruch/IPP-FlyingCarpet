@@ -13,176 +13,12 @@
 		overflow: hidden;
 	}
 	
-	#Bottom_menu {
-		position: absolute;
-		width: 1080px;
-		height: 174px;
-		left: 0px;
-		top: 1555px;
-		overflow: visible;
-	}
-	#bottom_bar {
-		position: absolute;
-		width: 1080px;
-		height: 174px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Rectangle_Bottom {
-		position: absolute;
-		width: 1080px;
-		height: 174px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(225,222,222,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#Home_Button {
-		position: absolute;
-		width: 91px;
-		height: 103px;
-		left: 61px;
-		top: 34px;
-		overflow: visible;
-	}
-	#home_icon { 
+/* current menu item is highlighted */
+#current_menuItem {
     color: rgba(0,188,212,1);
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
-    }
-	#Home {
-		position: absolute;
-		left: 0px;
-		top: 58px;
-		overflow: visible;
-		width: 92px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 34px;
-		color: rgba(0,188,212,1);
-	}
-	#Calendar_Button {
-		position: absolute;
-		width: 135px;
-		height: 103px;
-		left: 234px;
-		top: 34.133px;
-		overflow: visible;
-	}
-	#Calendar {
-		position: absolute;
-		left: 0px;
-		top: 58px;
-		overflow: visible;
-		width: 136px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 34px;
-		color: rgba(112,112,112,1);
-	}
-	#calendar_icon {
-    color: grey;
-    font-size: 70px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 30px;
-    }
-	#Add_Button {
-		position: absolute;
-		width: 126px;
-		height: 101px;
-		left: 480px;
-		top: 33.688px;
-		overflow: visible;
-		cursor: pointer;
-	}
-	#New_Trip {
-		position: absolute;
-		left: 0px;
-		top: 56px;
-		overflow: visible;
-		width: 127px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 34px;
-		color: rgba(112,112,112,1);
-	}
-	#add_icon {
-    color: grey;
-    font-size: 100px;
-    line-height: 1px;
-    margin-top: 28px;
-    }
-	#My_Trips_Button {
-		position: absolute;
-		width: 129px;
-		height: 104px;
-		left: 711px;
-		top: 34px;
-		overflow: visible;
-	}
-	#Trips {
-		position: absolute;
-		left: 0px;
-		top: 59px;
-		overflow: visible;
-		width: 130px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 34px;
-		color: rgba(112,112,112,1);
-	}
-	#myTrips_icon {
-    color: grey;
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 25px;
-    }
-	#Profile_Button {
-		position: absolute;
-		width: 97px;
-		height: 103px;
-		left: 923px;
-		top: 35.008px;
-		overflow: visible;
-	}
-	#Profile {
-		position: absolute;
-		left: 0px;
-		top: 58px;
-		overflow: visible;
-		width: 98px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 34px;
-		color: rgba(112,112,112,1);
-	}
-	#profile_icon {
-    color: grey;
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 6px;
-    }
+}
+
+/* header */
 	#App_bar {
 		position: absolute;
 		width: 1080px;
@@ -235,6 +71,8 @@
 		left: 843px;
 		top: 44px;
 	}
+
+/* carrousel with all your created trips */
 	#My_trips_carrousel {
 		position: absolute;
 		width: 1080px;
@@ -446,6 +284,8 @@
 		left: 490px;
 		top: 428px;
 	}
+
+/* task 1 */
 	#Task_list1 {
 		position: absolute;
 		width: 960px;
@@ -509,6 +349,8 @@
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
+
+/* task not completed --> empty circle */
 	.check_no {
 		overflow: visible;
 		position: absolute;
@@ -517,6 +359,8 @@
         stroke: rgba(0,188,212,1);
         stroke-width:4px;
 	}
+
+/* task 2 */
 	#Task_list2 {
 		position: absolute;
 		width: 960px;
@@ -580,6 +424,8 @@
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
+
+/* task 3 */
 	#Task_list3 {
 		position: absolute;
 		width: 960px;
