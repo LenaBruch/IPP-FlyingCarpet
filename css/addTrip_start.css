@@ -106,7 +106,7 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 519px;
+		height: 363px;
 		left: 60px;
 		top: 489px;
 		overflow: visible;
@@ -114,7 +114,7 @@
 	#Rectangle_Image {
 		position: absolute;
 		width: 960px;
-		height: 519px;
+		height: 363px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -138,7 +138,7 @@
 		width: 960px;
 		height: 83px;
 		left: 60px;
-		top: 1275px;
+		top: 1165px;
 		overflow: visible;
 	}
 
@@ -155,7 +155,7 @@
 	#Let_s_get_Started {
 		position: absolute;
 		left: 60px;
-		top: 1113px;
+		top: 963px;
 		overflow: visible;
 		width: 365px;
 		white-space: nowrap;
@@ -169,7 +169,7 @@
 	#give_your_trip_a_name {
 		position: absolute;
 		left: 60px;
-		top: 1194px;
+		top: 1064px;
 		overflow: visible;
 		width: 332px;
 		white-space: nowrap;
