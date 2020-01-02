@@ -32,7 +32,7 @@
 	#Inspirational_Image {
 		position: absolute;
 		width: 960px;
-		height: 519px;
+		height: 363px;
 		left: 60px;
 		top: 490px;
 		overflow: visible;
@@ -40,7 +40,7 @@
 	#Rectangle_Image {
 		position: absolute;
 		width: 960px;
-		height: 519px;
+		height: 363px;
 		left: 0px;
 		top: 0px;
 		background-color: rgba(225,222,222,1);
@@ -66,7 +66,7 @@
 		width: 960px;
 		height: 188px;
 		left: 60px;
-		top: 1062px;
+		top: 912px;
 		overflow: visible;
 	}
 	.Surface {
@@ -123,7 +123,7 @@
 		width: 960px;
 		height: 188px;
 		left: 60px;
-		top: 1278px;
+		top: 1148px;
 		overflow: visible;
 	}
 	#Backpack {
