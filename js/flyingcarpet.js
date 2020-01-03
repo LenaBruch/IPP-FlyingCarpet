@@ -48,3 +48,10 @@ function markTaskAsDone () {
     $('#task1_done').css("stroke", "darkgrey");
 }
 
+/**
+* Creates the calendar on the calendar screen.
+*/
+function createCalendar () {
+  $( "#datepicker" ).datepicker({ firstDay: 1});
+};
+
