@@ -11,9 +11,11 @@
       rel="stylesheet">
 <script src="js/flyingcarpet.js" async></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 </head>
-<body>
+<body onload="createCalendar()">
 <div id="Calendar___Calendar">
     <!-- header -->
 	<div class="App_bar">
@@ -106,8 +108,8 @@
 	</div>
     <!-- floating action button -->
 	<div class="fab" onclick="popupTaskItem();"> + </div>
-    <!-- image for the calendar -->
-	<img id="Bild_1" src="pictures/Bild_1.png">
+    <!-- div container for the calendar -->
+    <div id="datepicker" class="calendar"></div>
     
     <!-- Popup window: Only shown when you click the FAB button -->
     <div id="Popup_Task_Item">
