@@ -9,8 +9,11 @@
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+<script src="js/flyingcarpet.js" async></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
-<body>
+<body onload="calendarAddDestination()">
 <div id="ID03_My_Trips___Destination">
     <!-- menubar -->
 	<div class="Bottom_menu">
@@ -75,44 +78,59 @@
 			<i id="image_icon" class="material-icons">insert_photo</i>
 		</div>
 	</div>
-    <!-- content of the screen: "inputfields" for destination and date, add destination & next/back button -->
-	<div id="Text_Field___from_Destination">
-		<div id="Surface">
-		</div>
-        <i class="material-icons" id="location_icon">add_location</i>
-		<div id="destination">
-			<span>destination</span>
-		</div>
-	</div>
-	<div id="Text_Field___to_Destination">
-		<div id="Surface">
-		</div>
-		<div id="destination_9">
-			<span>destination</span>
-		</div>
-	</div>
-	<div id="From_and_where_to">
+    <!-- content of the screen: "inputfields" for destination and date, add destination -->
+    <div id="From_and_where_to">
 		<span>From and where to are you traveling? </span>
 	</div>
-	<div id="Text_Field___from_Date">
-		<div id="Surface">
-		</div>
-        <i class="material-icons" id="calendar_icon_little">calendar_today</i>
-		<div id="dd_mm_yy">
-			<span>dd.mm.yy</span>
-		</div>
+    <div id="first_destination">
+		<span>First Destination</span>
 	</div>
-	<div id="Text_Field___to_Date">
-		<div id="Surface">
-		</div>
-		<div id="dd_mm_yy_C">
-			<span>dd.mm.yy</span>
-		</div>
+	<div id="Text_Field_from_Destination">
+        <i class="material-icons" id="location_icon">add_location
+            <input type="text" name="" class="destination" placeholder="From">
+        </i>
 	</div>
-	<div id="Add_destination">
+	<div id="Text_Field_to_Destination">
+		 <input type="text" name="" class="destination" placeholder="To">
+	</div>
+	<div id="Text_Field_from_Date">
+        <i class="material-icons" id="calendar_icon_little">calendar_today
+            <input type="text" class="datepicker" placeholder="dd.mm.yy">
+        </i>
+	</div>
+	<div id="Text_Field_to_Date">
+		<input type="text" class="datepicker" placeholder="dd.mm.yy">
+	</div>
+	<div id="Add_destination" onclick="addDestination();">
         <i class="material-icons" id="add_destination_icon">add_circle_outline</i>
 		<span>Add destination</span>
 	</div>
+    <!-- second start, destination and date are displayed if you click on add destination -->
+    <div id="hide_secondDestination">
+   <div id="second_destination">
+		<span>Second Destination</span>
+	</div>
+	<div id="Text_Field_from_Destination">
+        <i class="material-icons" id="location_icon">add_location
+            <input type="text" name="" class="destination" placeholder="From">
+        </i>
+	</div>
+	<div id="Text_Field_to_Destination">
+		 <input type="text" name="" class="destination" placeholder="To">
+	</div>
+	<div id="Text_Field_from_Date">
+        <i class="material-icons" id="calendar_icon_little">calendar_today
+            <input type="text" class="datepicker" placeholder="dd.mm.yy">
+        </i>
+	</div>
+	<div id="Text_Field_to_Date">
+		<input type="text" class="datepicker" placeholder="dd.mm.yy">
+	</div>
+	<div id="Add_destination" onclick="addDestination();">
+        <i class="material-icons" id="add_destination_icon">add_circle_outline</i>
+		<span>Add destination</span>
+	</div>
+    </div>
     <!-- next & back button -->
     <a href="AddTrip_Transportation.html">
 	<div class="Next_Button">

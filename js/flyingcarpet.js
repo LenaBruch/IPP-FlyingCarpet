@@ -1,5 +1,5 @@
 /** 
-* Using the floating action button, the popup window for a new task will be shown
+* Using the floating action button, the popup window for a new task or item will be shown
 */
 
 function popupTaskItem () {
@@ -7,7 +7,7 @@ function popupTaskItem () {
 }
 
 /** 
-* The popup window for a new task will disappear
+* The popup window for a new task or item will disappear
 */
 function popupTaskItemHide () {
     $('#Popup_Task_Item').hide();
@@ -49,9 +49,33 @@ function markTaskAsDone () {
 }
 
 /**
-* Creates the calendar on the calendar screen.
+* Calendar Screen: First day of the clanedar is monday.
 */
 function createCalendar () {
   $( "#datepicker" ).datepicker({ firstDay: 1});
 };
+
+
+/**
+* Add Destination Screen: Enter the clicked date.
+*/
+function calendarAddDestination () {
+    $( ".datepicker" ).datepicker();
+}
+
+/**
+* Click on Add destination (Destination Screen): the inspirational image will disappear and a second entry field for a second destination will be displayed.
+*/
+function addDestination () {
+    $('#Inspirational_Image').hide();
+    $('#From_and_where_to').css("top", "400px");
+    $('#Text_Field_from_Destination').css("top", "609px");
+    $('#Text_Field_to_Destination').css("top", "609px");
+    $('#Text_Field_from_Date').css("top", "764px");
+    $('#Text_Field_to_Date').css("top", "764px");
+    $('#first_destination').show();
+    $('#second_destination').show();
+    $('#hide_secondDestination').show();
+}
+
 

@@ -138,7 +138,10 @@
     color: grey;
     font-size: 85px;
 }
-	#Text_Field {
+	
+
+/* content of the current screen */
+#Text_Field {
 		position: absolute;
 		width: 960px;
 		height: 83px;
@@ -146,14 +149,13 @@
 		top: 1120px;
 		overflow: visible;
 	}
-
-/* content of the current screen */
 #Trip_Name {
     font-size: 26pt;
     width: 900px;
     height: 68px;
     background: #F3F2F9;
     padding-left: 15px;
+    outline: none;
 }
 	#Let_s_get_Started {
 		position: absolute;

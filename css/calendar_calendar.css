@@ -543,10 +543,14 @@
   font-size: 35px;
   
 }
+
+/* current day is green and bold */
 .ui-state-highlight {
   color: green;
   font-weight: bold;
 }
+
+/* marked day is white and the backgroundcolor is violet */
 .ui-state-active {
   color: white;
   background: #534BAE;
