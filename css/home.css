@@ -350,6 +350,15 @@
     top: 50px;
     right: 25px;
 }
+.material-icons.check {
+      color: #534BAE;
+    font-size: 75px;
+    line-height: 1px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
 
 /* task 2 */
 	#Task_list2 {

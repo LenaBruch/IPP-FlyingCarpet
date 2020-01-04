@@ -51,11 +51,20 @@ function withFriend () {
 
 /* toggle tasks as done */
 function check() {
-    // Toggling star
-    // #7 replace image with icon
-    $('#Task_list1').toggleClass('circle');
-    $('#chat h1 i').toggleClass('far');
-    
+    // VERSUCH IF FUNCTION
+    var x = document.getElementsById("check");
+  if (x.innerHTML === "panprama_fish_eye") {
+    x.innerHTML = "check_cricle!";
+  } else {
+    x.innerHTML = "panorama_fish_eye";
+  }
+   // VERSUCH 2
+    /*if (§('this').find('i').text() == 'panorama_fish_eye'){
+     $('this').find('i').text('check_circle');
+   } else {
+       $('this').find('i').text('panorama_fish_eye');
+    } */
+}
 
 /**
 * Creates the calendar on the calendar screen.
