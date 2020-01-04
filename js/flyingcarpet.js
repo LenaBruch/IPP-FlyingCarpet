@@ -42,11 +42,20 @@ function withFriend () {
 /** 
 * On the home screen, you can mark the first task as done.
 */
-function markTaskAsDone () {
+/* function markTaskAsDone () {
     $('#check1').css("fill", "rgba(0,188,212,1)");
     $('#Rectangle_Date1').css("background-color", "darkgrey");
     $('#task1_done').css("stroke", "darkgrey");
 }
+*/
+
+/* toggle tasks as done */
+function check() {
+    // Toggling star
+    // #7 replace image with icon
+    $('#Task_list1').toggleClass('circle');
+    $('#chat h1 i').toggleClass('far');
+    
 
 /**
 * Creates the calendar on the calendar screen.

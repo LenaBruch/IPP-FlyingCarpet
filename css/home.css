@@ -336,10 +336,20 @@
 		overflow: visible;
 		position: absolute;
 		left: 890px;
-		top: 21px;
+		top: 0px;
+        height: 195px;
         stroke:  #534BAE;
         stroke-width:4px;
 	}
+/*task not completed: circle */
+.material-icons.circle {
+      color: #534BAE;
+    font-size: 75px;
+    line-height: 1px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
 
 /* task 2 */
 	#Task_list2 {
