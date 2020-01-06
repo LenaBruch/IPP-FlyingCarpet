@@ -15,7 +15,7 @@
 
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color:  #1A237E;
 }
 
 /* header wording of the current menu item*/
@@ -53,10 +53,10 @@
 	.Rectangle_Carrousel {
 		position: absolute;
 		width: 1080px;
-		height: 433px;
+		height: 530px;
 		left: 0px;
-		top: 0px;
-		background-color: rgba(255,255,255,1);
+		top: 15px;
+		background-color: #EBEDEE;
 		border: 0;
 		overflow: hidden;
 	}
@@ -71,8 +71,8 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 40px;
-		color: rgba(112,112,112,1);
+		font-size: 35px;
+		color: #1A237E;
 	}
 	.Banner_Trip1 {
 		position: absolute;
@@ -89,7 +89,7 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
+		border:  none;
 		overflow: hidden;
 	}
 	.Footer_1 {
@@ -112,30 +112,6 @@
 		border:  1px solid rgba(112,112,112,1);
 		overflow: hidden;
 	}
-	.Status_1 {
-		position: absolute;
-		width: 522px;
-		height: 24px;
-		left: 17px;
-		top: 326px;
-		background-color: rgba(0,188,212,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
-	.percent {
-		position: absolute;
-		left: 742px;
-		top: 320px;
-		overflow: visible;
-		width: 39px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(255,255,255,1);
-	}
 	#London {
 		position: absolute;
 		left: 21px;
@@ -147,7 +123,7 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 60px;
+		font-size: 45px;
 		color: rgba(162,162,162,1);
 	}
 	#ID15_07_2019 {
@@ -179,7 +155,7 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(162,162,162,1);
+		border:  none;
 		overflow: hidden;
 	}
 	#footer_2 {
@@ -207,17 +183,7 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(162,162,162,1);
-		overflow: hidden;
-	}
-	#footer_2_A {
-		position: absolute;
-		width: 108px;
-		height: 64px;
-		left: 0px;
-		top: 305px;
-		background-color: rgba(162,162,162,1);
-		border:  1px solid rgba(162,162,162,1);
+		border:  none;
 		overflow: hidden;
 	}
 	.ID1 {
@@ -271,8 +237,8 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 40px;
-		color: rgba(112,112,112,1);
+		font-size: 35px;
+		color: #1A237E;
 	}
 	#Brazil {
 		position: absolute;
@@ -285,7 +251,7 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 60px;
+		font-size:45px;
 		color: rgba(162,162,162,1);
 	}
 	#ID05_10_2020 {
@@ -317,7 +283,7 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(162,162,162,1);
+		border: none;
 		overflow: hidden;
 	}
 	#footer_2_H {
@@ -345,16 +311,6 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(162,162,162,1);
-		overflow: hidden;
-	}
-	#footer_2_J {
-		position: absolute;
-		width: 108px;
-		height: 64px;
-		left: 0px;
-		top: 305px;
-		background-color: rgba(162,162,162,1);
-		border:  1px solid rgba(162,162,162,1);
+		border: none;
 		overflow: hidden;
 	}

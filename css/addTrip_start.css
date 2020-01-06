@@ -108,35 +108,13 @@
 	}
 
 /* inspirational image */
-	#Inspirational_Image {
+	#insp_start {
 		position: absolute;
-		width: 960px;
-		height: 463px;
-		left: 60px;
-		top: 390px;
-		overflow: visible;
-	}
-	#Rectangle_Image {
-		position: absolute;
-		width: 960px;
-		height: 463px;
+		width: 20px;
+		height: 20px;
 		left: 0px;
-		top: 0px;
-		background-color: rgba(225,222,222,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#Icon_ionic_md_images {
-		position: absolute;
-		width: 159.433px;
-		height: 136px;
-		left: 400px;
-		top: 191.533px;
-		overflow: visible;
-	}
-#image_icon {
-    color: grey;
-    font-size: 85px;
+		top: 12px;
+        overflow: visible;
 }
 	
 

@@ -30,18 +30,18 @@
 
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color: #1A237E;
 }
 
 /* tab bar: information, checklist, tasks */
 	#tab_bar {
 		position: absolute;
 		width: 1099px;
-		height: 135px;
+		height: 100px;
 		left: 0px;
-		top: 410px;
+		top: 444px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(162,162,162,1);
+		border:  1px solid #D2D0D0;
 		overflow: hidden;
 	}
 	#tab_selection {
@@ -50,28 +50,28 @@
 		height: 8px;
 		left: 0px;
 		top: 535px;
-		background-color: rgba(0,188,212,1);
+		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
 	}
 	#INFORMATION {
 		position: absolute;
 		left: 48px;
-		top: 455px;
+		top: 475px;
 		overflow: visible;
 		width: 266px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,188,212,1);
+		font-weight: bold;
+		font-size: 35px;
+		color: #FFA726;
 	}
 	#CHECKLIST {
 		position: absolute;
 		left: 449px;
-		top: 455px;
+		top: 475px;
 		overflow: visible;
 		width: 211px;
 		white-space: nowrap;
@@ -79,13 +79,13 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: darkgrey;
+		font-size: 35px;
+		color: #D2D0D0;
 	}
 	#TASKS {
 		position: absolute;
 		left: 859px;
-		top: 455px;
+		top: 475px;
 		overflow: visible;
 		width: 123px;
 		white-space: nowrap;
@@ -93,8 +93,8 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: darkgrey;
+		font-size: 35px;
+		color: #D2D0D0;
 	}
 /* banner: brazil, date, progress bar */
 	#Trip_1 {
@@ -105,26 +105,6 @@
 		top: 230px;
 		background-color: rgba(255,255,255,1);
 		border: 0;
-		overflow: hidden;
-	}
-	#Progress_bar {
-		position: absolute;
-		width: 1080px;
-		height: 64px;
-		left: 0px;
-		top: 346px;
-		background-color: rgba(162,162,162,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
-	#Status_bar {
-		position: absolute;
-		width: 893px;
-		height: 24px;
-		left: 70px;
-		top: 367px;
-		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
 		overflow: hidden;
 	}
 	#Status_1 {
@@ -162,7 +142,7 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 60px;
+		font-size: 50px;
 		color: rgba(162,162,162,1);
 	}
 	#ID05_10_2020 {
@@ -184,16 +164,17 @@
 	#Visa_Text {
 		position: absolute;
 		left: 70px;
-		top: 703px;
+		top: 680px;
 		overflow: hidden;
 		width: 941px;
 		height: 221px;
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
+        white-space: 25px;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(162,162,162,1);
+		font-size: 35px;
+		color: black;
 	}
 	#Visa_Requirements {
 		position: absolute;
@@ -206,13 +187,13 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 40px;
-		color: rgba(112,112,112,1);
+		font-size: 35px;
+		color: #1A237E;
 	}
 	#More_Info1 {
 		position: absolute;
 		left: 70px;
-		top: 957px;
+		top: 860px;
 		overflow: visible;
 		width: 173px;
 		white-space: nowrap;
@@ -220,14 +201,14 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,188,212,1);
-		text-decoration: true;
+		font-size: 33px;
+		color: #534BAE;
+		text-decoration: underline;
 	}
 	#Add_to_Task1 {
 		position: absolute;
 		left: 758px;
-		top: 957px;
+		top: 860px;
 		overflow: visible;
 		width: 253px;
 		white-space: nowrap;
@@ -235,29 +216,31 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,188,212,1);
+		font-size: 33px;
+		color:  #534BAE;
+        text-decoration: underline;
 	}
 
 /* health advise */
 	#Health_Text {
 		position: absolute;
 		left: 70px;
-		top: 1193px;
+		top: 1090px;
 		overflow: hidden;
 		width: 941px;
 		height: 221px;
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
+		white-space: 25px;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(162,162,162,1);
+		font-size: 35px;
+		color: black;
 	}
 	#Health_Advise {
 		position: absolute;
 		left: 70px;
-		top: 1100px;
+		top: 1020px;
 		overflow: visible;
 		width: 251px;
 		white-space: nowrap;
@@ -265,13 +248,13 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 40px;
-		color: rgba(112,112,112,1);
+		font-size: 35px;
+		color: #1A237E;
 	}
 	#More_Info2 {
 		position: absolute;
 		left: 70px;
-		top: 1438px;
+		top: 1270px;
 		overflow: visible;
 		width: 173px;
 		white-space: nowrap;
@@ -279,14 +262,14 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,188,212,1);
-		text-decoration: true;
+		font-size: 33px;
+		color: #1A237E;
+		text-decoration: underline;
 	}
 	#Add_to_Task2 {
 		position: absolute;
 		left: 758px;
-		top: 1438px;
+		top: 1270px;
 		overflow: visible;
 		width: 253px;
 		white-space: nowrap;
@@ -294,6 +277,7 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,188,212,1);
+		font-size: 33px;
+		color: #1A237E;
+        text-decoration: underline;
 	}

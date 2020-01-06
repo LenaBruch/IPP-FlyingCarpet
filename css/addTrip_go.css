@@ -30,7 +30,7 @@
 	}
 /* current menu item is highlighted */
 #current_menuItem {
-    color: rgba(0,188,212,1);
+    color: #1A237E;
 }
 /* timeline */
 	#Timeline {
@@ -102,7 +102,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(0,188,212,1);
+		color:#FFA726;
 	}
 	.destination {
 		position: absolute;
@@ -197,9 +197,9 @@
 		text-align: left;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight:normal;
 		font-size: 50px;
-		color: rgba(0,188,212,1);
+		color: #FFA726;
 	}
 	#text_save_your_process {
 		position: absolute;
@@ -213,5 +213,5 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(0,0,0,0.6);
+		color: black;
 	}
