@@ -187,13 +187,24 @@
 	}
 
 /*buttons to enter the type of your trip */
-	#citytrip_rect {
+	.citytrip_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 200px;
 		top: 908px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	.citytrip_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 908px;
+		background-color: #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -210,7 +221,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#city_icon {
 		position: absolute;
@@ -220,13 +231,24 @@
 		top: 979px;
 		overflow: visible;
 	}
-	#active_rect {
+	.active_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 456px;
 		top: 908px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+.active_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 908px;
+		background-color: #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -243,7 +265,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#active_icon {
 		position: absolute;
@@ -253,13 +275,24 @@
 		top: 979px;
 		overflow: visible;
 	}
-	#backpacking_rect {
+	.backpacking_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 712px;
 		top: 908px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	.backpacking_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 908px;
+		background-color:  #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -276,7 +309,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#backpacking_icon {
 		position: absolute;
@@ -286,13 +319,24 @@
 		top: 988px;
 		overflow: visible;
 	}
-	#wellnes_rect {
+	.wellness_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 200px;
 		top: 1145px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+.wellness_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 1145px;
+		background-color: #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -309,7 +353,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#wellness_icon {
 		position: absolute;
@@ -320,13 +364,24 @@
 		overflow: visible;
 	}
 	
-	#beach_rect {
+	.beach_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 456px;
 		top: 1145px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	.beach_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 1145px;
+		background-color: #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -343,7 +398,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#beach_icon {
 		position: absolute;
@@ -353,13 +408,24 @@
 		top: 1233px;
 		overflow: visible;
 	}
-	#roadtrip_rect {
+	.roadtrip_rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
 		left: 712px;
 		top: 1145px;
-		background-color: rgba(230,230,230,1);
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+.roadtrip_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 1145px;
+		background-color: #FFA726;
 		border-radius: 3px 3px 3px 3px;
 		border: 0;
 		overflow: hidden;
@@ -376,7 +442,7 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
-		color: rgba(112,112,112,1);
+		color: #FFFFFF;
 	}
 	#roadtrip_icon {
 		position: absolute;

@@ -13,15 +13,53 @@ function popupTaskItemHide () {
     $('#Popup_Task_Item').hide();
 }
 
-/*function cityClicked () {
-    console.log($("#citytrip-rect").css("background-color"));
-    if ($('#citytrip_rect').css("background-color") == "rgba(230,230,230,1)"){
-        $('#citytrip_rect').css("background-color", "yellow");
+
+/**
+* Should change the background color of the active type, if it is clicked. Doesn't work, why?
+*/
+/*function activeClicked () {
+    var colorClicked = "#FFA726";
+    
+    if ($('#active_rect').css("background-color")=="rgba(230,230,230,1)");{
+        $('#active_rect').css("background-color", colorClicked);
     }
-    //else{
-        // $('#citytrip_rect').css("background-color", "rgba(230,230,230,1)");
+    else {
+        $('#active_rect').css("background-color", "rgba(230,230,230,1)"); 
+    }
 }*/
 
+/**
+* Changes the background color of the types, if they are clicked.
+*/
+function cityClicked () {
+    $('#city').toggleClass("citytrip_rect_clicked");
+    $('#city').toggleClass("citytrip_rect");
+}
+
+function activeClicked () {
+    $('#active').toggleClass("active_rect_clicked");
+    $('#active').toggleClass("active_rect");
+}
+
+function backpackingClicked () {
+    $('#backpacking').toggleClass("backpacking_rect_clicked");
+    $('#backpacking').toggleClass("backpackingrect");
+}
+
+function wellnessClicked () {
+    $('#wellness').toggleClass("wellness_rect_clicked");
+    $('#wellness').toggleClass("wellness_rect");
+}
+
+function beachClicked () {
+    $('#beach').toggleClass("beach_rect_clicked");
+    $('#beach').toggleClass("beach_rect");
+}
+
+function roadtripClicked () {
+    $('#roadtrip').toggleClass("roadtrip_rect_clicked");
+    $('#roadtrip').toggleClass("roadtrip_rect");
+}
 
 /** 
 * On the "Add Trip - Company" screen the "alone" radio button will be filled blue
@@ -77,5 +115,4 @@ function addDestination () {
     $('#second_destination').show();
     $('#hide_secondDestination').show();
 }
-
-
+    
