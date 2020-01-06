@@ -155,37 +155,15 @@
 	}
 
 /* inspirational image */
-	#Inspirational_Image {
-		position: absolute;
-		width: 960px;
-		height: 563px;
-		left: 60px;
-		top: 390px;
-		overflow: visible;
-	}
-	#Image_placeholder {
-		position: absolute;
-		width: 960px;
-		height: 563px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(225,222,222,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#Icon_ionic_md_images {
-		position: absolute;
-		width: 159px;
-		height: 136px;
-		left: 400px;
-		top: 143px;
-		overflow: visible;
-	}
-#image_icon {
-    color: grey;
-    font-size: 85px;
+	#insp_go {
+    position: absolute;
+    left: 130px;
+    top: 400px;
 }
-
+.insp_img6{
+    width: 800px;
+}
+	
 /* content of the current screen */
 	#text_hooray {
 		position: absolute;

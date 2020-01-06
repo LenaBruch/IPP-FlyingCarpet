@@ -33,35 +33,13 @@
     color: #1A237E;
 }
 /* inspirational image */
-	#Inspirational_Image {
-		position: absolute;
-		width: 960px;
-		height: 363px;
-		left: 60px;
-		top: 390px;
-		overflow: visible;
-	}
-	#Image_placeholder {
-		position: absolute;
-		width: 960px;
-		height: 363px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(225,222,222,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#Icon_ionic_md_images {
-		position: absolute;
-		width: 159px;
-		height: 136px;
-		left: 400px;
-		top: 143px;
-		overflow: visible;
-	}
-	#image_icon {
-    color: grey;
-    font-size: 85px;
+#insp_type {
+    position: absolute;
+    left: 250px;
+    top: 365px;
+}
+.insp_img4{
+    width: 630px;
 }
 	
 /* text of "Waht are you doing?"*/
@@ -198,14 +176,6 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-	.citytrip_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 200px;
-		top: 908px;
-		background-color: #FFA726;
-}
 	#City_Trip {
 		position: absolute;
 		left: 236px;

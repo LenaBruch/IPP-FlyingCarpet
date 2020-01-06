@@ -142,39 +142,15 @@
 	}
 
 /* inspirational image placeholder */
-	#Inspirational_Image {
-		position: absolute;
-		width: 960px;
-		height: 413px;
-		left: 60px;
-		top: 390px;
-		overflow: visible;
-	}
-	#Image_placeholder {
-		position: absolute;
-		width: 960px;
-		height: 413px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(225,222,222,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#Icon_ionic_md_images {
-		position: absolute;
-		width: 159.433px;
-		height: 136.658px;
-		left: 400.284px;
-		top: 143.684px;
-		overflow: visible;
-	}
-#image_icon {
-    color: grey;
-    font-size: 85px;
+#insp_company{
+    position: absolute;
+    left:95px;
+    top:370px;
 }
-
-
-	#Travelling_alone_company {
+.insp_img5{
+    width: 950px;
+}
+#Travelling_alone_company {
 		position: absolute;
 		width: 752px;
 		height: 53px;

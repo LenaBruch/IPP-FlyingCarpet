@@ -112,9 +112,12 @@
 		position: absolute;
 		width: 20px;
 		height: 20px;
-		left: 0px;
-		top: 12px;
+		left: 110px;
+		top: 330px;
         overflow: visible;
+}
+.insp_img {
+        width: 820px;   
 }
 	
 
