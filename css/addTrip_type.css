@@ -195,10 +195,17 @@
 		top: 890px;
 		background-color: #5C73B5;
 		border-radius: 3px 3px 3px 3px;
-		border: 0;
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
+	.citytrip_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 908px;
+		background-color: #FFA726;
+}
 	#City_Trip {
 		position: absolute;
 		left: 236px;
