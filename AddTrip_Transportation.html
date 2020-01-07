@@ -9,7 +9,9 @@
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/flyingcarpet.js" async></script>
 </head>
 <body>
 <div id="ID04_My_Trips___Transportation">
@@ -92,45 +94,52 @@
 	</div>
     </a>
   <!-- content of the screen: drop down menu for how to travel and luggage reqirements & next/back button -->
-	<div id="How">
-		<div class="Surface">
-		</div>
-		<div id="Plane">
-			   <form action="/action_page.php">
-            <input list="enter_transportation" class="enter_transport_luggage" placeholder="e.g. Plane">
-            <datalist id="enter_transportation">
-              <option value="Car">
-              <option value="Plane">
-              <option value="Train">
-              <option value="Motorbike">
-              <option value="Bicycle">
-              <option value="Ship">
-            </datalist> 
-          </form>
-		</div>
-		<i class="material-icons" id="arrow_traveling">keyboard_arrow_down</i>
-		<div id="How_are_you_traveling_">
+	<div id="transportation1"> 
+      <div id="destination1">
+        <span>From A to B</span>  
+      </div>
+      <div class="dropdown">
+        <div class="select" >
+          <span>e.g. Plane</span>
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <input type="hidden" name="type">
+        <ul class="dropdown-menu">
+          <li id="car">Car</li>
+          <li id="plane">Plane</li>
+          <li id="train">Train</li>
+          <li id="motorcycle">Motorcycle</li>
+          <li id="bicycle">Bicycle</li>
+          <li id="ship">Ship</li>
+          <li id="bus">Bus</li>
+          <li id="other">Other</li>
+        </ul>
+      </div>
+		<div id="How_are_you_traveling">
 			<span>How are you traveling?</span>
 		</div>
 	</div>
-	<div id="Lugagge">
-		<div class="Surface">
-		</div>
-		<div id="Backpack">
-            <form action="/action_page.php">
-            <input list="enter_luggage" class="enter_transport_luggage" placeholder="e.g. 30L Backpack">
-            <datalist id="enter_luggage">
-              <option value="10L Backpack">
-              <option value="30L Backpack">
-              <option value="50L Backpack">
-              <option value="70L Backpack">
-            </datalist> 
-          </form>
-		</div>
-        <i class="material-icons" id="arrow_luggage">keyboard_arrow_down</i>
-		<div id="Any_luggage_requirements_">
-			<span>Any luggage requirements?</span>
-		</div>
+	<div id="transportation2">
+        <div id="destination2">
+            <span>From C to D</span>  
+        </div>
+		  <div class="dropdown">
+        <div class="select" >
+          <span>e.g. Plane</span>
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <input type="hidden" name="type">
+        <ul class="dropdown-menu">
+          <li id="car">Car</li>
+          <li id="plane">Plane</li>
+          <li id="train">Train</li>
+          <li id="motorcycle">Motorcycle</li>
+          <li id="bicycle">Bicycle</li>
+          <li id="ship">Ship</li>
+          <li id="bus">Bus</li>
+          <li id="other">Other</li>
+        </ul>
+      </div>
 	</div>
     <!-- timeline -->
 	<div id="Timeline">
