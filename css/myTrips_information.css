@@ -100,9 +100,9 @@
 	#Trip_1 {
 		position: absolute;
 		width: 1080px;
-		height: 180px;
+		height: 220px;
 		left: 0px;
-		top: 230px;
+		top: 228px;
 		background-color: rgba(255,255,255,1);
 		border: 0;
 		overflow: hidden;
@@ -143,12 +143,12 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 50px;
-		color: rgba(162,162,162,1);
+		color: #FFFFFF;
 	}
 	#ID05_10_2020 {
 		position: absolute;
 		left: 870px;
-		top: 275px;
+		top: 260px;
 		overflow: visible;
 		width: 152px;
 		white-space: nowrap;
@@ -157,7 +157,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
-		color: rgba(162,162,162,1);
+		color: #FFFFFF;
 	}
 
 /* visa requirements */

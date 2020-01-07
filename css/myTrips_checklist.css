@@ -117,9 +117,9 @@
 	#Trip_1 {
 		position: absolute;
 		width: 1080px;
-		height: 180px;
+		height: 220px;
 		left: 0px;
-		top: 0px;
+		top: -2px;
 		background-color: rgba(255,255,255,1);
 		border: 0;
 		overflow: hidden;
@@ -180,12 +180,12 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 50px;
-		color: rgba(162,162,162,1);
+		color: white;
 	}
 	#ID05_10_2020 {
 		position: absolute;
 		left: 870px;
-		top: 45px;
+		top: 30px;
 		overflow: visible;
 		width: 152px;
 		white-space: nowrap;
@@ -194,7 +194,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
-		color: rgba(162,162,162,1);
+		color: white;
 	}
 
 /* items of the checklist */
