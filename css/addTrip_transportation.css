@@ -49,43 +49,8 @@
 		width: 960px;
 		height: 188px;
 		left: 60px;
-		top: 912px;
+		top: 950px;
 		overflow: visible;
-	}
-
-	.Surface {
-		position: absolute;
-		width: 960px;
-		height: 110px;
-		left: 0px;
-		top: 78px;
-		background-color: #F3F2F9;
-		border-radius: 4px 4px 4px 4px;
-		border: 0;
-		overflow: hidden;
-	}
-	#Plane {
-		position: absolute;
-		left: 16px;
-		top: 111px;
-		overflow: visible;
-		width: 147px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.6);
-		letter-spacing: 0.095px;
-	}
-    #arrow_traveling {
-		overflow: visible;
-		position: absolute;
-        font-size: 70px;
-        color: #FFA726;
-		left: 875px;
-		top: 105px;
 	}
 
 #destination1 {
@@ -98,7 +63,7 @@
 	#How_are_you_traveling {
 		position: absolute;
 		left: 0px;
-		top: -40px;
+		top: -20px;
 		overflow: visible;
 		width: 411px;
 		white-space: nowrap;
@@ -114,55 +79,10 @@
 		width: 960px;
 		height: 188px;
 		left: 60px;
-		top: 1148px;
+		top: 1130px;
 		overflow: visible;
 	}
-	#Backpack {
-		position: absolute;
-		left: 16px;
-		top: 110.464px;
-		overflow: visible;
-		width: 280px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.6);
-	}
-    #arrow_luggage {
-		overflow: visible;
-		position: absolute;
-        font-size: 70px;
-        color:  #FFA726;
-		left: 875px;
-		top: 105px;
-	}
-	#Any_luggage_requirements_ {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-		width: 494px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: black;
-	}
-.enter_transport_luggage {
-    width: 930px;
-    height: 60px;
-    font-size: 35px;
-    padding-left: 15px;
-    margin-top: -85px;
-    color: rgba(112,112,112,1);
-    top: 1100px;
-    overflow: visible;
-}
+  
 #destination2 {
     position: absolute;
     top: 50px;
