@@ -66,7 +66,7 @@
     }   
 	
 /* content of the current screen */
-	#How {
+	#transportation1 {
 		position: absolute;
 		width: 960px;
 		height: 188px;
@@ -74,45 +74,17 @@
 		top: 912px;
 		overflow: visible;
 	}
-	.Surface {
-		opacity: 0.07;
-		position: absolute;
-		width: 960px;
-		height: 110px;
-		left: 0px;
-		top: 78px;
-		background-color: rgba(0,0,0,1);
-		border-radius: 4px 4px 4px 4px;
-		border: 0;
-		overflow: hidden;
-	}
-	#Plane {
-		position: absolute;
-		left: 16px;
-		top: 111px;
-		overflow: visible;
-		width: 147px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.6);
-		letter-spacing: 0.095px;
-	}
-    #arrow_traveling {
-		overflow: visible;
-		position: absolute;
-        font-size: 70px;
-        color: rgba(0,188,212,1);
-		left: 875px;
-		top: 105px;
-	}
-	#How_are_you_traveling_ {
+#destination1 {
+    position: absolute;
+    top: 50px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #707070;
+}
+	#How_are_you_traveling {
 		position: absolute;
 		left: 0px;
-		top: 0px;
+		top: -40px;
 		overflow: visible;
 		width: 411px;
 		white-space: nowrap;
@@ -123,57 +95,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-	#Lugagge {
+	#transportation2 {
 		position: absolute;
 		width: 960px;
 		height: 188px;
 		left: 60px;
-		top: 1148px;
+		top: 1100px;
 		overflow: visible;
-	}
-	#Backpack {
-		position: absolute;
-		left: 16px;
-		top: 110.464px;
-		overflow: visible;
-		width: 280px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.6);
-	}
-    #arrow_luggage {
-		overflow: visible;
-		position: absolute;
-        font-size: 70px;
-        color: rgba(0,188,212,1);
-		left: 875px;
-		top: 105px;
-	}
-	#Any_luggage_requirements_ {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-		width: 494px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(112,112,112,1);
-	}
-.enter_transport_luggage {
-    width: 930px;
-    height: 60px;
-    font-size: 35px;
-    padding-left: 15px;
-    margin-top: -85px;
-    color: rgba(112,112,112,1);
+}
+#destination2 {
+    position: absolute;
+    top: 50px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #707070;
 }
 
 /*timeline*/
@@ -281,3 +216,85 @@
 		left: 352px;
 		top: 0px;
 	}
+
+
+
+/*Styling Dropdown Menu*/
+.dropdown {
+  width: 930px;
+  height: 80px;
+  top: 110px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-family: Roboto;
+  font-style: normal; 
+  font-weight: normal;
+  font-size: 35px;
+  color: #707070;
+  line-height: 80px;
+  background: #F3F2F9;
+  text-align: left;
+  padding-left: 20px;
+  outline: none;
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding-right: 20px;
+}
+.dropdown .select > i {
+    font-size: 35px;
+    color: #1A237E;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 80px
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #F3F2F9;
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 5px 5px 0 0;
+    background-color: #f8f8f8
+}
+.dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 9
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+} 
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
