@@ -74,42 +74,37 @@
 		font-size: 35px;
 		color: #1A237E;
 	}
-	.Banner_Trip1 {
+	#Banner_Trip1 {
 		position: absolute;
 		width: 796px;
 		height: 369px;
 		left: 142px;
 		top: 126px;
 		overflow: visible;
-	}
+    }
+    .country_img1{
+       width: 796px;
+       height: 369px; 
+       z-index: 3;
+    }
+     .country_img2{
+       width: 796px;
+       height: 369px; 
+       z-index: 1;
+    }
+     .country_img3{
+       width: 796px;
+       height: 369px; 
+       z-index: 1;
+    }
 	.Trip_1 {
 		position: absolute;
 		width: 796px;
 		height: 369px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(255,255,255,1);
+		background-color: transparent;
 		border:  none;
-		overflow: hidden;
-	}
-	.Footer_1 {
-		position: absolute;
-		width: 796px;
-		height: 64px;
-		left: 0px;
-		top: 305px;
-		background-color: rgba(162,162,162,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
-	.Status_bar {
-		position: absolute;
-		width: 720px;
-		height: 24px;
-		left: 17px;
-		top: 326px;
-		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
 		overflow: hidden;
 	}
 	#London {
@@ -124,7 +119,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 45px;
-		color: rgba(162,162,162,1);
+		color: #FFFFFF;
 	}
 	#ID15_07_2019 {
 		position: absolute;
@@ -138,11 +133,11 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
-		color: rgba(162,162,162,1);
+		color:  #FFFFFF;
 	}
 	#Banner_trip2 {
 		position: absolute;
-		width: 108px;
+		width: 796px;
 		height: 369px;
 		left: 972px;
 		top: 126px;
@@ -150,27 +145,17 @@
 	}
 	#Trip_3 {
 		position: absolute;
-		width: 108px;
+		width: 796px;
 		height: 369px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(255,255,255,1);
+		background-color: transparent;
 		border:  none;
-		overflow: hidden;
-	}
-	#footer_2 {
-		position: absolute;
-		width: 108px;
-		height: 64px;
-		left: 0px;
-		top: 305px;
-		background-color: rgba(162,162,162,1);
-		border: 0;
 		overflow: hidden;
 	}
 	#Banner_trip3 {
 		position: absolute;
-		width: 108px;
+		width: 7996px;
 		height: 369px;
 		left: 0px;
 		top: 126px;
@@ -178,11 +163,11 @@
 	}
 	#Trip_3 {
 		position: absolute;
-		width: 108px;
+		width: 796px;
 		height: 369px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(255,255,255,1);
+		background-color: transparent;
 		border:  none;
 		overflow: hidden;
 	}
@@ -252,7 +237,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size:45px;
-		color: rgba(162,162,162,1);
+		color:#FFFFFF;
 	}
 	#ID05_10_2020 {
 		position: absolute;
@@ -266,7 +251,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 30px;
-		color: rgba(162,162,162,1);
+		color: #FFFFFF;
 	}
 	#Banner_trip2 {
 		position: absolute;
@@ -282,7 +267,7 @@
 		height: 369px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(255,255,255,1);
+		background-color: white;
 		border: none;
 		overflow: hidden;
 	}
@@ -300,7 +285,7 @@
 		position: absolute;
 		width: 108px;
 		height: 369px;
-		left: 0px;
+		left: -690px;
 		top: 126px;
 		overflow: visible;
 	}
@@ -310,7 +295,7 @@
 		height: 369px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(255,255,255,1);
+		background-color: transparent;
 		border: none;
 		overflow: hidden;
 	}
