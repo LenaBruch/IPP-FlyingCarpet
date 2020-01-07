@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/fab.css" media="screen"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/flyingcarpet.js" async></script>
 
@@ -115,14 +116,14 @@
 		<div class="Task_Description">
 			<span>Brazil Embassy<br/>Date not later than June 2020</span><br>
 		</div>
-		<div class="Rectangle_Date">
+		<div id="Rectangle_Date1" class="Rectangle_Date">
 		</div>
 		<div class="Task_Date">
 			<span>12<br/>DEC</span>
 		</div>
-		<div id="check_circle">
-            <i class="material-icons" id="check_icon">check_circle</i>
-        </div>
+		<div class="check_no" onclick="taskOneDone();">
+             <i id="task1" class="far fa-circle"></i>
+		</div>
 	</div>
 	<div id="Task_list2">
 		<svg class="Surface_Task" viewBox="0 0 960 195">
@@ -134,15 +135,14 @@
 		<div class="Task_Description">
 			<span>Dr. Müller<br/>Goethestr. 25, 80337 München</span><br>
 		</div>
-		<div class="Rectangle_Date">
+		<div id="Rectangle_Date2" class="Rectangle_Date">
 		</div>
 		<div class="Task_Date">
 			<span>13<br/>SEP</span>
 		</div>
-	   <svg class="check_no">
-			<ellipse fill="white" rx="25" ry="25" cx="18" cy="25">
-			</ellipse>
-		</svg>
+	   <div class="check_no" onclick="taskTwoDone();">
+             <i id="task2" class="far fa-circle check1"></i>
+		</div>
 	</div>
 	<div id="Next_Week">
 		<span>Next Week</span>
@@ -160,15 +160,14 @@
 		<div class="Task_Description">
 			<span>October 'til December 2020<br/>600 € per month</span>
 		</div>
-		<div class="Rectangle_Date">
+		<div id="Rectangle_Date3" class="Rectangle_Date">
 		</div>
 		<div class="Task_Date">
 			<span>17<br/>DEC</span>
 		</div>
-      <svg class="check_no">
-			<ellipse fill="white" rx="25" ry="25" cx="18" cy="25">
-			</ellipse>
-		</svg>
+      <div class="check_no" onclick="taskThreeDone();">
+             <i id="task3" class="far fa-circle"></i>
+		</div>
 	</div>
     <!-- floating action button -->
 	<div class="fab" onclick="popupTaskItem();"> + </div>

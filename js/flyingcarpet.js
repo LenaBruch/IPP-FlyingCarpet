@@ -128,19 +128,19 @@ $('.dropdown .dropdown-menu li').click(function () {
 /** 
 * On the home screen, you can mark all three tasks as done.
 */
-function homeTaskOneDone () {
+function taskOneDone () {
     $('#task1').toggleClass('fas fa-check-circle');
     $('#task1').toggleClass('far fa-circle');
     $('#Rectangle_Date1').toggleClass('Rectangle_Date_Check');
     $('#Rectangle_Date1').toggleClass('Rectangle_Date');
 }
-function homeTaskTwoDone () {
+function taskTwoDone () {
     $('#task2').toggleClass('fas fa-check-circle');
     $('#task2').toggleClass('far fa-circle');
     $('#Rectangle_Date2').toggleClass('Rectangle_Date_Check');
     $('#Rectangle_Date2').toggleClass('Rectangle_Date');
 }
-function homeTaskThreeDone () {
+function taskThreeDone () {
     $('#task3').toggleClass('fas fa-check-circle');
     $('#task3').toggleClass('far fa-circle');
     $('#Rectangle_Date3').toggleClass('Rectangle_Date_Check');

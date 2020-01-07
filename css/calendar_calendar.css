@@ -83,16 +83,7 @@
 		overflow: visible;
         box-shadow: 5px 5px 15px #D8D6D6; 
 	}
-	.Surface_task {
-		overflow: visible;
-		position: absolute;
-		width: 962px;
-		height: 197px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Task_Headline {
+	.Task_Headline {
 		position: absolute;
 		left: 255px;
 		top: 14px;
@@ -106,7 +97,7 @@
 		font-size: 40px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Task1_Description {
+	.Task_Description {
 		position: absolute;
 		left: 255px;
 		top: 79px;
@@ -122,7 +113,7 @@
 		font-size: 25px;
 		color: rgba(0,0,0,0.6);
 	}
-	#Rectangle_Date {
+	.Rectangle_Date {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -132,7 +123,17 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#Task_Date {
+.Rectangle_Date_Check {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: #BCBCBC;
+		border: 0;
+		overflow: hidden;
+	}
+	.Task_Date {
 		position: absolute;
 		left: 21px;
 		top: 4px;
@@ -146,14 +147,17 @@
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
-/* task not completed --> only empty circle*/
-    .check_no {
+/* task not completed --> empty circle */
+	.check_no {
 		overflow: visible;
 		position: absolute;
-		left: 890px;
+		left: 870px;
 		top: 21px;
-        stroke: #534BAE;
+        height: 195px;
+        stroke:  #534BAE;
         stroke-width:4px;
+        font-size: 60px;
+        color: #534BAE;
 	}
 
 /* calendar image */

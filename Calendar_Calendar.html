@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/fab.css" media="screen"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/flyingcarpet.js" async></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -87,24 +88,23 @@
 	</div>
     <!-- task -->
 	<div id="Task_list">
-		<svg class="Surface_task" viewBox="0 0 960 195">
+		<svg viewBox="0 0 960 195">
             <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
 		</svg>
-		<div id="Task_Headline">
+		<div class="Task_Headline">
 			<span>Vaccine Yellow Fever</span>
 		</div>
-		<div id="Task1_Description">
+		<div class="Task_Description">
 			<span>Dr. Müller<br/>Goethestr. 25, 80337 München</span><br>
 		</div>
-		<div id="Rectangle_Date">
+		<div id="Rectangle_Date1" class="Rectangle_Date">
 		</div>
-		<div id="Task_Date">
+		<div class="Task_Date">
 			<span>13<br/>SEP</span>
 		</div>
-	 <svg class="check_no">
-			<ellipse fill="white" rx="25" ry="25" cx="18" cy="25">
-			</ellipse>
-		</svg>
+        <div class="check_no" onclick="taskOneDone();">
+            <i id="task1" class="far fa-circle"></i>
+        </div>
 	</div>
     <!-- floating action button -->
 	<div class="fab" onclick="popupTaskItem();"> + </div>

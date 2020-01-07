@@ -207,14 +207,6 @@
 		overflow: visible;
         box-shadow: 5px 5px 15px #D8D6D6;
 	}
-	.Surface_Task {
-		overflow: visible;
-		position: absolute;
-		width: 962px;
-		height: 197px;
-		left: 0px;
-		top: 0px;
-	}
 	.Task_Headline {
 		position: absolute;
 		left: 255px;
@@ -252,7 +244,17 @@
 		height: 195px;
 		left: 0px;
 		top: 0px;
-		background-color: rgba(210,208,208,1);
+		background-color: #FFA726;
+		border: 0;
+		overflow: hidden;
+	}
+.Rectangle_Date_Check {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: #BCBCBC;
 		border: 0;
 		overflow: hidden;
 	}
@@ -270,17 +272,19 @@
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
-    #check_circle {
-    	position: absolute;
-		left: 880px;
-		top: 20px;
-		overflow: hidden;
-    }
-    #check_icon {
-    color: grey;
-    font-size: 55px;
-    opacity: 50%;
-    }
+
+/* task not completed --> empty circle */
+	.check_no {
+		overflow: visible;
+		position: absolute;
+		left: 870px;
+		top: 21px;
+        height: 195px;
+        stroke:  #534BAE;
+        stroke-width:4px;
+        font-size: 60px;
+        color: #534BAE;
+	}
 
 /* task 2 */
 	#Task_list2 {
@@ -293,62 +297,6 @@
         box-shadow: 5px 5px 15px #D8D6D6;
 	}
 
-/* task 2 */
-	#Task2_Headline {
-		position: absolute;
-		left: 255px;
-		top: 14px;
-		overflow: visible;
-		width: 359px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,0,0,0.871);
-	}
-	#Task2_Description {
-		position: absolute;
-		left: 255px;
-		top: 79px;
-		overflow: hidden;
-		width: 451px;
-		height: 85px;
-		line-height: 40px;
-		margin-top: -7.5px;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(0,0,0,0.6);
-	}
-	#Rectangle_Date2 {
-		position: absolute;
-		width: 196px;
-		height: 195px;
-		left: 0px;
-		top: 0px;
-		background-color: #FFA726;
-		border: 0;
-		overflow: hidden;
-	}
-	#Task2_Date {
-		position: absolute;
-		left: 20px;
-		top: 4px;
-		overflow: visible;
-		width: 149px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 70px;
-		color: rgba(255,255,255,1);
-	}
-
 /* task 3 */
 	#Task_list3 {
 		position: absolute;
@@ -359,60 +307,8 @@
 		overflow: visible;
         box-shadow: 5px 5px 15px #D8D6D6;
 	}
-	#Task3_Headline {
-		position: absolute;
-		left: 255px;
-		top: 14px;
-		overflow: visible;
-		width: 377px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,0,0,0.871);
-	}
-	#Task3_Description {
-		position: absolute;
-		left: 255px;
-		top: 79px;
-		overflow: hidden;
-		width: 451px;
-		height: 85px;
-		line-height: 40px;
-		margin-top: -7.5px;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(0,0,0,0.6);
-	}
-	#Rectangle_Date3 {
-		position: absolute;
-		width: 196px;
-		height: 195px;
-		left: 0px;
-		top: 0px;
-		background-color: #FFA726;
-		border: 0;
-		overflow: hidden;
-	}
-	#Task3_Date {
-		position: absolute;
-		left: 21px;
-		top: 4px;
-		overflow: visible;
-		width: 147px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 70px;
-		color: rgba(255,255,255,1);
-	}
+
+/* styling next week */
 
 	#Next_Week {
 		position: absolute;
@@ -428,6 +324,8 @@
 		font-size: 35px;
 		color: #1A237E;
 	}
+
+/* styling september 2019 */
 	#September_2019 {
 		position: absolute;
 		left: 80px;
@@ -441,16 +339,6 @@
 		font-weight: bold;
 		font-size: 35px;
 		color: #1A237E;
-	}
-
-/* task not completet --> only empty circle */
-   .check_no {
-		overflow: visible;
-		position: absolute;
-		left: 890px;
-		top: 21px;
-        stroke: #534BAE;
-        stroke-width:4px;
 	}
 
 /* CSS popup window task */
