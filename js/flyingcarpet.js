@@ -77,14 +77,6 @@ function withFriend () {
     $('#ellipse_alone').css("fill", "white");
 }
 
-/** 
-* On the home screen, you can mark the first task as done.
-*/
-function markTaskAsDone () {
-    $('#check1').css("fill", "rgba(0,188,212,1)");
-    $('#Rectangle_Date1').css("background-color", "darkgrey");
-    $('#task1_done').css("stroke", "darkgrey");
-}
 
 /**
 * Calendar Screen: First day of the clanedar is monday.
@@ -132,4 +124,26 @@ $('.dropdown .dropdown-menu li').click(function () {
      $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
     });
 
+
+/** 
+* On the home screen, you can mark all three tasks as done.
+*/
+function homeTaskOneDone () {
+    $('#task1').toggleClass('fas fa-check-circle');
+    $('#task1').toggleClass('far fa-circle');
+    $('#Rectangle_Date1').toggleClass('Rectangle_Date_Check');
+    $('#Rectangle_Date1').toggleClass('Rectangle_Date');
+}
+function homeTaskTwoDone () {
+    $('#task2').toggleClass('fas fa-check-circle');
+    $('#task2').toggleClass('far fa-circle');
+    $('#Rectangle_Date2').toggleClass('Rectangle_Date_Check');
+    $('#Rectangle_Date2').toggleClass('Rectangle_Date');
+}
+function homeTaskThreeDone () {
+    $('#task3').toggleClass('fas fa-check-circle');
+    $('#task3').toggleClass('far fa-circle');
+    $('#Rectangle_Date3').toggleClass('Rectangle_Date_Check');
+    $('#Rectangle_Date3').toggleClass('Rectangle_Date');
+}
 

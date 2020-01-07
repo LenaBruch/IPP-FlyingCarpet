@@ -276,7 +276,7 @@
         box-shadow: 5px 5px 15px #D8D6D6;  
 		overflow: visible;
 	}
-	#Task1_Headline {
+	.Task_Headline {
 		position: absolute;
 		left: 255px;
 		top: 14px;
@@ -291,7 +291,7 @@
 	}
 
 	
-    #Task1_Description {
+    .Task_Description {
 		position: absolute;
 		left: 255px;
 		top: 79px;
@@ -307,7 +307,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.18px;
 	}
-	#Rectangle_Date1 {
+	.Rectangle_Date {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -317,7 +317,17 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#Task1_Date {
+.Rectangle_Date_Check {
+		position: absolute;
+		width: 196px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		background-color: #BCBCBC;
+		border: 0;
+		overflow: hidden;
+	}
+	.Task_Date {
 		position: absolute;
 		left: 21px;
 		top: 4px;
@@ -335,11 +345,13 @@
 	.check_no {
 		overflow: visible;
 		position: absolute;
-		left: 890px;
+		left: 870px;
 		top: 21px;
         height: 195px;
         stroke:  #534BAE;
         stroke-width:4px;
+        font-size: 60px;
+        color: #534BAE;
 	}
 
 /* task 2 */
@@ -352,58 +364,6 @@
 		overflow: visible;
         box-shadow: 5px 5px 15px #D8D6D6; 
 	}
-	#Task2_Headline {
-		position: absolute;
-		left: 255px;
-		top: 14px;
-		overflow: visible;
-		width: 377px;
-		white-space: nowrap;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,0,0,0.871);
-	}
-	#Task2_Description {
-		position: absolute;
-		left: 255px;
-		top: 79px;
-		overflow: hidden;
-		width: 451px;
-		height: 85px;
-		line-height: 40px;
-		margin-top: -7.5px;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(0,0,0,0.6);
-		letter-spacing: 0.18px;
-	}
-	#Rectangle_Date2 {
-		position: absolute;
-		width: 196px;
-		height: 195px;
-		left: 0px;
-		top: 0px;
-		background-color: #FFA726;
-		border: 0;
-		overflow: hidden;
-	}
-	#Task2_Date {
-		position: absolute;
-		left: 21px;
-		top: 4px;
-		overflow: visible;
-		width: 147px;
-		white-space: nowrap;
-		text-align: center;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 70px;
-		color: rgba(255,255,255,1);
-	}
 
 /* task 3 */
 	#Task_list3 {
@@ -415,57 +375,7 @@
 		overflow: visible;
         box-shadow: 5px 5px 15px #D8D6D6; 
 	}
-	#Task3_Headline {
-		position: absolute;
-		left: 255px;
-		top: 14px;
-		overflow: visible;
-		width: 377px;
-		white-space: nowrap;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: rgba(0,0,0,0.871);
-	}
-	#Task3_Description {
-		position: absolute;
-		left: 255px;
-		top: 79px;
-		overflow: hidden;
-		width: 451px;
-		height: 85px;
-		line-height: 40px;
-		margin-top: -7.5px;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(0,0,0,0.6);
-	}
-	#Rectangle_Date3 {
-		position: absolute;
-		width: 196px;
-		height: 195px;
-		left: 0px;
-		top: 0px;
-		background-color: #FFA726;
-		border: 0;
-		overflow: hidden;
-	}
-	#Task3_Date {
-		position: absolute;
-		left: 15px;
-		top: 4px;
-		overflow: visible;
-		width: 159px;
-		white-space: nowrap;
-		text-align: center;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 70px;
-		color: rgba(255,255,255,1);
-	}
+
 	#Upcoming_Deadlines {
 		position: absolute;
 		left: 80px;
