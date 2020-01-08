@@ -203,7 +203,7 @@
 		width: 950px;
 		height: 96px;
 		left: 65px;
-		top: 876px;
+		top: 875px;
 		overflow: visible;
 	}
 	#Rectangle_Sunscreen {
@@ -213,8 +213,10 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
+		border:  none;
 		overflow: hidden;
+        box-shadow: 5px 5px 15px #D8D6D6;
+        
 	}
 	#ID_Sunscreen {
 		opacity: 0.5;
@@ -229,7 +231,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(112,112,112,1);
+		color: black;
 	}
     #check_circle {
     	position: absolute;
@@ -238,11 +240,96 @@
 		overflow: hidden;
     }
     #check_icon {
-    color: rgba(0,188,212,1);
+    color: #FFA726;
     font-size: 58px;
     opacity: 50%;
     }
-	#Shirts {
+    /* items of the Hiking Boots */
+	#Hiking_Boots {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 65px;
+		top: 1000px;
+		overflow: visible;
+	}
+	#Rectangle_hiking {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  none;
+		overflow: hidden;
+        box-shadow: 5px 5px 15px #D8D6D6;
+	}
+	#ID10_hiking {
+		position: absolute;
+		left: 29px;
+		top: 22px;
+		overflow: visible;
+		width: 162px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: black;
+	}
+ .check_no {
+		overflow: visible;
+		position: absolute;
+		left: 877px;
+		top: 21px;
+        stroke: #FFA726;
+        stroke-width:4px;
+}
+    /* items of the Flipflops */
+#Towel {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 65px;
+		top: 1125px;
+		overflow: visible;
+	}
+	#Rectangle_towel {
+		position: absolute;
+		width: 950px;
+		height: 96px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		border:  none;
+		overflow: hidden;
+        box-shadow: 5px 5px 15px #D8D6D6;
+	}
+	#ID10_towel {
+		position: absolute;
+		left: 29px;
+		top: 22px;
+		overflow: visible;
+		width: 162px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: black;
+	}
+ .check_no {
+		overflow: visible;
+		position: absolute;
+		left: 877p125x;
+		top: 21px;
+        stroke: #FFA726;
+        stroke-width:4px;
+}	
+	 /* items of the Shirta */
+    #Shirts {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -257,8 +344,9 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
+		border:  none;
 		overflow: hidden;
+        box-shadow: 5px 5px 15px #D8D6D6;
 	}
 	#ID10_Shirts {
 		position: absolute;
@@ -272,16 +360,17 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(162,162,162,1);
+		color: black;
 	}
  .check_no {
 		overflow: visible;
 		position: absolute;
 		left: 877px;
 		top: 21px;
-        stroke: rgba(0,188,212,1);
+        stroke: #FFA726;
         stroke-width:4px;
 	}
+ /* items of the Pants */
 	#Pants {
 		position: absolute;
 		width: 950px;
@@ -297,8 +386,9 @@
 		left: 0px;
 		top: 0px;
 		background-color: rgba(255,255,255,1);
-		border:  1px solid rgba(112,112,112,1);
+		border:  none;
 		overflow: hidden;
+        box-shadow: 5px 5px 15px #D8D6D6;
 	}
 	#ID_Pants {
 		position: absolute;
@@ -312,7 +402,7 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 40px;
-		color: rgba(162,162,162,1);
+		color: black;
 	}
 	.Icon_material_radio_button_unc {
 		overflow: visible;
