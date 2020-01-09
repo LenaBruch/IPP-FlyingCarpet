@@ -65,7 +65,7 @@ function roadtripClicked () {
 * On the "Add Trip - Company" screen the "alone" radio button will be filled blue
 */
 function alone () {
-    $('#ellipse_alone').css("fill", "rgba(0,188,212,1)");
+    $('#ellipse_alone').css("fill", "#FFA726");
     $('#ellipse_with').css("fill", "white");
 }
 
@@ -73,7 +73,7 @@ function alone () {
 * On the "Add Trip - Company" screen the "with" radio button will be filled blue
 */
 function withFriend () {
-    $('#ellipse_with').css("fill", "rgba(0,188,212,1)");
+    $('#ellipse_with').css("fill", "#FFA726");
     $('#ellipse_alone').css("fill", "white");
 }
 
@@ -97,7 +97,7 @@ function calendarAddDestination () {
 * Click on Add destination (Destination Screen): the inspirational image will disappear and a second entry field for a second destination will be displayed.
 */
 function addDestination () {
-    $('#Inspirational_Image').hide();
+    $('#insp_destination').hide();
     $('#From_and_where_to').css("top", "400px");
     $('#Text_Field_from_Destination').css("top", "609px");
     $('#Text_Field_to_Destination').css("top", "609px");
