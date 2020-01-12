@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/flyingcarpet.js" async></script>
 </head>
@@ -105,60 +106,56 @@
     <div class="fab" onclick="popupTaskItem();"> + </div>
     
     <!-- content of the screen: checklist -->
-	<div id="Sunscreen">
-		<div id="Rectangle_Sunscreen">
+    <div id="Pants">
+		<div class="Rectangle_Items">
 		</div>
-		<div id="ID_Sunscreen">
-			<span><s>Sunscreen</s></span>
-		</div>
-        <div id="check_circle">
-            <i class="material-icons" id="check_icon">check_circle</i>
-        </div>
-		
-	</div>
-	<div id="Shirts">
-		<div id="Rectangle_Shirts">
-		</div>
-		<div id="ID10_Shirts">
-			<span>10 Shirts</span>
-		</div>
-		 <svg class="check_no">
-			<ellipse fill="white" rx="22" ry="22" cx="18" cy="25">
-			</ellipse>
-		</svg>
-	</div>
-	<div id="Pants">
-		<div id="Rectangle_Pants">
-		</div>
-		<div id="ID_Pants">
+		<div id="item_name1" class="item_name">
 			<span>Pants</span>
 		</div>
-	 <svg class="check_no">
-			<ellipse fill="white" rx="22" ry="22" cx="18" cy="25">
-			</ellipse>
-		</svg>
-    </div>
-     <div id="Hiking_Boots">
-		<div id="Rectangle_hiking">
+	  <div class="check_no" onclick="item1Check();">
+             <i id="item1" class="far fa-circle"></i>
 		</div>
-		<div id="ID10_hiking">
+    </div>
+    <div id="Shirts">
+		<div class="Rectangle_Items">
+		</div>
+		<div id="item_name2" class="item_name">
+			<span>10 Shirts</span>
+		</div>
+		 <div class="check_no" onclick="item2Check();">
+             <i id="item2" class="far fa-circle"></i>
+		</div>
+	</div>
+	<div id="Sunscreen">
+		<div class="Rectangle_Items">
+		</div>
+		<div id="item_name3" class="item_name">
+			<span>Sunscreen</span>
+		</div>
+         <div class="check_no" onclick="item3Check();">
+             <i id="item3" class="far fa-circle"></i>
+		</div>
+		
+	</div>
+     <div id="Hiking_Boots">
+		<div class="Rectangle_Items">
+		</div>
+		<div id="item_name4" class="item_name">
 			<span>Hiking Boots</span>
 		</div>
-		 <svg class="check_no">
-			<ellipse fill="white" rx="22" ry="22" cx="18" cy="25">
-			</ellipse>
-		</svg>
+		 <div class="check_no" onclick="item4Check();">
+             <i id="item4" class="far fa-circle"></i>
+		</div>
 	</div>
 	  <div id="Towel">
-		<div id="Rectangle_towel">
+		<div class="Rectangle_Items">
 		</div>
-		<div id="ID10_towel">
-			<span>Towel</span>
+		<div id="item_name5" class="item_name">
+			<span id="newName">Towel</span>
 		</div>
-		 <svg class="check_no">
-			<ellipse fill="white" rx="22" ry="22" cx="18" cy="25">
-			</ellipse>
-		</svg>
+		 <div class="check_no" onclick="item5Check();">
+             <i id="item5" class="far fa-circle"></i>
+		</div>
 	</div>
 	
     <!-- Popup window: Only shown when you click the FAB button -->
@@ -183,7 +180,7 @@
 	<div id="Delete_Task">
 		<span>Delete Task</span>
 	</div>
-	<div id="Save_Button" onclick="popupTaskItemHide();">
+	<div id="Save_Button" onclick="popupTaskItemHide(); addItem(); newItem();">
 		<div id="Rectangle_Save">
 		</div>
 		<div id="SAVE">

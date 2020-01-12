@@ -126,7 +126,7 @@ $('.dropdown .dropdown-menu li').click(function () {
 
 
 /** 
-* On the home screen, you can mark all three tasks as done.
+* You can mark all tasks as done.
 */
 function taskOneDone () {
     $('#task1').toggleClass('fas fa-check-circle');
@@ -145,5 +145,71 @@ function taskThreeDone () {
     $('#task3').toggleClass('far fa-circle');
     $('#Rectangle_Date3').toggleClass('Rectangle_Date_Check');
     $('#Rectangle_Date3').toggleClass('Rectangle_Date');
+}
+
+
+/* You can mark items as packed */
+
+function item1Check () {
+    $('#item1').toggleClass('fas fa-check-circle');
+    $('#item1').toggleClass('far fa-circle');
+    $('#item_name1').toggleClass('crossed_out');
+    $('#item_name1').toggleClass('item_name');
+}
+
+function item2Check () {
+    $('#item2').toggleClass('fas fa-check-circle');
+    $('#item2').toggleClass('far fa-circle');
+    $('#item_name2').toggleClass('crossed_out');
+    $('#item_name2').toggleClass('item_name');
+}
+
+function item3Check () {
+    $('#item3').toggleClass('fas fa-check-circle');
+    $('#item3').toggleClass('far fa-circle');
+    $('#item_name3').toggleClass('crossed_out');
+    $('#item_name3').toggleClass('item_name');
+}
+
+function item4Check () {
+    $('#item4').toggleClass('fas fa-check-circle');
+    $('#item4').toggleClass('far fa-circle');
+    $('#item_name4').toggleClass('crossed_out');
+    $('#item_name4').toggleClass('item_name');
+}
+
+function item5Check () {
+    $('#item5').toggleClass('fas fa-check-circle');
+    $('#item5').toggleClass('far fa-circle');
+    $('#item_name5').toggleClass('crossed_out');
+    $('#item_name5').toggleClass('item_name');
+}
+
+
+
+/**
+* Creates new item in packlist
+* @return: div element
+*/
+/*function addItem() {
+    var itemName = $('#textfield_name').val();
+    console.log(itemName);
+    var newItemElement = $('<div>').addClass('New_Item');
+    
+    $('<div>').addClass('Rectangle_Item').appendTo(newItemElement);
+    $('<div>').addClass('New_Item_Name').append('<span>').text(itemName).appendTo(newItemElement);
+    console.log(newItemElement);
+    
+    return newItemElement;
+}*/
+
+/**
+* Sets the name of a new item name in the last item section
+*/
+function newItem () {
+    var itemName = $('#textfield_name').val();
+    
+    $('#newName').text(itemName);
+    $('#textfield_name').val("");
 }
 
