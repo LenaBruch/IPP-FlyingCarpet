@@ -221,7 +221,7 @@
 	#_friend {
 		position: absolute;
 		left: 418px;
-		top: 1175px;
+		top: 1169px;
 		overflow: visible;
 		width: 107px;
 		white-space: nowrap;
@@ -237,7 +237,7 @@
 #Friend_Name {
     font-size: 26pt;
     width: 500px;
-    height: 70px;
+    height: 83px;
     border: none;
     border-width: 1px;
     background-color: #F3F2F9;
