@@ -253,6 +253,23 @@
 		font-size: 30px;
 		color: #FFFFFF;
 	}
+	#icon_edit_name {
+		overflow: visible;
+		position: absolute;
+		left: 710px;
+		top: 250px;
+		font-size: 40px;
+        color: #FFFFFF;
+	}
+#edit {
+    overflow: visible;
+    position: absolute;
+	left: -15px;
+    top: 50px;
+    font-family: Roboto;
+	font-size: 35px;
+    color: #FFFFFF;
+}
 	#Banner_trip2 {
 		position: absolute;
 		width: 108px;

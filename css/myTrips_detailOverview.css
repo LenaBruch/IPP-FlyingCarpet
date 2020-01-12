@@ -1,0 +1,491 @@
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#My_Trips___Information___2 {
+		position: absolute;
+		background: #E5E5E5;
+		width: 1080px;
+		height: 1927px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+
+/*header wording current menu item*/
+	#My_Trips {
+		position: absolute;
+		left: 70px;
+		top: 104px;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 65px;
+		color: rgba(255,255,255,1);
+	}
+/* current menu item is highlighted */
+#current_menuItem {
+    color: #1A237E;
+}
+
+/* Styling header image, trip name and trip date */
+	
+	#Header_Image {
+		position: absolute;
+		width: 1080px;
+		height: 339px;
+		left: 0px;
+		top: 227px;
+		overflow: visible;
+	}
+.country_img1 {
+    width: 1080px;
+    height: 250px;
+}
+	#Brazil_Header {
+		position: absolute;
+		left: 843px;
+		top: 233px;
+		overflow: hidden;
+		width: 153px;
+		height: 66px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		color: rgba(255,255,255,1);
+	}
+	#ID05_10_2020 {
+		position: absolute;
+		left: 843px;
+		top: 325px;
+		overflow: visible;
+		width: 152px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+
+/* Styling content of the screen */
+	#Trip_Overview {
+		position: absolute;
+		left: 70px;
+		top: 530px;
+		overflow: visible;
+		width: 248px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(26,35,126,1);
+	}
+	#Name {
+		position: absolute;
+		left: 70px;
+		top: 650px;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Brazil {
+		position: absolute;
+		left: 252px;
+		top: 650px;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Where__to {
+		position: absolute;
+		left: 70px;
+		top: 764px;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Group_Where_To {
+		position: absolute;
+		width: 688px;
+		height: 83px;
+		left: 252px;
+		top: 764px;
+		overflow: visible;
+	}
+	#Text_Field_from_Destination {
+		position: absolute;
+		width: 345px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Surface_Where {
+		opacity: 0.07;
+		position: absolute;
+		width: 345px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#From {
+		position: absolute;
+		left: 13px;
+		top: 17px;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Text_Field_to_Destination {
+		position: absolute;
+		width: 331px;
+		height: 83px;
+		left: 357px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Surface_To {
+		opacity: 0.07;
+		position: absolute;
+		width: 331px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#To {
+		position: absolute;
+		left: 16px;
+		top: 17px;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Trip_Dates {
+		position: absolute;
+		left: 70px;
+		top: 908px;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Group_Date {
+		position: absolute;
+		width: 688px;
+		height: 83px;
+		left: 252px;
+		top: 908px;
+		overflow: visible;
+	}
+	#Text_Field_Date_Start {
+		position: absolute;
+		width: 345px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Surface_Date1 {
+		opacity: 0.07;
+		position: absolute;
+		width: 315px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#dd_mm_yy {
+		position: absolute;
+		left: 18px;
+		top: 17px;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Text_Field_Date_Destination {
+		position: absolute;
+		width: 333px;
+		height: 83px;
+		left: 355px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Surface_Date2 {
+		opacity: 0.07;
+		position: absolute;
+		width: 333px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#dd_mm_yy_I {
+		position: absolute;
+		left: 18px;
+		top: 17px;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#How_ {
+		position: absolute;
+		left: 77px;
+		top: 1122px;
+		overflow: visible;
+		width: 78px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Surface_How {
+		opacity: 0.07;
+		position: absolute;
+		width: 688px;
+		height: 82px;
+		left: 259px;
+		top: 1106px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Plane {
+		position: absolute;
+		left: 275px;
+		top: 1122px;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#From_A_to_B {
+		position: absolute;
+		left: 259px;
+		top: 1062px;
+		overflow: visible;
+		width: 160px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Type_of_trip {
+		position: absolute;
+		left: 77px;
+		top: 1246px;
+		overflow: visible;
+		width: 115px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Surface_Type {
+		opacity: 0.07;
+		position: absolute;
+		width: 688px;
+		height: 82px;
+		left: 259px;
+		top: 1252px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#City_trip {
+		position: absolute;
+		left: 275px;
+		top: 1270px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#Company {
+		position: absolute;
+		left: 77px;
+		top: 1410px;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(0,0,0,0.871);
+	}
+	#Surface_Company {
+		opacity: 0.07;
+		position: absolute;
+		width: 688px;
+		height: 82px;
+		left: 259px;
+		top: 1395px;
+		background-color: rgba(83,75,174,1);
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Alone {
+		position: absolute;
+		left: 275px;
+		top: 1410px;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.6);
+		letter-spacing: 0.095px;
+	}
+	#icon_edit_name {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 650px;
+		font-size: 40px;
+        color: #534BAE;
+	}
+	#icon_edit_where {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 784px;
+		font-size: 40px;
+        color: #534BAE;
+	}
+	#icon_edit_date {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 928px;
+        font-size: 40px;
+        color: #534BAE;
+	}
+	#icon_edit_how {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 1122px;
+		font-size: 40px;
+        color: #534BAE;
+	}
+	#icon_edit_type {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 1269px;
+		font-size: 40px;
+        color: #534BAE;
+	}
+	#icon_edit_company {
+		overflow: visible;
+		position: absolute;
+		left: 989px;
+		top: 1410px;
+		font-size: 40px;
+        color: #534BAE;
+	}
