@@ -154,8 +154,8 @@
 
     #Add_destination {
 		position: absolute;
-		left: 771px;
-		top: 1205px;
+		left: 720px;
+		top: 1215px;
 		overflow: visible;
 		width: 250px;
         height: 5px;
@@ -173,6 +173,7 @@
 
 /* css displayed calendar if you click in the calendar input fields */
  .ui-datepicker {
+    font-family: Roboto;
     background: white;
     border: 1px solid #555;
 }
@@ -220,7 +221,8 @@
   text-align: center;
   font-size: 35px;
   color:black;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .ui-datepicker-calendar {
   width: 100%;

@@ -8,12 +8,15 @@
    box-shadow: 0 6px 10px 0 #666;
    z-index: 1;
    
-   font-size: 90px;
-   line-height: 150px;
+   font-size: 140px;
    color: white;
    text-align: center;
    
    position: fixed;
    right: 500px;
    bottom: 400px;
+}
+
+.fab i {
+    font-size: 90px;
 }

@@ -34,12 +34,20 @@
 }
 
 /* tab bar: information, checklist, tasks */
-	#tab_bar {
+#Tabs {
+		position: absolute;
+		width: 1080px;
+		height: 135px;
+		left: 0px;
+		top: 410px;
+		overflow: visible;
+	}	
+#tab_bar {
 		position: absolute;
 		width: 1099px;
 		height: 100px;
 		left: 0px;
-		top: 444px;
+		top: 35px;
 		background-color: rgba(255,255,255,1);
 		border:  1px solid #D2D0D0;
 		overflow: hidden;
@@ -49,7 +57,7 @@
 		width: 360px;
 		height: 8px;
 		left: 0px;
-		top: 535px;
+		top: 126px;
 		background-color: #FFA726;
 		border: 0;
 		overflow: hidden;
@@ -57,7 +65,7 @@
 	#INFORMATION {
 		position: absolute;
 		left: 48px;
-		top: 475px;
+		top: 66px;
 		overflow: visible;
 		width: 266px;
 		white-space: nowrap;
@@ -70,8 +78,8 @@
 	}
 	#CHECKLIST {
 		position: absolute;
-		left: 449px;
-		top: 475px;
+		left: 439px;
+		top: 66px;
 		overflow: visible;
 		width: 211px;
 		white-space: nowrap;
@@ -85,7 +93,7 @@
 	#TASKS {
 		position: absolute;
 		left: 859px;
-		top: 475px;
+		top: 66px;
 		overflow: visible;
 		width: 123px;
 		white-space: nowrap;
@@ -106,30 +114,6 @@
 		background-color: rgba(255,255,255,1);
 		border: 0;
 		overflow: hidden;
-	}
-	#Status_1 {
-		position: absolute;
-		width: 718px;
-		height: 24px;
-		left: 70px;
-		top: 367px;
-		background-color: rgba(0,188,212,1);
-		border:  1px solid rgba(112,112,112,1);
-		overflow: hidden;
-	}
-	#ID80 {
-		position: absolute;
-		left: 980px;
-		top: 354px;
-		overflow: visible;
-		width: 39px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(255,255,255,1);
 	}
 	#Brazil {
 		position: absolute;
