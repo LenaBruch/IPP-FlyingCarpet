@@ -120,15 +120,18 @@
 		left: 710px;
 		top: 10px;
 		font-size: 40px;
-        color: #FFFFFF;
-        width:10px;
+        color: white;
+        width:50px;
+        height: 100px;
+        z-index: 4;
 	}
 #edit {
     overflow: visible;
     position: absolute;
-	left: -10px;
-    top: 50px;
+	left: 705px;
+    top: 65px;
     font-family: Roboto;
-	font-size: 30px;
+    font-weight: bold;
+	font-size: 25px;
     color: #FFFFFF;
 }
