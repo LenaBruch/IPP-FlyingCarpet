@@ -217,14 +217,15 @@
 	.Task_Date {
 		position: absolute;
 		left: 20px;
-		top: 6px;
+		top: 25px;
+        line-height:75px; 
 		overflow: visible;
 		width: 149px;
 		white-space: nowrap;
 		text-align: center;
 		font-family: Roboto;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: bold;
 		font-size: 70px;
 		color: rgba(255,255,255,1);
 	}
