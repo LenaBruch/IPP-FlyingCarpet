@@ -30,6 +30,7 @@
         box-shadow: 0px -10px 30px #D8D6D6; 
 
 	}
+/* home */
 	.Home_Button {
 		position: absolute;
 		width: 91px;
@@ -39,10 +40,10 @@
 		overflow: visible;
 	}
 	.material-icons.home_icon { 
-    color: #BCBCBC;
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
+        color: #BCBCBC;
+        font-size: 85px;
+        line-height: 1px;
+        margin-top: 28px;
     }
 	.Home {
 		position: absolute;
@@ -58,6 +59,7 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
+/* calendar */
 	.Calendar_Button {
 		position: absolute;
 		width: 135px;
@@ -81,12 +83,13 @@
 		color: #BCBCBC;
 	}
 	.material-icons.calendar_icon { 
-    color: #BCBCBC;
-    font-size: 70px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 30px;
+        color: #BCBCBC;
+        font-size: 70px;
+        line-height: 1px;
+        margin-top: 28px;
+        margin-left: 30px;
 }
+/* add trip */
 	.Add_Button {
 		position: absolute;
 		width: 126px;
@@ -110,11 +113,12 @@
 		color: #BCBCBC;
 	}
 	.material-icons.add_icon {
-    color: #BCBCBC;
-    font-size: 100px;
-    line-height: 1px;
-    margin-top: 28px;
+        color: #BCBCBC;
+        font-size: 100px;
+        line-height: 1px;
+        margin-top: 28px;
     }
+/* my trips */
 	.My_Trips_Button {
 		position: absolute;
 		width: 129px;
@@ -137,13 +141,14 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
-.material-icons.myTrips_icon {
-    color: #BCBCBC;
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 25px;
+    .material-icons.myTrips_icon {
+        color: #BCBCBC;
+        font-size: 85px;
+        line-height: 1px;
+        margin-top: 28px;
+        margin-left: 25px;
     }
+/* profile */
 	.Profile_Button {
 		position: absolute;
 		width: 97px;
@@ -167,9 +172,9 @@
 		color: #BCBCBC;
 	}
 	.material-icons.profile_icon {
-    color: #BCBCBC;
-    font-size: 85px;
-    line-height: 1px;
-    margin-top: 28px;
-    margin-left: 6px;
+        color: #BCBCBC;
+        font-size: 85px;
+        line-height: 1px;
+        margin-top: 28px;
+        margin-left: 6px;
     }

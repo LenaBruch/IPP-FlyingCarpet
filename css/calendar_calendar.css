@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -123,7 +124,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-.Rectangle_Date_Check {
+    .Rectangle_Date_Check {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -188,6 +189,7 @@
         display: none;
         z-index: 2;
 	}
+/* description*/
 	#Task_Description {
 		position: absolute;
 		left: 63px;
@@ -202,20 +204,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-#textfield_description {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 445px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
-
+    #textfield_description {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 445px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* date and deadline input */
 	#Text_Field_datetask {
 		position: absolute;
 		width: 301px;
@@ -298,6 +300,7 @@
         margin-top: 20px;
         margin-left: 5px;
     }
+/*task name */
 	#Task_Name {
 		position: absolute;
 		left: 63px;
@@ -313,19 +316,20 @@
 		color: rgba(112,112,112,1);
 	}
 	
-#textfield_name {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 225px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_name {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 225px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* assign task */
 	#Assign_to {
 		position: absolute;
 		left: 63px;
@@ -340,19 +344,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-#textfield_asignTo {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 890px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_asignTo {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 890px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* delete task */
 	#trash {
 		position: absolute;
 		width: 50px;
@@ -390,7 +395,7 @@
 		font-size: 28px;
 		color: #1A237E;
 	}
-
+/* save task button */
 	#Save_Button {
 		position: absolute;
 		width: 255px;
@@ -424,6 +429,7 @@
 		font-size: 35px;
 		color: rgba(255,255,255,1);
 	}
+/* cancel button */
 	#Cancel_Button {
 		position: absolute;
 		width: 255px;

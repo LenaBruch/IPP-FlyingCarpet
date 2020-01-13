@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -12,6 +13,7 @@
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
+
 /* header wording of the current menu item */
 	#calendar {
 		position: absolute;
@@ -29,9 +31,9 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
-    color: #1A237E;
-}
+    #current_menuItem {
+        color: #1A237E;
+    }
 
 /* tab bar: calendar, list */
 	#tab_selection {
@@ -73,16 +75,7 @@
 		color: rgba(255,255,255,1);
 	}
 
-/* task 1 */
-	#Task_list1 {
-		position: absolute;
-		width: 960px;
-		height: 195px;
-		left: 60px;
-		top: 530px;
-		overflow: visible;
-        box-shadow: 5px 5px 15px #D8D6D6;  
-	}
+/* general task css */
 	.Task_Headline {
 		position: absolute;
 		left: 255px;
@@ -124,7 +117,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-.Rectangle_Date_Check {
+    .Rectangle_Date_Check {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -160,6 +153,17 @@
         stroke-width:4px;
         font-size: 60px;
         color: #534BAE;
+	}
+
+/* task 1 */
+	#Task_list1 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 60px;
+		top: 530px;
+		overflow: visible;
+        box-shadow: 5px 5px 15px #D8D6D6;  
 	}
 
 /* task 2 */

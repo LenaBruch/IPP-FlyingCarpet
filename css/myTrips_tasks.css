@@ -1,4 +1,5 @@
-	* {
+	/* general page css */
+* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -30,9 +31,9 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
-    color: #1A237E;
-}
+    #current_menuItem {
+        color: #1A237E;
+    }
 
 /* tab bar: information, checklist, tasks */
 	#Tabs {
@@ -105,6 +106,7 @@
 		font-size: 35px;
 		color: #FFA726;
 	}
+
 /* banner: brazil, date, progress bar*/
 	#Banner_Trip1 {
 		position: absolute;
@@ -124,7 +126,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-#Brazil {
+    #Brazil {
 		position: absolute;
 		left: 70px;
 		top: 18px;
@@ -153,16 +155,7 @@
 		color: white;
 	}
 	
-/* task 1 */
-	#Task_list1 {
-		position: absolute;
-		width: 960px;
-		height: 195px;
-		left: 70px;
-		top: 694px;
-		overflow: visible;
-        box-shadow: 5px 5px 15px #D8D6D6;
-	}
+/* general task css */
 	.Task_Headline {
 		position: absolute;
 		left: 255px;
@@ -204,7 +197,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-.Rectangle_Date_Check {
+    .Rectangle_Date_Check {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -242,6 +235,17 @@
         color: #534BAE;
 	}
 
+/* task 1 */
+	#Task_list1 {
+		position: absolute;
+		width: 960px;
+		height: 195px;
+		left: 70px;
+		top: 694px;
+		overflow: visible;
+        box-shadow: 5px 5px 15px #D8D6D6;
+	}
+
 /* task 2 */
 	#Task_list2 {
 		position: absolute;
@@ -264,8 +268,7 @@
         box-shadow: 5px 5px 15px #D8D6D6;
 	}
 
-/* styling next week */
-
+/*  next week */
 	#Next_Week {
 		position: absolute;
 		left: 70px;
@@ -281,7 +284,7 @@
 		color: #1A237E;
 	}
 
-/* styling september 2019 */
+/* september 2019 */
 	#Maerz_2020 {
 		position: absolute;
 		left: 80px;
@@ -298,7 +301,6 @@
 	}
 
 /* CSS popup window task */
-
 	#Popup_Task_Item {
 		position: absolute;
         top: 300px;
@@ -315,6 +317,8 @@
         display: none;
         z-index: 2;
 	}
+
+/* description */
 	#Task_Description {
 		position: absolute;
 		left: 63px;
@@ -329,20 +333,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-#textfield_description {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 445px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
-
+    #textfield_description {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 445px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* date and deadline */
 	#Text_Field_datetask {
 		position: absolute;
 		width: 301px;
@@ -425,6 +429,7 @@
         margin-top: 20px;
         margin-left: 5px;
     }
+/* task name */
 	#Task_Name {
 		position: absolute;
 		left: 63px;
@@ -439,20 +444,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-	
-#textfield_name {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 225px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_name {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 225px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* assign task */
 	#Assign_to {
 		position: absolute;
 		left: 63px;
@@ -467,19 +472,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-#textfield_asignTo {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 890px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_asignTo {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 890px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* delete task */
 	#trash {
 		position: absolute;
 		width: 50px;
@@ -517,7 +523,7 @@
 		font-size: 28px;
 		color: #1A237E;
 	}
-
+/* save task button */
 	#Save_Button {
 		position: absolute;
 		width: 255px;
@@ -551,6 +557,7 @@
 		font-size: 35px;
 		color: rgba(255,255,255,1);
 	}
+/* cancel button */
 	#Cancel_Button {
 		position: absolute;
 		width: 255px;

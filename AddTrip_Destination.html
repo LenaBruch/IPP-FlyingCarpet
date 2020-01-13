@@ -3,20 +3,33 @@
 <head>
 <meta charset="utf-8"/>
 <title>Add Trip – Destination</title>
+    
+<!-- embedd css files for screen, menubar, buttons and header (in that order) -->
 <link rel="stylesheet" type="text/css" href="css/addTrip_destination.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/next_back_button.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
+    
+<!-- embedd material icons font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
+<!-- embedd roboto font -->
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+<!-- embedd jquery -->
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+<!-- embedd javascript file -->
 <script src="js/flyingcarpet.js" async></script>
 </head>
+    
+<!-- screen content and embedd calendar function -->
 <body onload="calendarAddDestination()">
 <div id="ID03_My_Trips___Destination">
-    <!-- menubar -->
+    
+<!-- menubar -->
 	<div class="Bottom_menu">
 		<div class="bottom_bar">
 			<div class="Rectangle_Bottom">
@@ -59,7 +72,8 @@
 			</div>
 		</div>
 	</div>
-    <!-- header -->
+    
+<!-- header -->
 	<div class="App_bar">
 			<svg viewBox="0 0 1080 228">
                 <rect width="1086px" height="400px" fill=" #1A237E"/>
@@ -71,15 +85,18 @@
 			<span>Add Trip</span>
 		</div>
 	</div>
-    <!-- inspirational image placeholder -->
-<div id="insp_destination">
+    
+<!-- inspirational image placeholder -->
+    <div id="insp_destination">
 		<img class="insp_img2" src="pictures/02.Destination.png">
 	</div> 
    
-    <!-- content of the screen: "inputfields" for destination and date, add destination -->
+<!-- content of the screen: "inputfields" for destination and date, add destination -->
+    <!-- question -->
     <div id="From_and_where_to">
 		<span>From and where to are you traveling? </span>
 	</div>
+    <!-- first destination with input fields from and to -->
     <div id="first_destination">
 		<span>First Destination</span>
 	</div>
@@ -91,6 +108,7 @@
 	<div id="Text_Field_to_Destination">
 		 <input type="text" name="" class="destination" placeholder="To">
 	</div>
+    <!-- first destination's travel dates -->
 	<div id="Text_Field_from_Date">
         <i class="material-icons" id="calendar_icon_little">calendar_today
             <input type="text" class="datepicker" placeholder="dd.mm.yy">
@@ -99,12 +117,15 @@
 	<div id="Text_Field_to_Date">
 		<input type="text" class="datepicker" placeholder="dd.mm.yy">
 	</div>
+
+<!-- add destination -->
 	<div id="Add_destination" onclick="addDestination();">
         <i class="material-icons" id="add_destination_icon">add_circle_outline</i>
 		<span>Add destination</span>
 	</div>
     <!-- second start, destination and date are displayed if you click on add destination -->
     <div id="hide_secondDestination">
+    <!-- second destination with input fields from and to -->
    <div id="second_destination">
 		<span>Second Destination</span>
 	</div>
@@ -116,6 +137,7 @@
 	<div id="Text_Field_to_Destination">
 		 <input type="text" name="" class="destination" placeholder="To">
 	</div>
+    <!-- second destination's travel dates -->
 	<div id="Text_Field_from_Date">
         <i class="material-icons" id="calendar_icon_little">calendar_today
             <input type="text" class="datepicker" placeholder="dd.mm.yy">
@@ -124,12 +146,14 @@
 	<div id="Text_Field_to_Date">
 		<input type="text" class="datepicker" placeholder="dd.mm.yy">
 	</div>
+    <!-- add further destination -->
 	<div id="Add_destination" onclick="addDestination();">
         <i class="material-icons" id="add_destination_icon">add_circle_outline</i>
 		<span>Add destination</span>
 	</div>
     </div>
-    <!-- next & back button -->
+    
+<!-- next & back button -->
     <a href="AddTrip_Transportation.html">
 	<div class="Next_Button">
 		<div class="Rectangle_Next">
@@ -148,7 +172,8 @@
 		</div>
 	</div>
     </a>
-    <!-- timeline -->
+    
+<!-- timeline -->
 	<div id="Timeline">
 		<svg class="Linie_3" viewBox="0 0 880 5">
 			<path fill="transparent" stroke="rgba(210,208,208,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linie_3" d="M 0 0 L 880 0">

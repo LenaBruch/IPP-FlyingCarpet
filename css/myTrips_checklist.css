@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -29,9 +30,9 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
-    color: #1A237E;
-}
+    #current_menuItem {
+        color: #1A237E;
+    }
 
 /* tab bar: information, checklist, tasks */
 	#Tabs {
@@ -174,7 +175,7 @@
         box-shadow: 5px 5px 15px #D8D6D6;
         
 	}
-.item_name {
+    .item_name {
 		position: absolute;
 		left: 29px;
 		top: 22px;
@@ -189,7 +190,7 @@
 		color: black;
 	}
  
-    /* item of the Hiking Boots */
+/* item of the Hiking Boots */
 	#Hiking_Boots {
 		position: absolute;
 		width: 950px;
@@ -199,8 +200,8 @@
 		overflow: visible;
 	}
 
-    /* item of the towel */
-#Towel {
+/* item of the towel */
+    #Towel {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -209,7 +210,7 @@
 		overflow: visible;
 	}
 
-	 /* item of the Shirts */
+/* item of the Shirts */
     #Shirts {
 		position: absolute;
 		width: 950px;
@@ -238,7 +239,7 @@
 		top: 1250px;
 		overflow: visible;
 	}
-.New_Item_Name {
+    .New_Item_Name {
 		position: absolute;
 		left: 29px;
 		top: 22px;
@@ -251,7 +252,7 @@
 		font-weight: normal;
 		font-size: 40px;
 		color: black;
-}
+    }
 
 /* item not packed --> empty circle */
 	.check_no {
@@ -264,7 +265,7 @@
         color: #FFA726;
 	}
 /* item name is crossed out if you mark it as packed */
-.crossed_out {
+    .crossed_out {
     	opacity: 0.5;
         text-decoration: line-through;
 		position: absolute;
@@ -279,9 +280,9 @@
 		font-weight: normal;
 		font-size: 40px;
 		color: black;
-}
+    }
 
-/* CSS popup window task */
+/* CSS popup window item */
 
 	#Popup_Task_Item {
 		position: absolute;
@@ -299,7 +300,7 @@
         box-shadow: 10px 10px 15px grey;
         z-index: 2;
 	}
-
+/* item name */
 	#Task_Name {
 		position: absolute;
 		left: 63px;
@@ -314,20 +315,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-
-#textfield_name {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-    top: 225px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_name {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+        top: 225px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* assign item */
 	#Assign_to {
 		position: absolute;
 		left: 63px;
@@ -342,19 +343,20 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-#textfield_assignTo {
-    position: absolute;
-    width: 635px;
-    height: 80px;
-    left: 63px;
-	top: 445px;
-    font-size: 35px;
-    color: rgba(112,112,112,1);
-    border:  1px solid rgba(112,112,112,1);
-    border-width: 1px;
-    padding-left: 15px;
-    outline: none;
-}
+    #textfield_assignTo {
+        position: absolute;
+        width: 635px;
+        height: 80px;
+        left: 63px;
+	   top: 445px;
+        font-size: 35px;
+        color: rgba(112,112,112,1);
+        border:  1px solid rgba(112,112,112,1);
+        border-width: 1px;
+        padding-left: 15px;
+        outline: none;
+    }
+/* delete item */
 	#trash {
 		position: absolute;
 		width: 50px;
@@ -393,6 +395,7 @@
 		font-size: 28px;
 		color: #1A237E;
 	}
+/* save item button */
 	#Save_Button {
 		position: absolute;
 		width: 255px;
@@ -426,6 +429,7 @@
 		font-size: 35px;
 		color: rgba(255,255,255,1);
 	}
+/* cancel button */
 	#Cancel_Button {
 		position: absolute;
 		width: 255px;

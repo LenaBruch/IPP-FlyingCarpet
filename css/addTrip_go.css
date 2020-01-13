@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -28,10 +29,69 @@
 		font-size: 65px;
 		color: rgba(255,255,255,1);
 	}
+
 /* current menu item is highlighted */
-#current_menuItem {
+    #current_menuItem {
     color: #1A237E;
 }
+
+	
+/* text of the save button */
+	#SAVE {
+		position: absolute;
+		left: 79px;
+		top: 17px;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+
+/* inspirational image */
+	#insp_go {
+    position: absolute;
+    left: 130px;
+    top: 400px;
+}
+.insp_img6{
+    width: 800px;
+}
+	
+/* content of the current screen */
+	#text_hooray {
+		position: absolute;
+		left: 103px;
+		top: 1042px;
+		overflow: visible;
+		width: 875px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight:normal;
+		font-size: 50px;
+		color: #FFA726;
+	}
+	#text_save_your_process {
+		position: absolute;
+		left: 180px;
+		top: 1126px;
+		overflow: visible;
+		width: 670px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: black;
+	}
+
 /* timeline */
 	#Timeline {
 		position: absolute;
@@ -136,60 +196,4 @@
 		height: 30px;
 		left: 352px;
 		top: 0px;
-	}
-	
-/* text of the save button */
-	#SAVE {
-		position: absolute;
-		left: 79px;
-		top: 17px;
-		overflow: visible;
-		width: 96px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(255,255,255,1);
-	}
-
-/* inspirational image */
-	#insp_go {
-    position: absolute;
-    left: 130px;
-    top: 400px;
-}
-.insp_img6{
-    width: 800px;
-}
-	
-/* content of the current screen */
-	#text_hooray {
-		position: absolute;
-		left: 103px;
-		top: 1042px;
-		overflow: visible;
-		width: 875px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight:normal;
-		font-size: 50px;
-		color: #FFA726;
-	}
-	#text_save_your_process {
-		position: absolute;
-		left: 180px;
-		top: 1126px;
-		overflow: visible;
-		width: 670px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: black;
 	}

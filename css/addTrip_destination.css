@@ -1,4 +1,5 @@
-	* {
+/* general page css */
+* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -40,10 +41,10 @@
     left: -250px;
     top: -5px;
 }
-
 .insp_img2{
     width: 1500px;
 }
+
 /* content of the screen */
 	#From_and_where_to {
 		position: absolute;
@@ -59,6 +60,42 @@
 		font-size: 40px;
 		color: #000000;
 	}
+    .destination {
+    font-size: 26pt;
+    width: 400px;
+    height: 83px;
+    background: #F3F2F9;
+    padding-left: 15px;
+    outline: none;
+    }
+
+    #first_destination {
+		position: absolute;
+		left: 60px;
+		top: 500px;
+		overflow: visible;
+		width: 677px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: grey;
+        display: none;
+	}
+
+/* icons for input fields */
+    #location_icon {
+    color: grey;
+    font-size: 45px;
+    }
+    #calendar_icon_little {
+    color: grey;
+    font-size: 45px;
+    }
+
+/* input fields*/
 	#Text_Field_from_Destination {
 		position: absolute;
 		width: 510px;
@@ -67,19 +104,7 @@
 		top: 1021px;
 		overflow: visible;
 	}
-.destination {
-    font-size: 26pt;
-    width: 400px;
-    height: 83px;
-    background: #F3F2F9;
-    padding-left: 15px;
-    outline: none;
-}
 
-#location_icon {
-    color: grey;
-    font-size: 45px;
-}
 	#Text_Field_to_Destination {
 		position: absolute;
 		width: 425px;
@@ -96,11 +121,7 @@
 		top: 1176px;
 		overflow: visible;
 	}
-#calendar_icon_little {
-    color: grey;
-    font-size: 45px;
-}
-	
+
 	#Text_Field_to_Date {
 		position: absolute;
 		width: 425px;
@@ -110,29 +131,7 @@
 		overflow: visible;
 	}
 
-.datepicker {
-    font-size: 26pt;
-    width: 400px;
-    height: 83px;
-    background: #F3F2F9;
-    padding-left: 15px;
-    outline: none;
-}
-#first_destination {
-		position: absolute;
-		left: 60px;
-		top: 500px;
-		overflow: visible;
-		width: 677px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: grey;
-        display: none;
-	}
+/* add second destination */
 #second_destination {
 		position: absolute;
 		left: 60px;
@@ -148,11 +147,12 @@
 		color: grey;
         display: none;
 	}
+
 #hide_secondDestination {
     display: none;
 }
 
-    #Add_destination {
+#Add_destination {
 		position: absolute;
 		left: 720px;
 		top: 1215px;
@@ -172,6 +172,15 @@
 
 
 /* css displayed calendar if you click in the calendar input fields */
+.datepicker {
+    font-size: 26pt;
+    width: 400px;
+    height: 83px;
+    background: #F3F2F9;
+    padding-left: 15px;
+    outline: none;
+}
+
  .ui-datepicker {
     font-family: Roboto;
     background: white;

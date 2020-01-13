@@ -3,22 +3,37 @@
 <head>
 <meta charset="utf-8"/>
 <title>Calendar - List</title>
+    
+<!-- embedd css files for screen, menubar, header and FAB (in that order) -->
 <link rel="stylesheet" type="text/css" href="css/calendar_list.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/fab.css" media="screen"/>  
+    
+<!-- embedd material icons font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    
+<!-- embedd font awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<!-- embedd roboto font -->
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+<!-- embedd javascript file -->
 <script src="js/flyingcarpet.js" async></script>
+    
+<!-- embedd jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+<!-- embedd javascript file -->
 <script src="js/flyingcarpet.js" async></script>
-
 </head>
+    
 <body>
 <div id="Calendar___List">
-    <!-- header -->
+    
+<!-- header -->
 	<div class="App_bar">
 		<svg class="app_bar_1" viewBox="0 0 1080 330">
 			 <rect width="1086px" height="330px" fill="#1A237E"/>
@@ -30,7 +45,8 @@
 		<span>Calendar</span>
 	</div>
     </div>
-    <!-- tabbar -->
+    
+<!-- tabbar -->
     <div id="tab_selection">
     </div>
     <a href ="Calendar_Calendar.html">
@@ -41,7 +57,8 @@
     <div id="LIST">
         <span>LIST</span>
     </div>
-    <!-- menubar -->
+    
+<!-- menubar -->
 	<div class="Bottom_menu">
 		<div class="bottom_bar">
 			<div class="Rectangle_Bottom">
@@ -86,10 +103,12 @@
 			</div>
 		</div>
 	</div>
-    <!-- floating action button -->
+    
+<!-- floating action button -->
 	<div class="fab" onclick="popupTaskItem();"> + </div>
     
-    <!-- content of the screen: tasks -->
+<!-- content of the screen: tasks -->
+    <!-- task 1 -->
 	<div id="Task_list1">
 		<svg viewBox="0 0 960 195">
             <rect width="960px" height="195px" fill ="white"/>
@@ -109,6 +128,7 @@
              <i id="task1" class="far fa-circle"></i>
 		</div>
 	</div>
+    <!-- task 2 -->
 	<div id="Task_list2">
 		<svg viewBox="0 0 960 195">
 			 <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
@@ -128,6 +148,7 @@
              <i id="task2" class="far fa-circle check1"></i>
 		</div>
 	</div>
+    <!-- task 3 -->
 	<div id="Task_list3">
 		<svg viewBox="0 0 960 195">
             <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
@@ -147,25 +168,29 @@
              <i id="task3" class="far fa-circle"></i>
 		</div>
 	</div>
+    <!-- headlines / timeframes for tasks -->
 	<div id="Februar_2020">
 		<span>Februar 2020</span>
 	</div>
 	<div id="Mai_2020">
 		<span>Mai 2020</span>
 	</div>
-    <!-- search icon -->
+    
+<!-- search icon -->
 	<div id="search">
 		<i class="material-icons" id="search_icon">search</i>
 	</div>
     
-    <!-- Popup window: Only shown when you click the FAB button -->
+<!-- Popup window: Only shown when you click the FAB button -->
     <div id="Popup_Task_Item">
+    <!-- task description -->
 	<div id="Task_Description">
 		<span>Task Description</span>
 	</div>
 	<div id="description_rect">
         <input type="text" name="" id="textfield_description" placeholder="">
 	</div>
+    <!-- date and deadline -->
 	<div id="Text_Field_datetask">
 		<div class="Surface">
 		</div>
@@ -185,18 +210,21 @@
 		</div>
         <i class="material-icons" id="time_popup">access_time</i>
 	</div>
+    <!-- task name -->
 	<div id="Task_Name">
 		<span>Task Name</span>
 	</div>
 	<div id="name_rect">
         <input type="text" name="" id="textfield_name" placeholder="">
 	</div>
+    <!-- assign task -->
 	<div id="Assign_to">
 		<span>Assign to</span>
 	</div>
     <div id="assign_to_rect">
         <input type="text" name="" id="textfield_asignTo" placeholder="@Friend">
 	</div>
+    <!-- delete task -->
 	<div id="trash">
 		<div id="rectangle">
 		</div>
@@ -205,6 +233,7 @@
 	<div id="Delete_Task">
 		<span>Delete Task</span>
 	</div>
+    <!-- save task button -->
 	<div id="Save_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Save">
 		</div>
@@ -212,6 +241,7 @@
 			<span>SAVE</span>
 		</div>
 	</div>
+    <!-- cancel button -->
 	<div id="Cancel_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Cancel">
 		</div>

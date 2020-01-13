@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -29,18 +30,18 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
-    color: #1A237E;
-}
+    #current_menuItem {
+        color: #1A237E;
+    }  
 /* inspirational image */
-#insp_type {
-    position: absolute;
-    left: 250px;
-    top: 365px;
-}
-.insp_img4{
-    width: 630px;
-}
+    #insp_type {
+        position: absolute;
+        left: 250px;
+        top: 365px;
+    }
+    .insp_img4{
+        width: 630px;
+    }
 	
 /* text of "Waht are you doing?"*/
 	#What_are_you_doing_ {
@@ -58,6 +59,295 @@
 		color: black;
 		letter-spacing: 0.095px;
 	}
+
+/*buttons to enter the type of your trip */
+/* city trip */
+	.citytrip_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 890px;
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+	.citytrip_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 890px;
+		background-color: #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		overflow: hidden;
+        
+	}
+	#City_Trip {
+		position: absolute;
+		left: 236px;
+		top: 1060px;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: #FFFFFF;
+	}
+	#city_icon {
+		position: absolute;
+		width: 88px;
+		height: 70px;
+		left: 255px;
+		top: 970px;
+		overflow: visible;   
+	}
+/* active trip */
+	.active_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 890px;
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+    .active_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 890px;
+		background-color: #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Active {
+		position: absolute;
+		left: 505px;
+		top: 1060px;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: #FFFFFF;
+	}
+	#active_icon {
+		position: absolute;
+		width: 52.563px;
+		height: 70px;
+		left: 514px;
+		top: 979px;
+		overflow: visible;
+	}
+/* backpacking trip */
+	.backpacking_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 890px;
+		background-color:  #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+	.backpacking_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 890px;
+		background-color:  #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: none;
+	}
+	#Backpacking {
+		position: absolute;
+		left: 728px;
+		top: 1060px;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: #FFFFFF;
+	}
+	#backpacking_icon {
+		position: absolute;
+		width: 45.692px;
+		height: 52px;
+		left: 768px;
+		top: 975px;
+		overflow: visible;
+	}
+/* wellness trip */
+	.wellness_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 1130px;
+		background-color:  #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+    .wellness_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 200px;
+		top: 1130px;
+		background-color: #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: none; 
+        
+	}
+	#Wellness {
+		position: absolute;
+		left: 230px;
+		top: 1300px;
+		overflow: visible;
+		width: 82px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: #FFFFFF;
+	}
+	#wellness_icon {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 255px;
+		top: 1210px;
+		overflow: visible;
+	}
+/* beach trip */
+	.beach_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 1130px;
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+	.beach_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 456px;
+		top: 1130px;
+		background-color: #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+	}
+	#Beach {
+		position: absolute;
+		left: 505px;
+		top: 1300px;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: #FFFFFF;
+	}
+	#beach_icon {
+		position: absolute;
+		width: 45px;
+		height: 36px;
+		left: 517px;
+		top: 1210px;
+		overflow: visible;
+	}
+/* roadtrip */
+	.roadtrip_rect {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 1130px;
+		background-color: #5C73B5;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+        box-shadow: 4px 4px 5px #A2A2A2;
+	}
+    .roadtrip_rect_clicked {
+		position: absolute;
+		width: 168px;
+		height: 213px;
+		left: 712px;
+		top: 1130px;
+		background-color: #FFA726;
+		border-radius: 3px 3px 3px 3px;
+		border: 0;
+		overflow: hidden;
+    
+	}
+	#Roadtrip {
+		position: absolute;
+		left: 745px;
+		top: 1300px;
+		overflow: visible;
+		width: 78px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: #FFFFFF;
+	}
+	#roadtrip_icon {
+		position: absolute;
+		width: 45px;
+		height: 36px;
+		left: 773px;
+		top: 1210px;
+		overflow: visible;
+	}
+    .type_icon {
+        margin-top: -35px;
+        margin-left: -22px;
+        width: 100px;
+        height: 100px;
+    }
+
 /*timeline*/
 	#Timeline {
 		position: absolute;
@@ -163,286 +453,3 @@
 		left: 352px;
 		top: 0px;
 	}
-
-/*buttons to enter the type of your trip */
-	.citytrip_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 200px;
-		top: 890px;
-		background-color: #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-	.citytrip_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 200px;
-		top: 890px;
-		background-color: #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		overflow: hidden;
-        
-	}
-	#City_Trip {
-		position: absolute;
-		left: 236px;
-		top: 1060px;
-		overflow: visible;
-		width: 76px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: #FFFFFF;
-	}
-	#city_icon {
-		position: absolute;
-		width: 88px;
-		height: 70px;
-		left: 255px;
-		top: 970px;
-		overflow: visible;   
-	}
-	.active_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 456px;
-		top: 890px;
-		background-color: #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-.active_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 456px;
-		top: 890px;
-		background-color: #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-	}
-	#Active {
-		position: absolute;
-		left: 505px;
-		top: 1060px;
-		overflow: visible;
-		width: 58px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: #FFFFFF;
-	}
-	#active_icon {
-		position: absolute;
-		width: 52.563px;
-		height: 70px;
-		left: 514px;
-		top: 979px;
-		overflow: visible;
-	}
-	.backpacking_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 712px;
-		top: 890px;
-		background-color:  #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-	.backpacking_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 712px;
-		top: 890px;
-		background-color:  #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: none;
-	}
-	#Backpacking {
-		position: absolute;
-		left: 728px;
-		top: 1060px;
-		overflow: visible;
-		width: 117px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 23px;
-		color: #FFFFFF;
-	}
-	#backpacking_icon {
-		position: absolute;
-		width: 45.692px;
-		height: 52px;
-		left: 768px;
-		top: 975px;
-		overflow: visible;
-	}
-	.wellness_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 200px;
-		top: 1130px;
-		background-color:  #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-.wellness_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 200px;
-		top: 1130px;
-		background-color: #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: none; 
-        
-	}
-	#Wellness {
-		position: absolute;
-		left: 230px;
-		top: 1300px;
-		overflow: visible;
-		width: 82px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: #FFFFFF;
-	}
-	#wellness_icon {
-		position: absolute;
-		width: 48px;
-		height: 48px;
-		left: 255px;
-		top: 1210px;
-		overflow: visible;
-	}
-	
-	.beach_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 456px;
-		top: 1130px;
-		background-color: #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-	.beach_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 456px;
-		top: 1130px;
-		background-color: #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-	}
-	#Beach {
-		position: absolute;
-		left: 505px;
-		top: 1300px;
-		overflow: visible;
-		width: 57px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: #FFFFFF;
-	}
-	#beach_icon {
-		position: absolute;
-		width: 45px;
-		height: 36px;
-		left: 517px;
-		top: 1210px;
-		overflow: visible;
-	}
-	.roadtrip_rect {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 712px;
-		top: 1130px;
-		background-color: #5C73B5;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-        box-shadow: 4px 4px 5px #A2A2A2;
-	}
-.roadtrip_rect_clicked {
-		position: absolute;
-		width: 168px;
-		height: 213px;
-		left: 712px;
-		top: 1130px;
-		background-color: #FFA726;
-		border-radius: 3px 3px 3px 3px;
-		border: 0;
-		overflow: hidden;
-    
-	}
-	#Roadtrip {
-		position: absolute;
-		left: 745px;
-		top: 1300px;
-		overflow: visible;
-		width: 78px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: #FFFFFF;
-	}
-	#roadtrip_icon {
-		position: absolute;
-		width: 45px;
-		height: 36px;
-		left: 773px;
-		top: 1210px;
-		overflow: visible;
-	}
-    .type_icon {
-        margin-top: -35px;
-        margin-left: -22px;
-        width: 100px;
-        height: 100px;
-    }
