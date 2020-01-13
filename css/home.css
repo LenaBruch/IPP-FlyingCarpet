@@ -77,17 +77,20 @@
 /* carrousel with all your created trips */
     #carrousel-home{
         position: absolute;
-        top:330px;
+        top:350px;
+        z-index: 2;
 }
-	#Rectangle_Carrousel {
+	.Rectangle_Carrousel {
 		position: absolute;
-        left: 0px;
-		top: 0px;
+        left: 2px;
+		top: 232px;
 		background-color: #EBEDEE;
 		border: 0;
 		overflow: hidden;
+         width: 1080px;
+		height: 530px;
 	}
-.My_Trips_Carrousel{
+.My_Trips_Carrousel1{
         width: 1080px;
 		height: 460px;
 
@@ -95,7 +98,7 @@
 	#My_Trips {
 		position: absolute;
 		left: 60px;
-		top: 260px;
+		top: 270px;
 		overflow: visible;
 		width: 157px;
 		white-space: nowrap;
