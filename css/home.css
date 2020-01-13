@@ -66,10 +66,7 @@
 		color: rgba(255,255,255,1);
 	}
 	#Profile_picture {
-		position: absolute;
 		overflow: visible;
-		width: 155px;
-		height: 155px;
 		left: 843px;
 		top: 20px;
         z-index: 4;
@@ -83,7 +80,7 @@
 /* carrousel with all your created trips */
     #carrousel-home{
         position: absolute;
-        top:350px;
+        top:320px;
         z-index: 6;
 }
 	.Rectangle_Carrousel {
@@ -94,7 +91,7 @@
 		border: 0;
 		overflow: hidden;
          width: 1080px;
-		height: 530px;
+		height: 490px;
 	}
 .My_Trips_Carrousel1{
         width: 1080px;
@@ -104,7 +101,7 @@
 	#My_Trips {
 		position: absolute;
 		left: 60px;
-		top: 270px;
+		top: 250px;
 		overflow: visible;
 		width: 157px;
 		white-space: nowrap;
@@ -114,112 +111,22 @@
 		font-size: 40px;
 		color: #1A237E;
 	}
-	#Banner_Trip1 {
+/* Title Upcoming datelines */
+	#Upcoming_Deadlines {
 		position: absolute;
-		width: 796px;
-		height: 289px;
-		left: 142px;
-		top: 124px;
+		left: 60px;
+		top: 750px;
 		overflow: visible;
-	}
-	#Trip_1 {
-		position: absolute;
-		width: 796px;
-		height: 289px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(255,255,255,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#ID80 {
-		position: absolute;
-		left: 742px;
-		top: 241px;
-		overflow: visible;
-		width: 39px;
+		width: 381px;
 		white-space: nowrap;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(255,255,255,1);
-	}
-	#Brazil {
-		position: absolute;
-		left: 180px;
-		top: 142px;
-		overflow: hidden;
-		width: 153px;
-		height: 66px;
 		text-align: left;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 60px;
-		color: #FFFFFF;
-        z-index: 2;
+		font-size: 40px;
+		color: #1A237E;
+        z-index: 6;
 	}
-	#ID05_10_2020 {
-		position: absolute;
-		left: 180px;
-		top: 210px;
-		overflow: visible;
-		width: 152px;
-		white-space: nowrap;
-		text-align: left;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 30px;
-		color: #FFFFFF;
-        z-index: 3;
-	}
-	#Banner_trip2 {
-		position: absolute;
-		width: 108px;
-		height: 289px;
-		left: 972px;
-		top: 124px;
-		overflow: visible;
-	}
-
-    #Trip_2 {
-		position: absolute;
-		width: 108px;
-		height: 289px;
-		left: 0px;
-		top: 0px;
-		background-color: rgba(255,255,255,1);
-		border: 0;
-		overflow: hidden;
-	}
-	#ID1 {
-		position: absolute;
-		overflow: visible;
-		width: 20px;
-		height: 20px;
-		left: 530px;
-		top: 428px;
-        z-index: 4;
-	}
-	#ID2 {
-		position: absolute;
-		overflow: visible;
-		width: 20px;
-		height: 20px;
-		left: 570px;
-		top: 428px;
-        z-index: 4;
-	}
-	#ID3 {
-		position: absolute;
-		overflow: visible;
-		width: 20px;
-		height: 20px;
-		left: 490px;
-		top: 428px;
-        z-index: 4;
-	}
-
+	
 /* task 1 */
 	#Task_list1 {
 		position: absolute;
@@ -284,14 +191,15 @@
 	.Task_Date {
 		position: absolute;
 		left: 21px;
-		top: 6px;
+		top: 25px;
 		overflow: visible;
 		width: 147px;
-		white-space: nowrap;
+        line-height:75px; 
 		text-align: center;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 70px;
+        font-family: Roboto;
 		color: rgba(255,255,255,1);
 	}
 
@@ -330,17 +238,3 @@
         box-shadow: 5px 5px 15px #D8D6D6; 
 	}
 
-	#Upcoming_Deadlines {
-		position: absolute;
-		left: 80px;
-		top: 736px;
-		overflow: visible;
-		width: 381px;
-		white-space: nowrap;
-		text-align: left;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 40px;
-		color: #1A237E;
-
-	}

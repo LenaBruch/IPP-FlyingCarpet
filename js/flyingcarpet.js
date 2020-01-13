@@ -212,4 +212,7 @@ function newItem () {
     $('#newName').text(itemName);
     $('#textfield_name').val("");
 }
-
+/** Carrousel Interval */
+$('.carousel').carousel({
+  interval: 0
+});
