@@ -75,70 +75,27 @@
 	}
 
 /* carrousel with all your created trips */
-    #img_Brazil{
+    #carrousel-home{
         position: absolute;
-        top:124px;
-        left:142px;
-        z-index: 1;
-        overflow: visible;
-    }
-    .country_img1{
-        width: 796px;
-        height: 289px;
-    }
-
-    #img_London{
-        position: absolute;
-        top:124px;
-        left:978px;
-        z-index: 1;
-        overflow: visible;
-    }
-    .country_img2{
-        width: 796px;
-        height: 289px;
+        top:330px;
 }
-    #img_Rome{
-        position: absolute;
-        top:124px;
-        left:-686px;
-        z-index: 1;
-        overflow: visible;
-    }
-    .country_img3{
-        width: 796px;
-        height: 289px;
-}
-	#My_trips_carrousel {
-		position: absolute;
-		width: 1080px;
-		height: 460px;
-		left: 0px;
-		top: 229px;
-		overflow: visible;
-	}
-	#My_Trips_Carrousel {
-		position: absolute;
-		width: 1080px;
-		height: 460px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
 	#Rectangle_Carrousel {
 		position: absolute;
-		width: 1080px;
-		height: 460px;
-		left: 0px;
+        left: 0px;
 		top: 0px;
 		background-color: #EBEDEE;
 		border: 0;
 		overflow: hidden;
 	}
+.My_Trips_Carrousel{
+        width: 1080px;
+		height: 460px;
+
+}
 	#My_Trips {
 		position: absolute;
 		left: 60px;
-		top: 35px;
+		top: 260px;
 		overflow: visible;
 		width: 157px;
 		white-space: nowrap;
