@@ -72,13 +72,14 @@
 		height: 155px;
 		left: 843px;
 		top: 44px;
+        z-index: 4;
 	}
 
 /* carrousel with all your created trips */
     #carrousel-home{
         position: absolute;
         top:350px;
-        z-index: 2;
+        z-index: 6;
 }
 	.Rectangle_Carrousel {
 		position: absolute;
