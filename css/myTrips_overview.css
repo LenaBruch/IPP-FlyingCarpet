@@ -35,7 +35,7 @@
 		color: rgba(255,255,255,1);
 	}
 /*content of the current screen*/
-/* carousel 2*/
+/* carousel 1 */
     #carrousel{
         position: absolute;
         top: 1090px;
@@ -46,7 +46,7 @@
         top:390px;
         z-index: 3;
 }
-	#My_trips_carrousel2 {
+	#My_trips_carrousel1 {
 		position: absolute;
 		width: 1080px;
 		height: 530px;
@@ -84,8 +84,11 @@
 		font-size: 35px;
 		color: #1A237E;
 	}
-/*carousel 1 */
-	#My_trips_carrousel1 {
+
+/*carousel 2 */
+	
+	#My_trips_carrousel2 {
+
 		position: absolute;
 		width: 1080px;
 		height: 530px;
