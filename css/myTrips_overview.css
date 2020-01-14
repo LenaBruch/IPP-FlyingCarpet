@@ -45,7 +45,7 @@
         top:390px;
         z-index: 3;
 }
-	#My_trips_carrousel2 {
+	#My_trips_carrousel1 {
 		position: absolute;
 		width: 1080px;
 		height: 530px;
@@ -84,7 +84,7 @@
 		color: #1A237E;
 	}
 	
-	#My_trips_carrousel1 {
+	#My_trips_carrousel2 {
 		position: absolute;
 		width: 1080px;
 		height: 530px;
