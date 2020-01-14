@@ -3,20 +3,34 @@
 <head>
 <meta charset="utf-8"/>
 <title>My Trips - Checklist</title>
+    
+<!-- embedd css files for screen, menubar, header and FAB (in that order) -->
 <link rel="stylesheet" href="css/myTrips_checklist.css" media="screen"/>
 <link rel="stylesheet"  href="css/menubar.css" media="screen"/>
 <link rel="stylesheet"  href="css/header.css" media="screen"/>
 <link rel="stylesheet"  href="css/fab.css" media="screen" />
+    
+<!-- embedd material icons font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    
+<!-- embedd roboto font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    
+<!-- embedd font awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<!-- embedd jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+<!-- embedd javascript file -->
 <script src="js/flyingcarpet.js" async></script>
 </head>
+    
 <body>
 <div id="My_Trips___Checklist">
-    <!-- header -->
+
+<!-- header -->
 	<div class="App_bar">
 		<svg viewBox="0 0 1080 228">
             <rect width="1086px" height="400px" fill="#1A237E"/>
@@ -28,7 +42,8 @@
 	<div class="FliyingCarpet">
 		<span>FlyingCarpet</span>
 	</div>
-    <!-- tabbar -->
+    
+<!-- tabbar -->
 	<div id="Tabs">
 		<div id="tab_bar">
 		</div>
@@ -48,7 +63,8 @@
 		</div>
         </a>
 	</div>
-    <!-- trip details: name, daten & progress --> 
+    
+<!-- trip details: name, daten & progress --> 
 	<div id="Banner_Trip1">
 		<div id="Trip_1"><img class="country_img1" src="pictures/01.Brazil_without.png">
 		</div>
@@ -59,7 +75,8 @@
 			<span>05.10.2020</span>
 		</div>
 	</div>
-    <!-- menubar -->
+    
+<!-- menubar -->
 	<div class="Bottom_menu">
 		<div class="bottom_bar">
 			<div class="Rectangle_Bottom">
@@ -102,12 +119,14 @@
 			</div>
 		</div>
 	</div>
-    <!-- floating action button -->
+    
+<!-- floating action button -->
     <div class="fab" onclick="popupTaskItem();">
         <i class="material-icons">add</i>
     </div>
     
-    <!-- content of the screen: checklist -->
+<!-- content of the screen: checklist -->
+    <!-- pants -->
     <div id="Pants">
 		<div class="Rectangle_Items">
 		</div>
@@ -118,6 +137,7 @@
              <i id="item1" class="far fa-circle"></i>
 		</div>
     </div>
+    <!-- shirts -->
     <div id="Shirts">
 		<div class="Rectangle_Items">
 		</div>
@@ -128,6 +148,7 @@
              <i id="item2" class="far fa-circle"></i>
 		</div>
 	</div>
+    <!-- sunscreen -->
 	<div id="Sunscreen">
 		<div class="Rectangle_Items">
 		</div>
@@ -137,7 +158,7 @@
          <div class="check_no" onclick="item3Check();">
              <i id="item3" class="far fa-circle"></i>
 		</div>
-		
+    <!-- hiking boots -->
 	</div>
      <div id="Hiking_Boots">
 		<div class="Rectangle_Items">
@@ -149,6 +170,7 @@
              <i id="item4" class="far fa-circle"></i>
 		</div>
 	</div>
+    <!-- towel -->
 	  <div id="Towel">
 		<div class="Rectangle_Items">
 		</div>
@@ -160,20 +182,23 @@
 		</div>
 	</div>
 	
-    <!-- Popup window: Only shown when you click the FAB button -->
+<!-- Popup window: Only shown when you click the FAB button -->
     <div id="Popup_Task_Item">
+    <!-- item name -->
 	<div id="Task_Name">
 		<span>Task Name</span>
 	</div>
 	<div id="item_name">
         <input type="text" name="" id="textfield_name" placeholder="Item Name">
 	</div>
+    <!-- assign item -->
 	<div id="Assign_to">
 		<span>Assign to</span>
 	</div>
     <div id="item_assign_to">
         <input type="text" name="" id="textfield_assignTo" placeholder="@Friend">
 	</div>
+    <!-- delete item -->
 	<div id="trash">
 		<div id="rectangle">
 		</div>
@@ -182,6 +207,7 @@
 	<div id="Delete_Task">
 		<span>Delete Task</span>
 	</div>
+    <!-- save item button -->
 	<div id="Save_Button" onclick="popupTaskItemHide(); newItem();">
 		<div id="Rectangle_Save">
 		</div>
@@ -189,6 +215,7 @@
 			<span>SAVE</span>
 		</div>
 	</div>
+    <!-- cancel button -->
 	<div id="Cancel_Button" onclick="popupTaskItemHide();">
 		<div id="Rectangle_Cancel">
 		</div>

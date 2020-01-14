@@ -3,20 +3,32 @@
 <head>
 <meta charset="utf-8"/>
 <title>Add Trips – Type</title>
+
+<!-- embedd css files for screen, menubar, buttons and header (in that order) -->
 <link rel="stylesheet"  href="css/addTrip_type.css" media="screen"/>
 <link rel="stylesheet"  href="css/menubar.css" media="screen"/>
 <link rel="stylesheet" href="css/next_back_button.css" media="screen"/>
 <link rel="stylesheet" href="css/header.css" media="screen"/>
+    
+<!-- embedd material icons font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/flyingcarpet.js" async></script>
+
+<!-- embedd roboto font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
     
+<!-- embedd jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- embedd javascript file -->
+<script src="js/flyingcarpet.js" async></script>   
 </head>
+    
 <body>
 <div id="ID04_My_Trips___Type_unselected">
-    <!-- menubar -->
+    
+<!-- menubar -->
 	<div class="Bottom_menu">
 		<div class="bottom_bar">
 			<div class="Rectangle_Bottom">
@@ -59,7 +71,8 @@
 			</div>
 		</div>
 	</div>
-    <!-- header -->
+    
+<!-- header -->
 	<div class="App_bar">
 			<svg viewBox="0 0 1080 228">
                 <rect class="rect_header"/>
@@ -71,11 +84,13 @@
 			<span>Add Trip</span>
 		</div>
 	</div>
-    <!-- inspirational image placeholder -->
+    
+<!-- inspirational image placeholder -->
 	<div id="insp_type">
 		<img class="insp_img4" src="pictures/04.type.png">
 	</div>
-    <!-- next & back button -->
+    
+<!-- next & back button -->
     <a href="AddTrip_Company.html">
 	<div class="Next_Button">
 		<div class="Rectangle_Next">
@@ -94,11 +109,13 @@
 		</div>
 	</div>
     </a>
-   <!-- text "wahte are you doing?" & next/back button -->
+   
+<!-- question   -->
 	<div id="What_are_you_doing_">
 		<span>What are you doing?</span>
 	</div>
-    <!-- timeline -->
+    
+<!-- timeline -->
 	<div id="Timeline">
 		<svg class="Linie_3" viewBox="0 0 880 5">
 			<path fill="transparent" stroke="rgba(210,208,208,1)" stroke-width="5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linie_3" d="M 0 0 L 880 0">
@@ -144,7 +161,8 @@
 			</ellipse>
 		</svg>
 	</div>
-    <!-- buttons to enter the type of your trip -->
+    
+<!-- buttons to enter the type of your trip -->
 	<div id="city" class="citytrip_rect" onclick="cityClicked();">
 	</div>
 	<div id="City_Trip">

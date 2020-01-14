@@ -1,3 +1,4 @@
+/* general page css */
 * {
 		margin: 0;
 		padding: 0;
@@ -14,7 +15,6 @@
 	}
 
 /*header wording current menu item*/
-
 	#Add_Trip {
 		position: absolute;
 		left: 70px;
@@ -30,10 +30,122 @@
 		color: rgba(255,255,255,1);
 	}
 
-/* current menu item is highlighted */
+/* current menu item highlighted */
 #current_menuItem {
     color: #1A237E;
 }
+
+/* inspirational image placeholder */
+#insp_company{
+    position: absolute;
+    left:95px;
+    top:370px;
+}
+.insp_img5{
+    width: 950px;
+}
+
+/* screen content - question */
+#Travelling_alone_company {
+		position: absolute;
+		width: 752px;
+		height: 53px;
+		left: 85px;
+		top: 891px;
+		overflow: visible;
+	}
+	#alone_company {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 753px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: black;
+	}
+
+/* radio buttons */
+    #check_alone {
+		overflow: visible;
+		position: absolute;
+		left: 196px;
+		top: 1035px;
+        stroke:  #FFA726;
+        stroke-width:6px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	  #check_with {
+		overflow: visible;
+		position: absolute;
+		left: 196px;
+		top: 1182px;
+        stroke:  #FFA726;
+        stroke-width:6px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+/* answer text alone */
+	#Alone {
+		position: absolute;
+		left: 280px;
+		top: 1039px;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.871);
+	}
+
+/* answer text with a friend*/
+	#With_ {
+		position: absolute;
+		left: 280px;
+		top: 1185px;
+		overflow: visible;
+		width: 70px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(0,0,0,0.871);
+	}
+	#_friend {
+		position: absolute;
+		left: 418px;
+		top: 1169px;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,0.6);
+	}
+
+    /* input field for friend's name */
+    #Friend_Name {
+        font-size: 26pt;
+        width: 500px;
+        height: 83px;
+        border: none;
+        border-width: 1px;
+        background-color: #F3F2F9;
+        padding-left: 15px;
+        outline: none;
+    }
 
 /* timeline */
 	#Timeline {
@@ -140,107 +252,3 @@
 		left: 352px;
 		top: 0px;
 	}
-
-/* inspirational image placeholder */
-#insp_company{
-    position: absolute;
-    left:95px;
-    top:370px;
-}
-.insp_img5{
-    width: 950px;
-}
-#Travelling_alone_company {
-		position: absolute;
-		width: 752px;
-		height: 53px;
-		left: 85px;
-		top: 891px;
-		overflow: visible;
-	}
-	#alone_company {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-		width: 753px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 40px;
-		color: black;
-	}
-    #check_alone {
-		overflow: visible;
-		position: absolute;
-		left: 196px;
-		top: 1035px;
-        stroke:  #FFA726;
-        stroke-width:6px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	  #check_with {
-		overflow: visible;
-		position: absolute;
-		left: 196px;
-		top: 1182px;
-        stroke:  #FFA726;
-        stroke-width:6px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Alone {
-		position: absolute;
-		left: 280px;
-		top: 1039px;
-		overflow: visible;
-		width: 79px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.871);
-	}
-	#With_ {
-		position: absolute;
-		left: 280px;
-		top: 1185px;
-		overflow: visible;
-		width: 70px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: rgba(0,0,0,0.871);
-	}
-	#_friend {
-		position: absolute;
-		left: 418px;
-		top: 1169px;
-		overflow: visible;
-		width: 107px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 30px;
-		color: rgba(0,0,0,0.6);
-	}
-
-/* input field for friend's name */
-#Friend_Name {
-    font-size: 26pt;
-    width: 500px;
-    height: 83px;
-    border: none;
-    border-width: 1px;
-    background-color: #F3F2F9;
-    padding-left: 15px;
-    outline: none;
-}

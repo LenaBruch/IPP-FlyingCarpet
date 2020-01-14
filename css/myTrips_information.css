@@ -1,4 +1,5 @@
-	* {
+/* general page css */
+* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -12,6 +13,7 @@
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 	}
+
 /* header wording of the current menu item */
 	#My_Trips {
 		position: absolute;
@@ -29,12 +31,12 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
-    color: #1A237E;
-}
+    #current_menuItem {
+        color: #1A237E;
+    }
 
 /* tab bar: information, checklist, tasks */
-#Tabs {
+    #Tabs {
 		position: absolute;
 		width: 1080px;
 		height: 135px;
@@ -42,7 +44,7 @@
 		top: 410px;
 		overflow: visible;
 	}	
-#tab_bar {
+    #tab_bar {
 		position: absolute;
 		width: 1099px;
 		height: 100px;
@@ -104,7 +106,8 @@
 		font-size: 35px;
 		color: #D2D0D0;
 	}
-/* banner: brazil, date, progress bar */
+
+/* banner: brazil, date, bar */
 	#Trip_1 {
 		position: absolute;
 		width: 1080px;

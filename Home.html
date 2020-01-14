@@ -3,28 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <title>Home</title>
+      
+<!-- embedd css files for screen, menubar and header(in that order) -->
     <link rel="stylesheet" type="text/css" href="css/home.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="css/header.css" media="screen"/>
+      
+<!-- embedd material icons font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      
+<!-- embedd Roboto font -->
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+      
+<!-- embedd font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
+      
+<!-- embedd jquery version 3.3.1 -->    
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/menubar.css" media="screen"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon family=Material+Icons" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256 FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- embedd javascript file -->
     <script src="js/flyingcarpet.js"></script>
+      
+<!-- embedd bootstrap for carousels -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+      
+<!-- enable mobile web app -->
     <meta name="apple-mobile-web-app-capable" content="yes">
+      
+<!-- embedd jquery version 3.4.1 -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      
+<!-- embedd pooper for bootstrap and bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+      
+<!-- embedd code to ensure resizing according to devices -->
+    <script >var winFeature =
+        'location=no,toolbar=no,menubar=no,scrollbars=yes,resizable=yes';
+window.open('Result.html','null',winFeature);  </script>
+
   </head>
+    
   <body>
       <div id="ID01_Home">
-      <!-- menubar -->
+          
+<!-- menubar -->
       <div class="Bottom_menu">
         <div class="bottom_bar">
           <div class="Rectangle_Bottom"></div>
@@ -68,7 +92,8 @@
           </div>
         </div>
       </div>
-      	<!-- header -->
+          
+<!-- header -->
       <div id="App_bar">
           <div id="app_bar">
               <svg viewBox="0 0 1080 228">
@@ -92,7 +117,7 @@
            </div>
         </div>
 			
-			<!-- my trips carrousel at the top of the content of the home screen -->
+<!-- my trips carrousel at the top of the content of the home screen -->
         <div class="row justify-content-md-center">
            <div id="carrousel-home" class="col-10">
            
@@ -166,6 +191,8 @@
 		<div id="My_Trips_Carrousel">
 			<div class="Rectangle_Carrousel">
 			</div>
+        
+<!-- headline My Trips -->
 			<div id="My_Trips">
 			<span>My Trips</span>
 		</div>
@@ -174,7 +201,9 @@
         <span>Upcoming Deadlines</span>
       </div>
     </div>
-    <!-- upcoming deadlines -->
+        
+<!-- upcoming deadlines -->
+    <!-- task 1 -->
 	<div id="Task_list1">
 		<svg viewBox="0 0 960 195">
             <rect width="960px" height="195px" fill ="white"/>
@@ -194,6 +223,7 @@
              <i id="task1" class="far fa-circle"></i>
 		</div>
 	</div>
+    <!-- task 2 -->
 	<div id="Task_list2">
 		<svg viewBox="0 0 960 195">
 			<rect width="960px" height="195px" fill ="white"/>
@@ -213,6 +243,7 @@
              <i id="task2" class="far fa-circle check1"></i>
 		</div>
 	</div>
+    <!-- task 3 -->
 	<div id="Task_list3">
 		<svg viewBox="0 0 960 195">
 			<rect width="960px" height="195px" fill ="white"/>
@@ -231,63 +262,12 @@
 	   <div class="check_no" onclick="taskThreeDone();">
              <i id="task3" class="far fa-circle"></i>
 		</div>
-		          
-      <!-- upcoming deadlines -->
-      <div id="Task_list1">
-        <svg viewBox="0 0 960 195">
-          <rect width="960px" height="195px" fill="white" />
-        </svg>
-        <div class="Task_Headline">
-          <span>Vaccine Yellow Fever</span>
         </div>
-        <div class="Task_Description">
-          <span>Dr. Müller<br />Goethestr. 25, 80337 München</span><br />
-        </div>
-        <div id="Rectangle_Date1" class="Rectangle_Date"></div>
-        <div class="Task_Date">
-          <span>10<br />SEP</span>
-        </div>
-        <div class="check_no" onclick="taskOneDone();">
-          <i id="task1" class="far fa-circle"></i>
-        </div>
+
+<!-- headline upcoming deadlines -->      
+      <div id="Upcoming_Deadlines">
+        <span>Upcoming Deadlines</span>
       </div>
-      <div id="Task_list2">
-        <svg viewBox="0 0 960 195">
-          <rect width="960px" height="195px" fill="white" />
-        </svg>
-        <div class="Task_Headline">
-          <span>Vaccine Yellow Fever</span>
-        </div>
-        <div class="Task_Description">
-          <span>Dr. Müller<br />Goethestr. 25, 80337 München</span><br />
-        </div>
-        <div id="Rectangle_Date2" class="Rectangle_Date"></div>
-        <div class="Task_Date">
-          <span>13<br />SEP</span>
-        </div>
-        <div class="check_no" onclick="taskTwoDone();">
-          <i id="task2" class="far fa-circle check1"></i>
-        </div>
-      </div>
-      <div id="Task_list3">
-        <svg viewBox="0 0 960 195">
-          <rect width="960px" height="195px" fill="white" />
-        </svg>
-        <div class="Task_Headline">
-          <span>Vaccine Yellow Fever</span>
-        </div>
-        <div class="Task_Description">
-          <span>Dr. Müller<br />Goethestr. 25, 80337 München</span><br />
-        </div>
-        <div id="Rectangle_Date3" class="Rectangle_Date"></div>
-        <div class="Task_Date">
-          <span>03<br />OCT</span>
-        </div>
-        <div class="check_no" onclick="taskThreeDone();">
-          <i id="task3" class="far fa-circle"></i>
-        </div>
-      </div>
-    </div>
     </div>
       </div>
   </body>

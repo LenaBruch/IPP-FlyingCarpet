@@ -7,11 +7,11 @@
 		top: 0px;
 		overflow: visible;
 	}
-.rect_header {
-    width: 1086px; 
-    height: 400px;
-    fill:  #1A237E;
-}
+    .rect_header {
+        width: 1086px; 
+        height: 400px;
+        fill:  #1A237E;
+    }
 	.FliyingCarpet {
 		position: absolute;
 		left: 449px;

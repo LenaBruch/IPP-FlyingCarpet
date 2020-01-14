@@ -15,21 +15,7 @@ function popupTaskItemHide () {
 
 
 /**
-* Should change the background color of the active type, if it is clicked. Doesn't work, why?
-*/
-/*function activeClicked () {
-    var colorClicked = "#FFA726";
-    
-    if ($('#active_rect').css("background-color")=="rgba(230,230,230,1)");{
-        $('#active_rect').css("background-color", colorClicked);
-    }
-    else {
-        $('#active_rect').css("background-color", "rgba(230,230,230,1)"); 
-    }
-}*/
-
-/**
-* Changes the background color of the types, if they are clicked.
+* Changes the background color of the trip types, if they are clicked.
 */
 function cityClicked () {
     $('#city').toggleClass("citytrip_rect_clicked");
@@ -62,7 +48,7 @@ function roadtripClicked () {
 }
 
 /** 
-* On the "Add Trip - Company" screen the "alone" radio button will be filled blue
+* On the "Add Trip - Company" screen the "alone" radio button will be filled orange
 */
 function alone () {
     $('#ellipse_alone').css("fill", "#FFA726");
@@ -70,20 +56,12 @@ function alone () {
 }
 
 /** 
-* On the "Add Trip - Company" screen the "with" radio button will be filled blue
+* On the "Add Trip - Company" screen the "with" radio button will be filled orange
 */
 function withFriend () {
     $('#ellipse_with').css("fill", "#FFA726");
     $('#ellipse_alone').css("fill", "white");
 }
-
-
-/**
-* Calendar Screen: First day of the clanedar is monday.
-*/
-function createCalendar () {
-  $( "#datepicker" ).datepicker({ firstDay: 1});
-};
 
 
 /**
@@ -123,6 +101,14 @@ $('.dropdown .dropdown-menu li').click(function () {
      $(this).parents('.dropdown').find('span').text($(this).text());
      $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
     });
+
+
+/**
+* Calendar Screen: First day of the clanedar is monday.
+*/
+function createCalendar () {
+  $( "#datepicker" ).datepicker({ firstDay: 1});
+};
 
 
 /** 
