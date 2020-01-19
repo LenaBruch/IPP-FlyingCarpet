@@ -106,7 +106,7 @@
         </i>
 	</div>
 	<div id="Text_Field_to_Destination">
-		 <input type="text" name="" class="destination" placeholder="To">
+		 <input id="destinationA" type="text" name="" class="destination" placeholder="To">
 	</div>
     <!-- first destination's travel dates -->
 	<div id="Text_Field_from_Date">
@@ -119,7 +119,7 @@
 	</div>
 
 <!-- add destination -->
-	<div id="Add_destination" onclick="addDestination();">
+	<div id="Add_destination" onclick="addDestination(); setDestination();">
         <i class="material-icons" id="add_destination_icon">add_circle_outline</i>
 		<span>Add destination</span>
 	</div>

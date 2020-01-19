@@ -68,7 +68,7 @@ function withFriend () {
 * Add Destination Screen: Enter the clicked date.
 */
 function calendarAddDestination () {
-    $( ".datepicker" ).datepicker();
+    $(".datepicker").datepicker();
 }
 
 /**
@@ -107,7 +107,7 @@ $('.dropdown .dropdown-menu li').click(function () {
 * Calendar Screen: First day of the clanedar is monday.
 */
 function createCalendar () {
-  $( "#datepicker" ).datepicker({ firstDay: 1});
+  $("#datepicker").datepicker({ firstDay: 1});
 };
 
 
@@ -171,34 +171,34 @@ function item5Check () {
     $('#item_name5').toggleClass('item_name');
 }
 
-
+function item6Check () {
+    $('.item6').toggleClass('fas fa-check-circle');
+    $('.item6').toggleClass('far fa-circle');
+    $('.item_name6').toggleClass('crossed_out');
+    $('.item_name6').toggleClass('item_name');
+}
 
 /**
 * Creates new item in packlist
-* @return: div element
 */
-/*function addItem() {
+function addItem () {
     var itemName = $('#textfield_name').val();
     console.log(itemName);
-    var newItemElement = $('<div>').addClass('New_Item');
+    var newItemDiv = $('<div></div>').addClass('New_Item').appendTo("body");
     
-    $('<div>').addClass('Rectangle_Item').appendTo(newItemElement);
-    $('<div>').addClass('New_Item_Name').append('<span>').text(itemName).appendTo(newItemElement);
-    console.log(newItemElement);
+    $('<div></div>').addClass('Rectangle_Items').appendTo(newItemDiv);
+    $('<div></div>').addClass('New_Item_Name item_name6').append('<span></span>').text(itemName).appendTo(newItemDiv);
+    $('<div onclick="item6Check();"></div>').addClass('check_no').append('<i class="far fa-circle item6"></i>').appendTo(newItemDiv);
     
-    return newItemElement;
-}*/
-
-/**
-* Sets the name of a new item name in the last item section
-*/
-function newItem () {
-    var itemName = $('#textfield_name').val();
-    
-    $('#newName').text(itemName);
     $('#textfield_name').val("");
 }
+
 /** Carrousel Interval */
-$('.carousel').carousel({
+$('.carousel').carousel( function() {
   interval: 0
 });
+
+
+
+
+
