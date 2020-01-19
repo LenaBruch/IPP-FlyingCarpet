@@ -101,6 +101,28 @@
 		height: 460px;
 
 }
+.trip_name {
+    overflow: visible;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    font-size: 50px;
+    color: white;
+    width:50px;
+    height: 100px;
+    z-index: 4;
+}
+.trip_date {
+    overflow: visible;
+    position: absolute;
+    left: 35px;
+    top: 69px;
+    font-size: 30px;
+    color: white;
+    width:50px;
+    height: 100px;
+    z-index: 4;
+}
 	#My_Trips {
 		position: absolute;
 		left: 60px;
