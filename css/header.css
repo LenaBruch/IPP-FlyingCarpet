@@ -1,5 +1,5 @@
 /*header*/
-	.App_bar {
+	.app-bar {
 		position: absolute;
 		width: 1080px;
 		height: 229px;
@@ -7,7 +7,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-    .rect_header {
+    .rect-header {
         width: 1086px; 
         height: 400px;
         fill:  #1A237E;

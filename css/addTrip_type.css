@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#ID04_My_Trips___Type_unselected {
+	#my-trips-type-unselected {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -14,7 +14,7 @@
 		overflow: hidden;
 	}
 /* header wording of the current menu item */
-	#Add_Trip {
+	#add-trip {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -30,21 +30,21 @@
 	}
 
 /* current menu item is highlighted */
-    #current_menuItem {
+    #current-menu-item {
         color: #1A237E;
     }  
 /* inspirational image */
-    #insp_type {
+    #insp-type {
         position: absolute;
         left: 250px;
         top: 365px;
     }
-    .insp_img4{
+    .insp-img-4{
         width: 630px;
     }
 	
 /* text of "Waht are you doing?"*/
-	#What_are_you_doing_ {
+	#what-are-you-doing {
 		position: absolute;
 		left: 85px;
 		top: 801px;
@@ -62,7 +62,7 @@
 
 /*buttons to enter the type of your trip */
 /* city trip */
-	.citytrip_rect {
+	.citytrip-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -74,7 +74,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-	.citytrip_rect_clicked {
+	.citytrip-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -85,7 +85,7 @@
 		overflow: hidden;
         
 	}
-	#City_Trip {
+	#city-trip {
 		position: absolute;
 		left: 236px;
 		top: 1060px;
@@ -99,7 +99,7 @@
 		font-size: 25px;
 		color: #FFFFFF;
 	}
-	#city_icon {
+	#city-icon {
 		position: absolute;
 		width: 88px;
 		height: 70px;
@@ -108,7 +108,7 @@
 		overflow: visible;   
 	}
 /* active trip */
-	.active_rect {
+	.active-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -120,7 +120,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-    .active_rect_clicked {
+    .active-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -145,7 +145,7 @@
 		font-size: 25px;
 		color: #FFFFFF;
 	}
-	#active_icon {
+	#active-icon {
 		position: absolute;
 		width: 52.563px;
 		height: 70px;
@@ -154,7 +154,7 @@
 		overflow: visible;
 	}
 /* backpacking trip */
-	.backpacking_rect {
+	.backpacking-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -166,7 +166,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-	.backpacking_rect_clicked {
+	.backpacking-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -192,7 +192,7 @@
 		font-size: 23px;
 		color: #FFFFFF;
 	}
-	#backpacking_icon {
+	#backpacking-icon {
 		position: absolute;
 		width: 45.692px;
 		height: 52px;
@@ -201,7 +201,7 @@
 		overflow: visible;
 	}
 /* wellness trip */
-	.wellness_rect {
+	.wellness-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -213,7 +213,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-    .wellness_rect_clicked {
+    .wellness-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -240,7 +240,7 @@
 		font-size: 25px;
 		color: #FFFFFF;
 	}
-	#wellness_icon {
+	#wellness-icon {
 		position: absolute;
 		width: 48px;
 		height: 48px;
@@ -249,7 +249,7 @@
 		overflow: visible;
 	}
 /* beach trip */
-	.beach_rect {
+	.beach-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -261,7 +261,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-	.beach_rect_clicked {
+	.beach-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -286,7 +286,7 @@
 		font-size: 25px;
 		color: #FFFFFF;
 	}
-	#beach_icon {
+	#beach-icon {
 		position: absolute;
 		width: 45px;
 		height: 36px;
@@ -295,7 +295,7 @@
 		overflow: visible;
 	}
 /* roadtrip */
-	.roadtrip_rect {
+	.roadtrip-rect {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -307,7 +307,7 @@
 		overflow: hidden;
         box-shadow: 4px 4px 5px #A2A2A2;
 	}
-    .roadtrip_rect_clicked {
+    .roadtrip-rect-clicked {
 		position: absolute;
 		width: 168px;
 		height: 213px;
@@ -333,7 +333,7 @@
 		font-size: 25px;
 		color: #FFFFFF;
 	}
-	#roadtrip_icon {
+	#roadtrip-icon {
 		position: absolute;
 		width: 45px;
 		height: 36px;
@@ -341,7 +341,7 @@
 		top: 1210px;
 		overflow: visible;
 	}
-    .type_icon {
+    .type-icon {
         margin-top: -35px;
         margin-left: -22px;
         width: 100px;
@@ -349,7 +349,7 @@
     }
 
 /*timeline*/
-	#Timeline {
+	#timeline {
 		position: absolute;
 		width: 905px;
 		height: 84px;
@@ -357,7 +357,7 @@
 		top: 288px;
 		overflow: visible;
 	}
-	.Linie_3 {
+	.linie-3 {
 		overflow: visible;
 		position: absolute;
 		width: 880px;
@@ -366,7 +366,7 @@
 		top: 15px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Start {
+	.start {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -374,7 +374,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	.lets_go {
+	.lets-go {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -398,7 +398,7 @@
 		left: 528px;
 		top: 1px;
 	}
-	.Transportation {
+	.transportation {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -406,7 +406,7 @@
 		left: 352px;
 		top: 5px;
 	}
-	#Type {
+	#type {
 		position: absolute;
 		left: 501px;
 		top: 31px;
@@ -428,7 +428,7 @@
 		left: 176px;
 		top: 5px;
 	}
-	.Linie_4 {
+	.linie-4 {
 		overflow: visible;
 		position: absolute;
 		width: 528px;
@@ -437,7 +437,7 @@
 		top: 15.5px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Destination {
+	.destination {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -445,7 +445,7 @@
 		left: 176px;
 		top: 0px;
 	}
-	.Transportation_big {
+	.transportation-big {
 		position: absolute;
 		overflow: visible;
 		width: 30px;

@@ -28,15 +28,15 @@
 </head>
     
 <body>
-<div id="My_Trips___Checklist">
+<div id="my-trips-checklist-screen">
 
 <!-- header -->
-	<div class="App_bar">
+	<div class="app-bar">
 		<svg viewBox="0 0 1080 228">
             <rect width="1086px" height="400px" fill="#1A237E"/>
         </svg>
 	</div>
-	<div id="My_Trips">
+	<div id="my-trips">
 		<span>My Trips</span>
 	</div>
 	<div class="FliyingCarpet">
@@ -44,77 +44,77 @@
 	</div>
     
 <!-- tabbar -->
-	<div id="Tabs">
-		<div id="tab_bar">
+	<div id="tabs">
+		<div id="tab-bar">
 		</div>
-		<div id="tab_selection">
+		<div id="tab-selection">
 		</div>
         <a href="MyTrips_Information.html">
-		<div id="INFORMATION">
+		<div id="information">
 			<span>INFORMATION</span>
 		</div>
         </a>
-		<div id="CHECKLIST">
+		<div id="packlist">
 			<span>PACKLIST</span>
 		</div>
         <a href="MyTrips_Taks.html">
-		<div id="TASKS">
+		<div id="task">
 			<span>TASKS</span>
 		</div>
         </a>
 	</div>
     
 <!-- trip details: name, daten & progress --> 
-	<div id="Banner_Trip1">
-		<div id="Trip_1"><img class="country_img1" src="pictures/01.Brazil_without.png">
+	<div id="banner-trip-1">
+		<div id="trip-1"><img class="country_img1" src="pictures/01.Brazil_without.png">
 		</div>
 		<div id="Brazil">
 			<span>Brazil</span>
 		</div>
-		<div id="ID05_10_2020">
+		<div id="trip-date">
 			<span>05.10.2020</span>
 		</div>
 	</div>
     
 <!-- menubar -->
-	<div class="Bottom_menu">
+	<div class="bottom-menu">
 		<div class="bottom_bar">
-			<div class="Rectangle_Bottom">
+			<div class="rectangle-bottom">
 			</div>
 		</div>
         <a href="Home.html">
-		<div class="Home_Button">
-			<i class="material-icons home_icon">home</i>
-			<div class="Home">
+		<div class="home-button">
+			<i class="material-icons home-icon">home</i>
+			<div class="home">
 				<span>Home</span>
 			</div>
 		</div>
         </a>
         <a href="Calendar_Calendar.html">
-		<div class="Calendar_Button">
-            <i class="material-icons calendar_icon">calendar_today</i>
-			<div class="Calendar">
+		<div class="calendar-button">
+            <i class="material-icons calendar-icon">calendar_today</i>
+			<div class="calendar-bottom-menu">
 				<span>Calendar</span>
 			</div>
 		</div>
         </a>
-		<div class="Add_Button">
-            <i class="material-icons add_icon">add</i>
-			<div class="New_Trip">
+		<div class="add-trip-button">
+            <i class="material-icons add-icon">add</i>
+			<div class="new-trip">
                 <span>Add Trip</span>
             </div>
 		</div>
         <a href="MyTrips_Overview.html">
-		<div class="My_Trips_Button">
-            <i class="material-icons myTrips_icon" id="current_menuItem">flight_takeoff</i>
-			<div class="Trips" id="current_menuItem">
+		<div class="my-trips-button">
+            <i class="material-icons myTrips-icon" id="current-menu-item">flight_takeoff</i>
+			<div class="trips" id="current-menu-item">
 				<span>My Trips</span>
 			</div>
 		</div>
         </a>
-		<div class="Profile_Button">
-            <i class="material-icons profile_icon">person</i>
-			<div class="Profile">
+		<div class="profile-button">
+            <i class="material-icons profile-icon">person</i>
+			<div class="profile">
 				<span>Profile</span>
 			</div>
 		</div>
@@ -127,99 +127,99 @@
     
 <!-- content of the screen: checklist -->
     <!-- pants -->
-    <div id="Pants">
-		<div class="Rectangle_Items">
+    <div id="pants">
+		<div class="rectangle-items">
 		</div>
-		<div id="item_name1" class="item_name">
+		<div id="item-name-1" class="item-name">
 			<span>Pants</span>
 		</div>
-	  <div class="check_no" onclick="item1Check();">
-             <i id="item1" class="far fa-circle"></i>
+	  <div class="check-no" onclick="item1Check();">
+             <i id="item-1" class="far fa-circle"></i>
 		</div>
     </div>
-    <!-- shirts -->
-    <div id="Shirts">
-		<div class="Rectangle_Items">
+    <!-- shir-s -->
+    <div id="shirts">
+		<div class="rectangle-items">
 		</div>
-		<div id="item_name2" class="item_name">
+		<div id="item-name-2" class="item-name">
 			<span>10 Shirts</span>
 		</div>
-		 <div class="check_no" onclick="item2Check();">
-             <i id="item2" class="far fa-circle"></i>
+		 <div class="check-no" onclick="item2Check();">
+             <i id="item-2" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- sunscreen -->
-	<div id="Sunscreen">
-		<div class="Rectangle_Items">
+	<div id="sunscreen">
+		<div class="rectangle-items">
 		</div>
-		<div id="item_name3" class="item_name">
+		<div id="item-name-3" class="item-name">
 			<span>Sunscreen</span>
 		</div>
-         <div class="check_no" onclick="item3Check();">
-             <i id="item3" class="far fa-circle"></i>
+         <div class="check-no" onclick="item3Check();">
+             <i id="item-3" class="far fa-circle"></i>
 		</div>
     <!-- hiking boots -->
 	</div>
-     <div id="Hiking_Boots">
-		<div class="Rectangle_Items">
+     <div id="hiking-boots">
+		<div class="rectangle-items">
 		</div>
-		<div id="item_name4" class="item_name">
+		<div id="item-name-4" class="item-name">
 			<span>Hiking Boots</span>
 		</div>
-		 <div class="check_no" onclick="item4Check();">
-             <i id="item4" class="far fa-circle"></i>
+		 <div class="check-no" onclick="item4Check();">
+             <i id="item-4" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- towel -->
-	  <div id="Towel">
-		<div class="Rectangle_Items">
+	  <div id="towel">
+		<div class="rectangle-items">
 		</div>
-		<div id="item_name5" class="item_name">
+		<div id="item-name-5" class="item-name">
 			<span id="newName">Towel</span>
 		</div>
-		 <div class="check_no" onclick="item5Check();">
-             <i id="item5" class="far fa-circle"></i>
+		 <div class="check-no" onclick="item5Check();">
+             <i id="item-5" class="far fa-circle"></i>
 		</div>
 	   </div>
 	
 <!-- Popup window: Only shown when you click the FAB button -->
-    <div id="Popup_Task_Item">
+    <div id="popup-task-item">
     <!-- item name -->
-	<div id="Task_Name">
+	<div id="task-name">
 		<span>Item Name</span>
 	</div>
-	<div id="item_name">
-        <input type="text" name="" id="textfield_name" placeholder="Item Name">
+	<div id="item-name">
+        <input type="text" name="" id="textfield-name" placeholder="Item Name">
 	</div>
     <!-- assign item -->
-	<div id="Assign_to">
+	<div id="assign-to">
 		<span>Assign to</span>
 	</div>
-    <div id="item_assign_to">
-        <input type="text" name="" id="textfield_assignTo" placeholder="@Friend">
+    <div id="item-assign-to">
+        <input type="text" name="" id="textfield-assign-to" placeholder="@Friend">
 	</div>
     <!-- delete item -->
 	<div id="trash">
 		<div id="rectangle">
 		</div>
-		<i class="material-icons" id="delete_icon">delete</i>
+		<i class="material-icons" id="delete-icon">delete</i>
 	</div>
-	<div id="Delete_Task">
+	<div id="delete-task">
 		<span>Delete Item</span>
 	</div>
     <!-- save item button -->
-	<div id="Save_Button" onclick="popupTaskItemHide(); addItem();">
-		<div id="Rectangle_Save">
+	<div id="save-button" onclick="popupTaskItemHide(); addItem();">
+		<div id="rectangle-save">
 		</div>
-		<div id="SAVE">
+		<div id="save">
 			<span>SAVE</span>
 		</div>
 	</div>
     <!-- cancel button -->
-	<div id="Cancel_Button" onclick="popupTaskItemHide();">
-		<div id="Rectangle_Cancel">
+	<div id="cancel-button" onclick="popupTaskItemHide();">
+		<div id="rectangle-cancel">
 		</div>
-		<div id="CANCEL">
+		<div id="cancel">
 			<span>CANCEL</span>
 		</div>
 	</div>

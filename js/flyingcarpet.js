@@ -3,14 +3,14 @@
 */
 
 function popupTaskItem () {
-    $('#Popup_Task_Item').show();
+    $('#popup-task-item').show();
 }
 
 /** 
 * The popup window for a new task or item will disappear
 */
 function popupTaskItemHide () {
-    $('#Popup_Task_Item').hide();
+    $('#popup-task-item').hide();
 }
 
 
@@ -18,49 +18,49 @@ function popupTaskItemHide () {
 * Changes the background color of the trip types, if they are clicked.
 */
 function cityClicked () {
-    $('#city').toggleClass("citytrip_rect_clicked");
-    $('#city').toggleClass("citytrip_rect");
+    $('#city').toggleClass("citytrip-rect-clicked");
+    $('#city').toggleClass("citytrip-rect");
 }
 
 function activeClicked () {
-    $('#active').toggleClass("active_rect_clicked");
-    $('#active').toggleClass("active_rect");
+    $('#active').toggleClass("active-rect-clicked");
+    $('#active').toggleClass("active-rect");
 }
 
 function backpackingClicked () {
-    $('#backpacking').toggleClass("backpacking_rect_clicked");
+    $('#backpacking').toggleClass("backpacking-rect-clicked");
     $('#backpacking').toggleClass("backpackingrect");
 }
 
 function wellnessClicked () {
-    $('#wellness').toggleClass("wellness_rect_clicked");
-    $('#wellness').toggleClass("wellness_rect");
+    $('#wellness').toggleClass("wellness-rect-clicked");
+    $('#wellness').toggleClass("wellness-rect");
 }
 
 function beachClicked () {
-    $('#beach').toggleClass("beach_rect_clicked");
-    $('#beach').toggleClass("beach_rect");
+    $('#beach').toggleClass("beach-rect-clicked");
+    $('#beach').toggleClass("beach-rect");
 }
 
 function roadtripClicked () {
-    $('#roadtrip').toggleClass("roadtrip_rect_clicked");
-    $('#roadtrip').toggleClass("roadtrip_rect");
+    $('#roadtrip').toggleClass("roadtrip-rect-clicked");
+    $('#roadtrip').toggleClass("roadtrip-rect");
 }
 
 /** 
 * On the "Add Trip - Company" screen the "alone" radio button will be filled orange
 */
 function alone () {
-    $('#ellipse_alone').css("fill", "#FFA726");
-    $('#ellipse_with').css("fill", "white");
+    $('#ellipse-alone').css("fill", "#FFA726");
+    $('#ellipse-with').css("fill", "white");
 }
 
 /** 
 * On the "Add Trip - Company" screen the "with" radio button will be filled orange
 */
 function withFriend () {
-    $('#ellipse_with').css("fill", "#FFA726");
-    $('#ellipse_alone').css("fill", "white");
+    $('#ellipse-with').css("fill", "#FFA726");
+    $('#ellipse-alone').css("fill", "white");
 }
 
 
@@ -75,15 +75,15 @@ function calendarAddDestination () {
 * Click on Add destination (Destination Screen): the inspirational image will disappear and a second entry field for a second destination will be displayed.
 */
 function addDestination () {
-    $('#insp_destination').hide();
-    $('#From_and_where_to').css("top", "400px");
-    $('#Text_Field_from_Destination').css("top", "609px");
-    $('#Text_Field_to_Destination').css("top", "609px");
-    $('#Text_Field_from_Date').css("top", "764px");
-    $('#Text_Field_to_Date').css("top", "764px");
-    $('#first_destination').show();
-    $('#second_destination').show();
-    $('#hide_secondDestination').show();
+    $('#insp-destination').hide();
+    $('#from-and-where-to').css("top", "400px");
+    $('#text-field-from-destination').css("top", "609px");
+    $('#text-field-to-destination').css("top", "609px");
+    $('#text-field-from-date').css("top", "764px");
+    $('#text-field-to-date').css("top", "764px");
+    $('#first-destination').show();
+    $('#second-destination').show();
+    $('#hide-second-destination').show();
 }
 
 
@@ -115,82 +115,82 @@ function createCalendar () {
 * You can mark all tasks as done.
 */
 function taskOneDone () {
-    $('#task1').toggleClass('fas fa-check-circle');
-    $('#task1').toggleClass('far fa-circle');
-    $('#Rectangle_Date1').toggleClass('Rectangle_Date_Check');
-    $('#Rectangle_Date1').toggleClass('Rectangle_Date');
+    $('#task-1').toggleClass('fas fa-check-circle');
+    $('#task-1').toggleClass('far fa-circle');
+    $('#rectangle-date-1').toggleClass('rectangle-date-check');
+    $('#rectangle-date-1').toggleClass('rectangle-date');
 }
 function taskTwoDone () {
-    $('#task2').toggleClass('fas fa-check-circle');
-    $('#task2').toggleClass('far fa-circle');
-    $('#Rectangle_Date2').toggleClass('Rectangle_Date_Check');
-    $('#Rectangle_Date2').toggleClass('Rectangle_Date');
+    $('#task-2').toggleClass('fas fa-check-circle');
+    $('#task-2').toggleClass('far fa-circle');
+    $('#rectangle-date-2').toggleClass('rectangle-date-check');
+    $('#rectangle-date-2').toggleClass('rectangle-date');
 }
 function taskThreeDone () {
-    $('#task3').toggleClass('fas fa-check-circle');
-    $('#task3').toggleClass('far fa-circle');
-    $('#Rectangle_Date3').toggleClass('Rectangle_Date_Check');
-    $('#Rectangle_Date3').toggleClass('Rectangle_Date');
+    $('#task-3').toggleClass('fas fa-check-circle');
+    $('#task-3').toggleClass('far fa-circle');
+    $('#rectangle-date-3').toggleClass('rectangle-date-check');
+    $('#rectangle-date-3').toggleClass('rectangle-date');
 }
 
 
 /* You can mark items as packed */
 
 function item1Check () {
-    $('#item1').toggleClass('fas fa-check-circle');
-    $('#item1').toggleClass('far fa-circle');
-    $('#item_name1').toggleClass('crossed_out');
-    $('#item_name1').toggleClass('item_name');
+    $('#item-1').toggleClass('fas fa-check-circle');
+    $('#item-1').toggleClass('far fa-circle');
+    $('#item-name-1').toggleClass('crossed_out');
+    $('#item-name-1').toggleClass('item-name');
 }
 
 function item2Check () {
-    $('#item2').toggleClass('fas fa-check-circle');
-    $('#item2').toggleClass('far fa-circle');
-    $('#item_name2').toggleClass('crossed_out');
-    $('#item_name2').toggleClass('item_name');
+    $('#item-2').toggleClass('fas fa-check-circle');
+    $('#item-2').toggleClass('far fa-circle');
+    $('#item-name-2').toggleClass('crossed_out');
+    $('#item-name-2').toggleClass('item-name');
 }
 
 function item3Check () {
-    $('#item3').toggleClass('fas fa-check-circle');
-    $('#item3').toggleClass('far fa-circle');
-    $('#item_name3').toggleClass('crossed_out');
-    $('#item_name3').toggleClass('item_name');
+    $('#item-3').toggleClass('fas fa-check-circle');
+    $('#item-3').toggleClass('far fa-circle');
+    $('#item-name-3').toggleClass('crossed_out');
+    $('#item-name-3').toggleClass('item-name');
 }
 
 function item4Check () {
-    $('#item4').toggleClass('fas fa-check-circle');
-    $('#item4').toggleClass('far fa-circle');
-    $('#item_name4').toggleClass('crossed_out');
-    $('#item_name4').toggleClass('item_name');
+    $('#item-4').toggleClass('fas fa-check-circle');
+    $('#item-4').toggleClass('far fa-circle');
+    $('#item-name-4').toggleClass('crossed_out');
+    $('#item-name-4').toggleClass('item-name');
 }
 
 function item5Check () {
-    $('#item5').toggleClass('fas fa-check-circle');
-    $('#item5').toggleClass('far fa-circle');
-    $('#item_name5').toggleClass('crossed_out');
-    $('#item_name5').toggleClass('item_name');
+    $('#item-5').toggleClass('fas fa-check-circle');
+    $('#item-5').toggleClass('far fa-circle');
+    $('#item-name-5').toggleClass('crossed_out');
+    $('#item-name-5').toggleClass('item-name');
 }
 
 function item6Check () {
-    $('.item6').toggleClass('fas fa-check-circle');
-    $('.item6').toggleClass('far fa-circle');
-    $('.item_name6').toggleClass('crossed_out');
-    $('.item_name6').toggleClass('item_name');
+    $('.item-6').toggleClass('fas fa-check-circle');
+    $('.item-6').toggleClass('far fa-circle');
+    $('.item-name-6').toggleClass('crossed_out');
+    $('.item-name-6').toggleClass('item-name');
 }
 
 /**
 * Creates new item in packlist
 */
 function addItem () {
-    var itemName = $('#textfield_name').val();
+    var itemName = $('#textfield-name').val();
     console.log(itemName);
-    var newItemDiv = $('<div></div>').addClass('New_Item').appendTo("body");
+    var newItemDiv = $('<div></div>').addClass('new-item').appendTo("body");
     
-    $('<div></div>').addClass('Rectangle_Items').appendTo(newItemDiv);
-    $('<div></div>').addClass('New_Item_Name item_name6').append('<span></span>').text(itemName).appendTo(newItemDiv);
-    $('<div onclick="item6Check();"></div>').addClass('check_no').append('<i class="far fa-circle item6"></i>').appendTo(newItemDiv);
+    $('<div></div>').addClass('rectangle-items').appendTo(newItemDiv);
+    $('<div></div>').addClass('new-item-name item-name-6').append('<span></span>').text(itemName).appendTo(newItemDiv);
+    $('<div onclick="item6Check();"></div>').addClass('check-no').append('<i class="far fa-circle item6"></i>').appendTo(newItemDiv);
     
-    $('#textfield_name').val("");
+    $('#textfield-name').val("");
 }
 
 /** Carrousel Interval */

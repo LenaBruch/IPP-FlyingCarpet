@@ -33,11 +33,11 @@
 </head>
     
 <body onload="createCalendar()">
-<div id="Calendar___Calendar">
+<div id="calendar-calendar">
     
 <!-- header -->
-	<div class="App_bar">
-		<svg class="app_bar_1" viewBox="0 0 1080 330">
+	<div class="app-bar">
+		<svg class="app-bar-1" viewBox="0 0 1080 330">
 			 <rect width="1086px" height="330px" fill=" #1A237E"/>
 		</svg>
 	<div id="calendar">
@@ -49,80 +49,80 @@
     </div>
     
 <!-- tabbar -->
-	<div id="tab_selection">
+	<div id="tab-selection">
 	</div>
-	<div id="CALENDAR">
+	<div id="calendar-m">
 		<span>CALENDAR</span>
 	</div>
     <a href="Calendar_List.html">
-        <div id="LIST">
+        <div id="list">
 		  <span>LIST</span>
 	   </div>
     </a>
     
 <!-- menubar -->
-	<div class="Bottom_menu">
-		<div class="bottom_bar">
-			<div class="Rectangle_Bottom">
+	<div class="bottom-menu">
+		<div class="bottom-bar">
+			<div class="rectangle-bottom">
 			</div>
 		</div>
         <a href="Home.html">
-		<div class="Home_Button">
-			<i class="material-icons home_icon">home</i>
-			<div class="Home">
+		<div class="home-button">
+			<i class="material-icons home-icon">home</i>
+			<div class="home">
 				<span>Home</span>
 			</div>
 		</div>
         </a>
         <a href="Calendar_Calendar.html">
-		<div class="Calendar_Button">
-            <i class="material-icons calendar_icon" id="current_menuItem">calendar_today</i>
-			<div class="Calendar" id="current_menuItem">
+		<div class="calendar-button">
+            <i class="material-icons calendar-icon" id="current-menu-item">calendar_today</i>
+			<div class="calendar-bottom-menu" id="current-menu-item">
 				<span>Calendar</span>
 			</div>
 		</div>
         </a>
         <a href="AddTrip_Start.html">
-		<div class="Add_Button">
-            <i class="material-icons add_icon">add</i>
-			<div class="New_Trip">
+		<div class="add-trip-button">
+            <i class="material-icons add-icon">add</i>
+			<div class="new-trip">
                 <span>Add Trip</span>
             </div>
 		</div>
         </a>
         <a href="MyTrips_Overview.html">
-		<div class="My_Trips_Button">
-            <i class="material-icons myTrips_icon">flight_takeoff</i>
-			<div class="Trips">
+		<div class="my-trips-button">
+            <i class="material-icons myTrips-icon">flight_takeoff</i>
+			<div class="trips">
 				<span>My Trips</span>
 			</div>
 		</div>
         </a>
-		<div class="Profile_Button">
-            <i class="material-icons profile_icon">person</i>
-			<div class="Profile">
+		<div class="profile-button">
+            <i class="material-icons profile-icon">person</i>
+			<div class="profile">
 				<span>Profile</span>
 			</div>
 		</div>
 	</div>
     
 <!-- task -->
-	<div id="Task_list">
+	<div id="task-list">
 		<svg viewBox="0 0 960 195">
             <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
 		</svg>
-		<div class="Task_Headline">
+		<div class="task-headline">
 			<span>Make Visa Appointment</span>
 		</div>
-		<div class="Task_Description">
+		<div class="task-description">
 			<span>Brazilian Embassy, not later than June<br/>Sonnenstraße 21, 80331 München</span><br>
 		</div>
-		<div id="Rectangle_Date1" class="Rectangle_Date">
+		<div id="rectangle-date-1" class="rectangle-date">
 		</div>
-		<div class="Task_Date">
+		<div class="task-date">
 			<span>11<br/>FEB</span>
 		</div>
-        <div class="check_no" onclick="taskOneDone();">
+        <div class="check-no" onclick="taskOneDone();">
             <i id="task1" class="far fa-circle"></i>
         </div>
 	</div>
@@ -137,70 +137,70 @@
     
     
 <!-- Popup window: Only shown when you click the FAB button -->
-    <div id="Popup_Task_Item">
+    <div id="popup-task-item">
     <!-- task description -->
-	<div id="Task_Description">
+	<div id="task-description">
 		<span>Task Description</span>
 	</div>
 	<div id="description_rect">
-        <input type="text" name="" id="textfield_description" placeholder="">
+        <input type="text" name="" id="textfield-description" placeholder="">
 	</div>
     <!-- date and deadline -->
-	<div id="Text_Field_datetask">
+	<div id="text-field-datetask">
 		<div class="Surface">
 		</div>
-		<div id="dd_mm_yy">
+		<div id="dd-mm-yy">
 			<span>dd.mm.yy</span>
 		</div>
-	<i class="material-icons" id="calendar_popup">calendar_today</i>
+	<i class="material-icons" id="calendar-popup">calendar_today</i>
 	</div>
-	<div id="Deadline">
+	<div id="deadline">
 		<span>Deadline</span>
 	</div>
-	<div id="Text_Field_timetask">
-		<div class="Surface">
+	<div id="text-field-timetask">
+		<div class="surface">
 		</div>
-		<div id="hh_mm">
+		<div id="hh-mm">
 			<span>hh.mm</span>
 		</div>
-        <i class="material-icons" id="time_popup">access_time</i>
+        <i class="material-icons" id="time-popup">access_time</i>
 	</div>
     <!-- task name -->
-	<div id="Task_Name">
+	<div id="task-name">
 		<span>Task Name</span>
 	</div>
 	<div id="name_rect">
-        <input type="text" name="" id="textfield_name" placeholder="">
+        <input type="text" name="" id="textfield-name" placeholder="">
 	</div>
     <!-- assign task -->
-	<div id="Assign_to">
+	<div id="assign-to">
 		<span>Assign to</span>
 	</div>
     <div id="assign_to_rect">
-        <input type="text" name="" id="textfield_asignTo" placeholder="@Friend">
+        <input type="text" name="" id="textfield-asign-to" placeholder="@Friend">
 	</div>
     <!-- delete task -->
 	<div id="trash">
 		<div id="rectangle">
 		</div>
-		<i class="material-icons" id="delete_icon">delete</i>
+		<i class="material-icons" id="delete-icon">delete</i>
 	</div>
-	<div id="Delete_Task">
+	<div id="delete-task">
 		<span>Delete Task</span>
 	</div>
     <!-- save task button -->
-	<div id="Save_Button" onclick="popupTaskItemHide();">
-		<div id="Rectangle_Save">
+	<div id="save-button" onclick="popupTaskItemHide();">
+		<div id="rectangle-save">
 		</div>
-		<div id="SAVE">
+		<div id="save">
 			<span>SAVE</span>
 		</div>
 	</div>
     <!-- cancel button -->
-	<div id="Cancel_Button" onclick="popupTaskItemHide();">
-		<div id="Rectangle_Cancel">
+	<div id="cancel-button" onclick="popupTaskItemHide();">
+		<div id="rectangle-cancel">
 		</div>
-		<div id="CANCEL">
+		<div id="cancel">
 			<span>CANCEL</span>
 		</div>
 	</div>

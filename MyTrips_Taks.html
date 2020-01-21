@@ -28,158 +28,158 @@
 
 </head>
 <body>
-<div id="My_Trips___Tasks">
+<div id="my-trips-tasks-screen">
     <!-- header -->
-	<div class="App_bar">
+	<div class="app-bar">
 		<svg viewBox="0 0 1080 228">
             <rect width="1086px" height="400px" fill="#1A237E"/>
         </svg>
 	</div>
-	<div id="My_Trips">
+	<div id="my-trips">
 		<span>My Trips</span>
 	</div>
 	<div class="FliyingCarpet">
 		<span>FlyingCarpet</span>
 	</div>
     <!-- tabbar -->
-	<div id="Tabs">
-		<div id="tab_bar">
+	<div id="tabs">
+		<div id="tab-bar">
 		</div>
-		<div id="tab_selection">
+		<div id="tab-selection">
 		</div>
         <a href="MyTrips_Information.html">
-		<div id="INFORMATION">
+		<div id="information">
 			<span>INFORMATION</span>
 		</div>
         </a>
         <a href="MyTrips_Checklist.html">
-		<div id="CHECKLIST">
+		<div id="packlist">
 			<span>PACKLIST</span>
 		</div>
         </a>
-		<div id="TASKS">
+		<div id="tasks">
 			<span>TASKS</span>
 		</div>
 	</div>
     <!-- trip details: name, date & progress -->
-	<div id="Banner_Trip1">
-		<div id="Trip_1"><img class="country_img1" src="pictures/01.Brazil_without.png">
+	<div id="banner-trip-1">
+		<div id="trip-1"><img class="country-img-1" src="pictures/01.Brazil_without.png">
 		</div>
 
 		<div id="Brazil">
 			<span>Brazil</span>
 		</div>
-		<div id="ID05_10_2020">
+		<div id="trip-date">
 			<span>05.10.2020</span>
 		</div>
 	</div>
     <!-- menubar -->
-	<div class="Bottom_menu">
-		<div class="bottom_bar">
-			<div class="Rectangle_Bottom">
+	<div class="bottom-menu">
+		<div class="bottom-bar">
+			<div class="rectangle-bottom">
 			</div>
 		</div>
         <a href="Home.html">
-		<div class="Home_Button">
-			<i class="material-icons home_icon">home</i>
-			<div class="Home">
+		<div class="home-button">
+			<i class="material-icons home-icon">home</i>
+			<div class="home">
 				<span>Home</span>
 			</div>
 		</div>
         </a>
         <a href="Calendar_Calendar.html">
-		<div class="Calendar_Button">
-            <i class="material-icons calendar_icon">calendar_today</i>
-			<div class="Calendar">
+		<div class="calendar-button">
+            <i class="material-icons calendar-icon">calendar_today</i>
+			<div class="calendar-bottom-menu">
 				<span>Calendar</span>
 			</div>
 		</div>
         </a>
         <a href="AddTrip_Start.html">
-		<div class="Add_Button">
-            <i class="material-icons add_icon">add</i>
-			<div class="New_Trip">
+		<div class="add-trip-button">
+            <i class="material-icons add-icon">add</i>
+			<div class="new-trip">
                 <span>Add Trip</span>
             </div>
 		</div>
         </a>
         <a href="MyTrips_Overview.html">
-		<div class="My_Trips_Button">
-            <i class="material-icons myTrips_icon" id="current_menuItem">flight_takeoff</i>
-			<div class="Trips" id="current_menuItem">
+		<div class="my-trips-button">
+            <i class="material-icons myTrips-icon" id="current-menu-item">flight_takeoff</i>
+			<div class="trips" id="current-menu-item">
 				<span>My Trips</span>
 			</div>
 		</div>
         </a>
-		<div class="Profile_Button">
-            <i class="material-icons profile_icon">person</i>
-			<div class="Profile">
+		<div class="profile-button">
+            <i class="material-icons profile-icon">person</i>
+			<div class="profile">
 				<span>Profile</span>
 			</div>
 		</div>
 	</div>
     <!-- content of the screen: tasks -->
-	<div id="Task_list1">
-		<svg class="Surface_Task" viewBox="0 0 960 195">
+	<div id="task-list-1">
+		<svg class="surface-task" viewBox="0 0 960 195">
             <rect width="960px" height="195px" fill ="white" stroke="rgba(210,208,208,1)"/>
 		</svg>
-		<div class="Task_Headline">
+		<div class="task-headline">
 			<span>Make Visa Appointment</span>
 		</div>
-		<div class="Task_Description">
+		<div class="task-description">
 			<span>Brazilian Embassy, not later than June<br/>Sonnenstraße 21, 80331 München</span><br>
 		</div>
-		<div id="Rectangle_Date1" class="Rectangle_Date">
+		<div id="rectangle-date-1" class="rectangle-date">
 		</div>
-		<div class="Task_Date">
+		<div class="task-date">
 			<span>11<br/>FEB</span>
 		</div>
-		<div class="check_no" onclick="taskOneDone();">
-             <i id="task1" class="far fa-circle"></i>
+		<div class="check-no" onclick="taskOneDone();">
+             <i id="task-1" class="far fa-circle"></i>
 		</div>
 	</div>
-	<div id="Task_list2">
-		<svg class="Surface_Task" viewBox="0 0 960 195">
+	<div id="task-list-2">
+		<svg class="surface-task" viewBox="0 0 960 195">
 			  <rect width="960px" height="195px" fill ="white"/>
 		</svg>
-		<div class="Task_Headline">
+		<div class="task-headline">
 			<span>Cancel Newspaper</span>
 		</div>
-		<div class="Task_Description">
+		<div class="task-description">
 			<span>Unsubscribe from Münchner AZ<br/>for duration of trip</span><br>
 		</div>
-		<div id="Rectangle_Date2" class="Rectangle_Date">
+		<div id="rectangle-date-2" class="rectangle-date">
 		</div>
-		<div class="Task_Date">
+		<div class="task-date">
 			<span>14<br/>JAN</span>
 		</div>
-	   <div class="check_no" onclick="taskTwoDone();">
-             <i id="task2" class="far fa-circle"></i>
+	   <div class="check-no" onclick="taskTwoDone();">
+             <i id="task-2" class="far fa-circle"></i>
 		</div>
 	</div>
-	<div id="Next_Week">
+	<div id="next-week">
 		<span>Next Week</span>
 	</div>
-	<div id="Maerz_2020">
+	<div id="maerz-2020">
 		<span>MAY 2020</span>
 	</div>
-	<div id="Task_list3">
+	<div id="task-list-3">
 		<svg class="Surface_Task" viewBox="0 0 960 195">
 			 <rect width="960px" height="195px" fill ="white"/>
 		</svg>
-		<div class="Task_Headline">
+		<div class="task-headline">
 			<span>Vaccine Yellow Fever</span>
 		</div>
-		<div class="Task_Description">
+		<div class="task-description">
 			<span>Dr. Müller<br/>Goethestr. 25, 80337 München</span>
 		</div>
-		<div id="Rectangle_Date3" class="Rectangle_Date">
+		<div id="rectangle-date-3" class="rectangle-date">
 		</div>
-		<div class="Task_Date">
+		<div class="task-date">
 			<span>03<br/>MAY</span>
 		</div>
-      <div class="check_no" onclick="taskThreeDone();">
-             <i id="task3" class="far fa-circle"></i>
+      <div class="check-no" onclick="taskThreeDone();">
+             <i id="task-3" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- floating action button -->
@@ -188,63 +188,63 @@
     </div>
     
     <!-- Popup window: Only shown when you click the FAB button -->
-    <div id="Popup_Task_Item">
-	<div id="Task_Description">
+    <div id="popup-task-item">
+	<div id="task-description">
 		<span>Task Description</span>
 	</div>
-	<div id="description_rect">
-        <input type="text" name="" id="textfield_description" placeholder="">
+	<div id="description-rect">
+        <input type="text" name="" id="textfield-description" placeholder="">
 	</div>
-	<div id="Text_Field_datetask">
-		<div class="Surface">
+	<div id="text-field-datetask">
+		<div class="surface">
 		</div>
-		<div id="dd_mm_yy">
+		<div id="dd-mm-yy">
 			<span>dd.mm.yy</span>
 		</div>
-	<i class="material-icons" id="calendar_popup">calendar_today</i>
+	<i class="material-icons" id="calendar-popup">calendar_today</i>
 	</div>
-	<div id="Deadline">
+	<div id="deadline">
 		<span>Deadline</span>
 	</div>
-	<div id="Text_Field_timetask">
-		<div class="Surface">
+	<div id="text-field-timetask">
+		<div class="surface">
 		</div>
-		<div id="hh_mm">
+		<div id="hh-mm">
 			<span>hh.mm</span>
 		</div>
-        <i class="material-icons" id="time_popup">access_time</i>
+        <i class="material-icons" id="time-popup">access_time</i>
 	</div>
-	<div id="Task_Name">
+	<div id="task-name">
 		<span>Task Name</span>
 	</div>
-	<div id="name_rect">
-        <input type="text" name="" id="textfield_name" placeholder="">
+	<div id="name-rect">
+        <input type="text" name="" id="textfield-name" placeholder="">
 	</div>
-	<div id="Assign_to">
+	<div id="assign-to">
 		<span>Assign to</span>
 	</div>
-    <div id="assign_to_rect">
-        <input type="text" name="" id="textfield_asignTo" placeholder="@Friend">
+    <div id="assign-to-rect">
+        <input type="text" name="" id="textfield-asign-to" placeholder="@Friend">
 	</div>
 	<div id="trash">
 		<div id="rectangle">
 		</div>
-		<i class="material-icons" id="delete_icon">delete</i>
+		<i class="material-icons" id="delete-icon">delete</i>
 	</div>
-	<div id="Delete_Task">
+	<div id="delete-task">
 		<span>Delete Task</span>
 	</div>
-	<div id="Save_Button" onclick="popupTaskItemHide();">
-		<div id="Rectangle_Save">
+	<div id="save-button" onclick="popupTaskItemHide();">
+		<div id="rectangle-save">
 		</div>
-		<div id="SAVE">
+		<div id="save">
 			<span>SAVE</span>
 		</div>
 	</div>
-	<div id="Cancel_Button" onclick="popupTaskItemHide();">
-		<div id="Rectangle_Cancel">
+	<div id="cancel-button" onclick="popupTaskItemHide();">
+		<div id="rectangle-cancel">
 		</div>
-		<div id="CANCEL">
+		<div id="cancel">
 			<span>CANCEL</span>
 		</div>
 	</div>

@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#My_Trips___Checklist {
+	#my-trips-checklist-screen {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -14,7 +14,7 @@
 		overflow: hidden;
 	}
 /* header wording current menu item*/
-	#My_Trips {
+	#my-trips {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -30,12 +30,12 @@
 	}
 
 /* current menu item is highlighted */
-    #current_menuItem {
+    #current-menu-item {
         color: #1A237E;
     }
 
 /* tab bar: information, checklist, tasks */
-	#Tabs {
+	#tabs {
 		position: absolute;
 		width: 1080px;
 		height: 135px;
@@ -43,7 +43,7 @@
 		top: 410px;
 		overflow: visible;
 	}
-	#tab_bar {
+	#tab-bar {
 		position: absolute;
 		width: 1099px;
 		height: 100px;
@@ -53,7 +53,7 @@
 		border:  1px solid #D2D0D0;
 		overflow: hidden;
 	}
-	#tab_selection {
+	#tab-selection {
 		position: absolute;
 		width: 360px;
 		height: 8px;
@@ -63,7 +63,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#INFORMATION {
+	#information {
 		position: absolute;
 		left: 48px;
 		top: 66px;
@@ -77,7 +77,7 @@
 		font-size: 35px;
 		color: #D2D0D0;
 	}
-	#CHECKLIST {
+	#packlist {
 		position: absolute;
 		left: 439px;
 		top: 66px;
@@ -91,7 +91,7 @@
 		font-size: 35px;
 		color: #FFA726;
 	}
-	#TASKS {
+	#task {
 		position: absolute;
 		left: 859px;
 		top: 66px;
@@ -107,7 +107,7 @@
 	}
 
 /* banner: brazil, date, progress bar */
-	#Banner_Trip1 {
+	#banner-trip-1 {
 		position: absolute;
 		width: 1080px;
 		height: 180px;
@@ -115,7 +115,7 @@
 		top: 230px;
 		overflow: visible;
 	}
-	#Trip_1 {
+	#trip-1 {
 		position: absolute;
 		width: 1080px;
 		height: 220px;
@@ -139,7 +139,7 @@
 		font-size: 50px;
 		color: white;
 	}
-	#ID05_10_2020 {
+	#trip-date {
 		position: absolute;
 		left: 870px;
 		top: 30px;
@@ -155,7 +155,7 @@
 	}
 
 /* items of the checklist */
-	#Sunscreen {
+	#sunscreen {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -163,7 +163,7 @@
 		top: 875px;
 		overflow: visible;
 	}
-	.Rectangle_Items {
+	.rectangle-items {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -175,7 +175,7 @@
         box-shadow: 5px 5px 15px #D8D6D6;
         
 	}
-    .item_name {
+    .item-name {
 		position: absolute;
 		left: 29px;
 		top: 22px;
@@ -191,7 +191,7 @@
 	}
  
 /* item of the Hiking Boots */
-	#Hiking_Boots {
+	#hiking-boots {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -201,7 +201,7 @@
 	}
 
 /* item of the towel */
-    #Towel {
+    #towel {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -211,7 +211,7 @@
 	}
 
 /* item of the Shirts */
-    #Shirts {
+    #shirts {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -221,7 +221,7 @@
 	}
 
  /* item of the Pants */
-	#Pants {
+	#pants {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -231,7 +231,7 @@
 	}
 
 /* new item */
-	.New_Item {
+	.new-item {
 		position: absolute;
 		width: 950px;
 		height: 96px;
@@ -239,7 +239,7 @@
 		top: 1250px;
 		overflow: visible;
 	}
-    .New_Item_Name {
+    .new-item-name {
 		position: absolute;
 		left: 29px;
 		top: 22px;
@@ -255,7 +255,7 @@
     }
 
 /* item not packed --> empty circle */
-	.check_no {
+	.check-no {
 		overflow: visible;
 		position: absolute;
 		left: 870px;
@@ -284,7 +284,7 @@
 
 /* CSS popup window item */
 
-	#Popup_Task_Item {
+	#popup-task-item {
 		position: absolute;
         top: 460px;
         left: 146px;
@@ -301,7 +301,7 @@
         z-index: 2;
 	}
 /* item name */
-	#Task_Name {
+	#task-name {
 		position: absolute;
 		left: 63px;
 		top: 153px;
@@ -315,7 +315,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-    #textfield_name {
+    #textfield-name {
         position: absolute;
         width: 635px;
         height: 80px;
@@ -329,7 +329,7 @@
         outline: none;
     }
 /* assign item */
-	#Assign_to {
+	#assign-to {
 		position: absolute;
 		left: 63px;
 		top: 373px;
@@ -343,7 +343,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-    #textfield_assignTo {
+    #textfield-assign-to {
         position: absolute;
         width: 635px;
         height: 80px;
@@ -375,13 +375,13 @@
 		border: 0;
 		overflow: hidden;
 	}
-    #delete_icon {
+    #delete-icon {
         color: #1A237E;
         font-size: 50px;
         margin-top: 2px;
         
     }
-	#Delete_Task {
+	#delete-task {
 		position: absolute;
 		left: 602px;
 		top: 53px;
@@ -396,7 +396,7 @@
 		color: #1A237E;
 	}
 /* save item button */
-	#Save_Button {
+	#save-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -404,7 +404,7 @@
 		top: 622px;
 		overflow: visible;
 	}
-	#Rectangle_Save {
+	#rectangle-save {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -415,7 +415,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#SAVE {
+	#save {
 		position: absolute;
 		left: 79px;
 		top: 17px;
@@ -430,7 +430,7 @@
 		color: rgba(255,255,255,1);
 	}
 /* cancel button */
-	#Cancel_Button {
+	#cancel-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -438,7 +438,7 @@
 		top: 622px;
 		overflow: visible;
 	}
-	#Rectangle_Cancel {
+	#rectangle-cancel {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -449,7 +449,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#CANCEL {
+	#cancel {
 		position: absolute;
 		left: 52px;
 		top: 17px;

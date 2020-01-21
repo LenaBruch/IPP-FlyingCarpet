@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#My_Trips___Information___2 {
+	#my-trips-information-2 {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -15,7 +15,7 @@
 	}
 
 /* header wording current menu item*/
-	#My_Trips {
+	#my-trips {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -30,12 +30,12 @@
 		color: rgba(255,255,255,1);
 	}
 /* current menu item is highlighted */
-    #current_menuItem {
+    #current-menu-item {
         color: #1A237E;
     }
 
 /* header image, trip name and trip date */
-	#Header_Image {
+	#header-image {
 		position: absolute;
 		width: 1080px;
 		height: 339px;
@@ -43,11 +43,11 @@
 		top: 227px;
 		overflow: visible;
 	}
-    .country_img1 {
+    .country-img-1 {
         width: 1080px;
         height: 250px;
     }
-	#Brazil_Header {
+	#brazil-header {
 		position: absolute;
 		left: 65px;
 		top: 233px;
@@ -61,7 +61,7 @@
 		font-size: 60px;
 		color: rgba(255,255,255,1);
 	}
-	#ID05_10_2020 {
+	#trip-date {
 		position: absolute;
 		left: 68px;
 		top: 300px;
@@ -77,7 +77,7 @@
 	}
 
 /* content of the screen */
-	#Trip_Overview {
+	#trip-overview {
 		position: absolute;
 		left: 70px;
 		top: 530px;
@@ -91,7 +91,7 @@
 		font-size: 40px;
 		color: rgba(26,35,126,1);
 	}
-	#Name {
+	#name {
 		position: absolute;
 		left: 70px;
 		top: 650px;
@@ -121,7 +121,7 @@
 	}
 
      /* destination */
-	#Where__to {
+	#where-to {
 		position: absolute;
 		left: 70px;
 		top: 764px;
@@ -135,7 +135,7 @@
 		font-size: 34px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Group_Where_To {
+	#group-where-to {
 		position: absolute;
 		width: 688px;
 		height: 83px;
@@ -143,7 +143,7 @@
 		top: 764px;
 		overflow: visible;
 	}
-	#Text_Field_from_Destination {
+	#text-field-from-destination {
 		position: absolute;
 		width: 345px;
 		height: 83px;
@@ -151,7 +151,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Surface_Where {
+	#surface-where {
 		opacity: 0.07;
 		position: absolute;
 		width: 345px;
@@ -163,7 +163,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#From {
+	#from {
 		position: absolute;
 		left: 13px;
 		top: 17px;
@@ -178,7 +178,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.095px;
 	}
-	#Text_Field_to_Destination {
+	#text-field-to-destination {
 		position: absolute;
 		width: 331px;
 		height: 83px;
@@ -186,7 +186,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Surface_To {
+	#surface-to {
 		opacity: 0.07;
 		position: absolute;
 		width: 331px;
@@ -198,7 +198,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#To {
+	#to {
 		position: absolute;
 		left: 16px;
 		top: 17px;
@@ -215,7 +215,7 @@
 	}
 
     /* dates */
-	#Trip_Dates {
+	#trip-dates {
 		position: absolute;
 		left: 70px;
 		top: 908px;
@@ -229,7 +229,7 @@
 		font-size: 34px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Group_Date {
+	#group-date {
 		position: absolute;
 		width: 688px;
 		height: 83px;
@@ -237,7 +237,7 @@
 		top: 908px;
 		overflow: visible;
 	}
-	#Text_Field_Date_Start {
+	#text-field-date-start {
 		position: absolute;
 		width: 345px;
 		height: 83px;
@@ -245,7 +245,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Surface_Date1 {
+	#surface-date-1 {
 		opacity: 0.07;
 		position: absolute;
 		width: 315px;
@@ -257,7 +257,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#dd_mm_yy {
+	#dd-mm-yy {
 		position: absolute;
 		left: 18px;
 		top: 17px;
@@ -272,7 +272,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.095px;
 	}
-	#Text_Field_Date_Destination {
+	#text-field-date-destination {
 		position: absolute;
 		width: 333px;
 		height: 83px;
@@ -280,7 +280,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Surface_Date2 {
+	#surface-date-2 {
 		opacity: 0.07;
 		position: absolute;
 		width: 333px;
@@ -292,7 +292,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#dd_mm_yy_I {
+	#dd-mm-yy-I {
 		position: absolute;
 		left: 18px;
 		top: 17px;
@@ -309,7 +309,7 @@
 	}
     
     /* way of traveling */
-	#How_ {
+	#how- {
 		position: absolute;
 		left: 77px;
 		top: 1122px;
@@ -323,7 +323,7 @@
 		font-size: 34px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Surface_How {
+	#surface-how {
 		opacity: 0.07;
 		position: absolute;
 		width: 688px;
@@ -335,7 +335,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#Plane {
+	#plane {
 		position: absolute;
 		left: 275px;
 		top: 1122px;
@@ -350,7 +350,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.095px;
 	}
-	#From_A_to_B {
+	#from-A-to-B {
 		position: absolute;
 		left: 259px;
 		top: 1062px;
@@ -367,7 +367,7 @@
 	}
     
     /* type of trip */
-	#Type_of_trip {
+	#type-of-trip {
 		position: absolute;
 		left: 77px;
 		top: 1246px;
@@ -381,7 +381,7 @@
 		font-size: 34px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Surface_Type {
+	#surface-type {
 		opacity: 0.07;
 		position: absolute;
 		width: 688px;
@@ -393,7 +393,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#City_trip {
+	#city-trip {
 		position: absolute;
 		left: 275px;
 		top: 1270px;
@@ -409,7 +409,7 @@
 		letter-spacing: 0.095px;
 	}
     /* company */
-	#Company {
+	#company {
 		position: absolute;
 		left: 77px;
 		top: 1410px;
@@ -423,7 +423,7 @@
 		font-size: 34px;
 		color: rgba(0,0,0,0.871);
 	}
-	#Surface_Company {
+	#surface-company {
 		opacity: 0.07;
 		position: absolute;
 		width: 688px;
@@ -452,7 +452,7 @@
 	}
 
 /* edit icons */
-	#icon_edit_name {
+	#icon-edit-name {
 		overflow: visible;
 		position: absolute;
 		left: 989px;
@@ -460,7 +460,7 @@
 		font-size: 40px;
         color: #534BAE;
 	}
-	#icon_edit_where {
+	#icon-edit-where {
 		overflow: visible;
 		position: absolute;
 		left: 989px;
@@ -468,7 +468,7 @@
 		font-size: 40px;
         color: #534BAE;
 	}
-	#icon_edit_date {
+	#icon-edit-date {
 		overflow: visible;
 		position: absolute;
 		left: 989px;
@@ -476,7 +476,7 @@
         font-size: 40px;
         color: #534BAE;
 	}
-	#icon_edit_how {
+	#icon-edit-how {
 		overflow: visible;
 		position: absolute;
 		left: 989px;
@@ -484,7 +484,7 @@
 		font-size: 40px;
         color: #534BAE;
 	}
-	#icon_edit_type {
+	#icon-edit-type {
 		overflow: visible;
 		position: absolute;
 		left: 989px;
@@ -492,7 +492,7 @@
 		font-size: 40px;
         color: #534BAE;
 	}
-	#icon_edit_company {
+	#icon-edit-company {
 		overflow: visible;
 		position: absolute;
 		left: 989px;

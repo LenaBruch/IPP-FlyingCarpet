@@ -8,7 +8,7 @@
 
 /* header wording of the current menu item */
  
-    #Add_Trip {
+    #add-trip {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -23,90 +23,12 @@
 		color: rgba(255,255,255,1);
 	}
 /* current menu item is highlighted */
-#current_menuItem {
+#current-menu-item {
     color: #1A237E;
 }
 
-
-/* inspirational image */
-	#insp_start {
-		position: absolute;
-		width: 20px;
-		height: 20px;
-		left: 110px;
-		top: 330px;
-        overflow: visible;
-}
-.insp_img {
-        width: 820px;   
-}
-	
-
-/* content of the current screen */
-#Text_Field {
-		position: absolute;
-		width: 960px;
-		height: 83px;
-		left: 60px;
-		top: 1120px;
-		overflow: visible;
-	}
-#Trip_Name {
-    font-size: 26pt;
-    width: 900px;
-    height: 83px;
-    background: #F3F2F9;
-    padding-left: 15px;
-    outline: none;
-}
-	#Let_s_get_Started {
-		position: absolute;
-		left: 60px;
-		top: 963px;
-		overflow: visible;
-		width: 365px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 50px;
-		color: #FFA726;
-	}
-	#give_your_trip_a_name {
-		position: absolute;
-		left: 60px;
-		top: 1040px;
-		overflow: visible;
-		width: 332px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 35px;
-		color: #000000;
-		letter-spacing: 0.095px;
-	}
-	
-/* text of the cancel button */
-	#CANCEL {
-		position: absolute;
-		left: 52px;
-		top: 17px;
-		overflow: visible;
-		width: 149px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 35px;
-		color: rgba(0,0,0,0.38);
-	}
-
 /* timeline */
-	#Timeline {
+	#timeline {
 		position: absolute;
 		width: 933px;
 		height: 84px;
@@ -114,7 +36,7 @@
 		top: 288px;
 		overflow: visible;
 	}
-	.Linie_3 {
+	.linie-3 {
 		overflow: visible;
 		position: absolute;
 		width: 880px;
@@ -123,7 +45,7 @@
 		top: 15px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Start {
+	.start {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -131,7 +53,7 @@
 		left: 28px;
 		top: 0px;
 	}
-	.lets_go {
+	.lets-go {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -155,7 +77,7 @@
 		left: 556px;
 		top: 5px;
 	}
-	.Transportation {
+	.transportation {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -171,7 +93,7 @@
 		left: 204px;
 		top: 5px;
 	}
-	#Start {
+	#start {
 		position: absolute;
 		left: 0px;
 		top: 31px;
@@ -185,3 +107,81 @@
 		font-size: 40px;
 		color: #FFA726;
 	}
+
+/* inspirational image */
+	#insp-start {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 110px;
+		top: 330px;
+        overflow: visible;
+}
+.insp-img {
+        width: 820px;   
+}
+	
+
+/* content of the current screen */
+#text-field {
+		position: absolute;
+		width: 960px;
+		height: 83px;
+		left: 60px;
+		top: 1120px;
+		overflow: visible;
+	}
+#trip-name {
+    font-size: 26pt;
+    width: 900px;
+    height: 83px;
+    background: #F3F2F9;
+    padding-left: 15px;
+    outline: none;
+}
+	#lets-get-started {
+		position: absolute;
+		left: 60px;
+		top: 963px;
+		overflow: visible;
+		width: 365px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: #FFA726;
+	}
+	#give-your-trip-name {
+		position: absolute;
+		left: 60px;
+		top: 1040px;
+		overflow: visible;
+		width: 332px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: #000000;
+		letter-spacing: 0.095px;
+	}
+	
+/* text of the cancel button */
+	#cancel {
+		position: absolute;
+		left: 52px;
+		top: 17px;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(0,0,0,0.38);
+	}
+

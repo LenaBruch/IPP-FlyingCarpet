@@ -1,5 +1,5 @@
 /* next button */
-	.Next_Button {
+	.next-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -7,7 +7,7 @@
 		top: 1402px;
 		overflow: visible;
 	}
-	.Rectangle_Next {
+	.rectangle-next {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -18,7 +18,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	.NEXT {
+	.next {
 		position: absolute;
 		left: 79px;
 		top: 17px;
@@ -34,7 +34,7 @@
 	}
 
 /* back button */
-	.Back_Button {
+	.back-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -42,7 +42,7 @@
 		top: 1402px;
 		overflow: visible;
 	}
-	.Rectangle_Back {
+	.rectangle-back {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -53,7 +53,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	.BACK {
+	.back {
 		position: absolute;
 		left: 78px;
 		top: 19px;

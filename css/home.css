@@ -6,7 +6,7 @@
 		border: none;
         font-family:Roboto;   
 }
-	#ID01_Home {
+	#home-screen {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -16,12 +16,12 @@
 	}
 	
 /* current menu item is highlighted */
-#current_menuItem {
+#current-menu-item {
     color: #1A237E;
 }
 
 /* header */
-	#App_bar {
+	#app-bar {
 		position: absolute;
 		width: 1080px;
 		height: 229px;
@@ -53,7 +53,7 @@
 		font-size: 40px;
 		color: rgba(255,255,255,1);
 	}
-	#Hello {
+	#hello {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -66,7 +66,7 @@
 		font-size: 65px;
 		color: rgba(255,255,255,1);
 	}
-	#Profile_picture {
+	#profile-picture {
 		position: absolute;
 		overflow: visible;
 		width: 155px;
@@ -75,7 +75,7 @@
 		top: 35px;
 	}
 
-#profile_img {
+#profile-img {
     width: 170px;
     height: 170px;
 }
@@ -86,7 +86,7 @@
         top:320px;
         z-index: 6;
 }
-	.Rectangle_Carrousel {
+	.rectangle-carrousel {
 		position: absolute;
         left: 2px;
 		top: 232px;
@@ -96,12 +96,12 @@
          width: 1080px;
 		height: 490px;
 	}
-.My_Trips_Carrousel1{
+.my-trips-carrousel1{
         width: 1080px;
 		height: 460px;
 
 }
-.trip_name {
+.trip-name {
     overflow: visible;
     position: absolute;
     left: 35px;
@@ -112,7 +112,7 @@
     height: 100px;
     z-index: 4;
 }
-.trip_date {
+.trip-date {
     overflow: visible;
     position: absolute;
     left: 35px;
@@ -123,7 +123,7 @@
     height: 100px;
     z-index: 4;
 }
-	#My_Trips {
+	#my-trips {
 		position: absolute;
 		left: 60px;
 		top: 250px;
@@ -137,7 +137,7 @@
 		color: #1A237E;
 	}
 /* Title Upcoming datelines */
-	#Upcoming_Deadlines {
+	#upcoming-deadlines {
 		position: absolute;
 		left: 60px;
 		top: 750px;
@@ -154,7 +154,7 @@
 
 
 /* task 1 */
-	#Task_list1 {
+	#task-list-1 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -166,7 +166,7 @@
 
 
 /* task 2 */
-	#Task_list2 {
+	#task-list-2 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -177,7 +177,7 @@
 	}
 
 /* task 3 */
-	#Task_list3 {
+	#task-list-3 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -189,7 +189,7 @@
 
 
 /* general css for tasks */
-	.Task_Headline {
+	.task-headline {
 		position: absolute;
 		left: 255px;
 		top: 14px;
@@ -203,7 +203,7 @@
 		color: rgba(0,0,0,0.871);
 	}
 	
-    .Task_Description {
+    .task-description {
 		position: absolute;
 		left: 255px;
 		top: 79px;
@@ -219,7 +219,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.18px;
 	}
-	.Rectangle_Date {
+	.rectangle-date {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -229,7 +229,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-    .Rectangle_Date_Check {
+    .rectangle-date-check {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -239,7 +239,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	.Task_Date {
+	.task-date {
 		position: absolute;
 		left: 21px;
 		top: 25px;
@@ -256,7 +256,7 @@
 
 
 /* task not completed --> empty circle */
-	.check_no {
+	.check-no {
 		overflow: visible;
 		position: absolute;
 		left: 870px;

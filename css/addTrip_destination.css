@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#ID03_My_Trips___Destination {
+	#my-trips-destination-screen {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -15,7 +15,7 @@
 	}
 
 /* header wording current menu item */
-	#Add_Trip {
+	#add-trip {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -31,22 +31,22 @@
 	}
 
 /* current menu item is highlighted */
-#current_menuItem {
+#current-menu-item {
     color:  #1A237E;
 }
 
 /* inspirational image */
-#insp_destination {
+#insp-destination {
     position: absolute;
     left: -250px;
     top: -5px;
 }
-.insp_img2{
+.insp-img-2{
     width: 1500px;
 }
 
 /* content of the screen */
-	#From_and_where_to {
+	#from-and-where-to {
 		position: absolute;
 		left: 60px;
 		top: 912px;
@@ -69,7 +69,7 @@
     outline: none;
     }
 
-    #first_destination {
+    #first-destination {
 		position: absolute;
 		left: 60px;
 		top: 500px;
@@ -86,17 +86,17 @@
 	}
 
 /* icons for input fields */
-    #location_icon {
+    #location-icon {
     color: grey;
     font-size: 45px;
     }
-    #calendar_icon_little {
+    #calendar-icon-little {
     color: grey;
     font-size: 45px;
     }
 
 /* input fields*/
-	#Text_Field_from_Destination {
+	#text-field-from-destination {
 		position: absolute;
 		width: 510px;
 		height: 83px;
@@ -105,7 +105,7 @@
 		overflow: visible;
 	}
 
-	#Text_Field_to_Destination {
+	#text-field-to-destination {
 		position: absolute;
 		width: 425px;
 		height: 83px;
@@ -113,7 +113,7 @@
 		top: 1021px;
 		overflow: visible;
 	}
-	#Text_Field_from_Date {
+	#text-field-from-date {
 		position: absolute;
 		width: 460px;
 		height: 83px;
@@ -122,7 +122,7 @@
 		overflow: visible;
 	}
 
-	#Text_Field_to_Date {
+	#text-field-to-date {
 		position: absolute;
 		width: 425px;
 		height: 83px;
@@ -132,7 +132,7 @@
 	}
 
 /* add second destination */
-#second_destination {
+#second-destination {
 		position: absolute;
 		left: 60px;
 		top: 912px;
@@ -148,11 +148,11 @@
         display: none;
 	}
 
-#hide_secondDestination {
+#hide_second-destination {
     display: none;
 }
 
-#Add_destination {
+#add-destination {
 		position: absolute;
 		left: 720px;
 		top: 1215px;
@@ -165,7 +165,7 @@
 		font-size: 35px;
 		color: #534BAE;
 	}
-#add_destination_icon {
+#add-destination-icon {
     font-size: 40px;
     margin-top: 77px
 }
@@ -296,7 +296,7 @@
 		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Timeline {
+	#timeline {
 		position: absolute;
 		width: 905px;
 		height: 84px;
@@ -304,7 +304,7 @@
 		top: 288px;
 		overflow: visible;
 	}
-	.Linie_3 {
+	.linie-3 {
 		overflow: visible;
 		position: absolute;
 		width: 880px;
@@ -313,7 +313,7 @@
 		top: 15px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Start {
+	.start {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -321,7 +321,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	.lets_go {
+	.lets-go {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -345,7 +345,7 @@
 		left: 528px;
 		top: 5px;
 	}
-	.Transportation {
+	.transportation {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -353,7 +353,7 @@
 		left: 352px;
 		top: 5px;
 	}
-	.destination_6 {
+	.destination-6 {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -361,7 +361,7 @@
 		left: 176px;
 		top: 5px;
 	}
-	.Linie_4 {
+	.linie-4 {
 		overflow: visible;
 		position: absolute;
 		width: 176px;
@@ -370,7 +370,7 @@
 		top: 15.5px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Destination {
+	#destination {
 		position: absolute;
 		left: 90px;
 		top: 31px;
@@ -382,7 +382,7 @@
 		font-size: 40px;
 		color: #FFA726;
 	}
-	.Destination_big {
+	.destination-big {
 		position: absolute;
 		overflow: visible;
 		width: 30px;

@@ -1,6 +1,6 @@
 /*menubar*/	
 
-.Bottom_menu {
+.bottom-menu {
 		position: absolute;
 		width: 1080px;
 		height: 174px;
@@ -8,7 +8,7 @@
 		top: 1555px;
 		overflow: visible;
 	}
-	.bottom_bar {
+	.bottom-bar {
 		position: absolute;
 		width: 1080px;
 		height: 174px;
@@ -16,7 +16,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	.Rectangle_Bottom {
+	.rectangle-bottom {
 		position: absolute;
 		width: 1080px;
 		height: 174px;
@@ -29,7 +29,7 @@
 
 	}
 /* home */
-	.Home_Button {
+	.home-button {
 		position: absolute;
 		width: 91px;
 		height: 103px;
@@ -37,13 +37,13 @@
 		top: 34.008px;
 		overflow: visible;
 	}
-	.material-icons.home_icon { 
+	.material-icons.home-icon { 
         color: #BCBCBC;
         font-size: 85px;
         line-height: 1px;
         margin-top: 28px;
     }
-	.Home {
+	.home {
 		position: absolute;
 		left: 0px;
 		top: 58px;
@@ -58,7 +58,7 @@
 		color: #BCBCBC;
 	}
 /* calendar */
-	.Calendar_Button {
+	.calendar-button {
 		position: absolute;
 		width: 135px;
 		height: 103px;
@@ -66,7 +66,7 @@
 		top: 34px;
 		overflow: visible;
 	}
-	.Calendar {
+	.calendar-bottom-menu {
 		position: absolute;
 		left: 0px;
 		top: 58px;
@@ -80,7 +80,7 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
-	.material-icons.calendar_icon { 
+	.material-icons.calendar-icon { 
         color: #BCBCBC;
         font-size: 70px;
         line-height: 1px;
@@ -88,7 +88,7 @@
         margin-left: 30px;
 }
 /* add trip */
-	.Add_Button {
+	.add-trip-button {
 		position: absolute;
 		width: 126px;
 		height: 101px;
@@ -96,7 +96,7 @@
 		top: 33px;
 		overflow: visible;
 	}
-	.New_Trip {
+	.new-trip {
 		position: absolute;
 		left: 0px;
 		top: 56px;
@@ -110,14 +110,14 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
-	.material-icons.add_icon {
+	.material-icons.add-icon {
         color: #BCBCBC;
         font-size: 100px;
         line-height: 1px;
         margin-top: 28px;
     }
 /* my trips */
-	.My_Trips_Button {
+	.my-trips-button {
 		position: absolute;
 		width: 129px;
 		height: 104px;
@@ -125,7 +125,7 @@
 		top: 34px;
 		overflow: visible;
 	}
-	.Trips {
+	.trips {
 		position: absolute;
 		left: 0px;
 		top: 59.008px;
@@ -139,7 +139,7 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
-    .material-icons.myTrips_icon {
+    .material-icons.myTrips-icon {
         color: #BCBCBC;
         font-size: 85px;
         line-height: 1px;
@@ -147,7 +147,7 @@
         margin-left: 25px;
     }
 /* profile */
-	.Profile_Button {
+	.profile-button {
 		position: absolute;
 		width: 97px;
 		height: 103px;
@@ -155,7 +155,7 @@
 		top: 35px;
 		overflow: visible;
 	}
-	.Profile {
+	.profile {
 		position: absolute;
 		left: 0px;
 		top: 58px;
@@ -169,7 +169,7 @@
 		font-size: 34px;
 		color: #BCBCBC;
 	}
-	.material-icons.profile_icon {
+	.material-icons.profile-icon {
         color: #BCBCBC;
         font-size: 85px;
         line-height: 1px;

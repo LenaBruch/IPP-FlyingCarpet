@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#Add_Trip_Company {
+	#add-trip-company {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -15,7 +15,7 @@
 	}
 
 /*header wording current menu item*/
-	#Add_Trip {
+	#add-trip {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -31,22 +31,22 @@
 	}
 
 /* current menu item highlighted */
-#current_menuItem {
+#current-menu-item {
     color: #1A237E;
 }
 
 /* inspirational image placeholder */
-#insp_company{
+#insp-company{
     position: absolute;
     left:95px;
     top:370px;
 }
-.insp_img5{
+.insp-img-5{
     width: 950px;
 }
 
 /* screen content - question */
-#Travelling_alone_company {
+#travelling-alone-company {
 		position: absolute;
 		width: 752px;
 		height: 53px;
@@ -54,7 +54,7 @@
 		top: 891px;
 		overflow: visible;
 	}
-	#alone_company {
+	#alone-company {
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -70,7 +70,7 @@
 	}
 
 /* radio buttons */
-    #check_alone {
+    #check-alone {
 		overflow: visible;
 		position: absolute;
 		left: 196px;
@@ -79,7 +79,7 @@
         stroke-width:6px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	  #check_with {
+	  #check-with {
 		overflow: visible;
 		position: absolute;
 		left: 196px;
@@ -90,7 +90,7 @@
 	}
 
 /* answer text alone */
-	#Alone {
+	#alone- {
 		position: absolute;
 		left: 280px;
 		top: 1039px;
@@ -106,7 +106,7 @@
 	}
 
 /* answer text with a friend*/
-	#With_ {
+	#with- {
 		position: absolute;
 		left: 280px;
 		top: 1185px;
@@ -136,7 +136,7 @@
 	}
 
     /* input field for friend's name */
-    #Friend_Name {
+    #friend-name {
         font-size: 26pt;
         width: 500px;
         height: 83px;
@@ -148,7 +148,7 @@
     }
 
 /* timeline */
-	#Timeline {
+	#timeline {
 		position: absolute;
 		width: 905px;
 		height: 84px;
@@ -156,7 +156,7 @@
 		top: 288px;
 		overflow: visible;
 	}
-	.Pfad_993 {
+	.linie-3 {
 		overflow: visible;
 		position: absolute;
 		width: 880px;
@@ -165,7 +165,7 @@
 		top: 15px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Start {
+	.start {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -173,7 +173,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	.lets_go {
+	.lets-go {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -197,7 +197,7 @@
 		left: 528px;
 		top: 1px;
 	}
-	.Transportation {
+	.transportation {
 		position: absolute;
 		overflow: visible;
 		width: 20px;
@@ -205,7 +205,7 @@
 		left: 352px;
 		top: 5px;
 	}
-	#Company {
+	#company {
 		position: absolute;
 		left: 635px;
 		top: 31px;
@@ -227,7 +227,7 @@
 		left: 176px;
 		top: 5px;
 	}
-	.Linie_4 {
+	.linie-4 {
 		overflow: visible;
 		position: absolute;
 		width: 704px;
@@ -236,7 +236,7 @@
 		top: 15.5px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.Destination {
+	.destination {
 		position: absolute;
 		overflow: visible;
 		width: 30px;
@@ -244,7 +244,7 @@
 		left: 176px;
 		top: 0px;
 	}
-	.Transportation_big {
+	.transportation-big {
 		position: absolute;
 		overflow: visible;
 		width: 30px;

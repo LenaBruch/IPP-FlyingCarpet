@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#My_Trips___Tasks {
+	#my-trips-tasks-screen {
 		position: absolute;
 		background: #E5E5E5;
 		width: 1080px;
@@ -15,7 +15,7 @@
 	}
 
 /* header wording of the current menu item*/
-	#My_Trips {
+	#my-trips {
 		position: absolute;
 		left: 70px;
 		top: 104px;
@@ -31,12 +31,12 @@
 	}
 
 /* current menu item is highlighted */
-    #current_menuItem {
+    #current-menu-item {
         color: #1A237E;
     }
 
 /* tab bar: information, checklist, tasks */
-	#Tabs {
+	#tabs {
 		position: absolute;
 		width: 1080px;
 		height: 135px;
@@ -44,7 +44,7 @@
 		top: 410px;
 		overflow: visible;
 	}
-	#tab_bar {
+	#tab-bar {
 		position: absolute;
 		width: 1080px;
 		height: 100px;
@@ -54,7 +54,7 @@
 		border:  1px solid #D2D0D0;
 		overflow: hidden;
 	}
-	#tab_selection {
+	#tab-selection {
 		position: absolute;
 		width: 360px;
 		height: 8px;
@@ -64,7 +64,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#INFORMATION {
+	#information {
 		position: absolute;
 		left: 48px;
 		top: 66px;
@@ -78,7 +78,7 @@
 		font-size: 35px;
 		color: #D2D0D0;
 	}
-	#CHECKLIST {
+	#packlist {
 		position: absolute;
 		left: 439px;
 		top: 66px;
@@ -92,7 +92,7 @@
 		font-size: 35px;
 		color: #D2D0D0;
 	}
-	#TASKS {
+	#tasks {
 		position: absolute;
 		left: 859px;
 		top: 66px;
@@ -108,7 +108,7 @@
 	}
 
 /* banner: brazil, date, progress bar*/
-	#Banner_Trip1 {
+	#banner-trip-1 {
 		position: absolute;
 		width: 1080px;
 		height: 180px;
@@ -116,7 +116,7 @@
 		top: 230px;
 		overflow: visible;
 	}
-	#Trip_1 {
+	#trip-1 {
 		position: absolute;
 		width: 1080px;
 		height: 220px;
@@ -140,7 +140,7 @@
 		font-size: 50px;
 		color: white;
 	}
-	#ID05_10_2020 {
+	#trip-date {
 		position: absolute;
 		left: 870px;
 		top: 30px;
@@ -156,7 +156,7 @@
 	}
 	
 /* general task css */
-	.Task_Headline {
+	.task-headline {
 		position: absolute;
 		left: 255px;
 		top: 14px;
@@ -170,7 +170,7 @@
 		font-size: 40px;
 		color: rgba(0,0,0,0.871);
 	}
-	.Task_Description {
+	.task-description {
 		position: absolute;
 		left: 255px;
 		top: 79px;
@@ -187,7 +187,7 @@
 		color: rgba(0,0,0,0.6);
 		letter-spacing: 0.18px;
 	}
-	.Rectangle_Date {
+	.rectangle-date {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -197,7 +197,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-    .Rectangle_Date_Check {
+    .rectangle-date-check {
 		position: absolute;
 		width: 196px;
 		height: 195px;
@@ -207,7 +207,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	.Task_Date {
+	.task-date {
 		position: absolute;
 		left: 20px;
 		top: 25px;
@@ -224,7 +224,7 @@
 	}
 
 /* task not completed --> empty circle */
-	.check_no {
+	.check-no {
 		overflow: visible;
 		position: absolute;
 		left: 870px;
@@ -237,7 +237,7 @@
 	}
 
 /* task 1 */
-	#Task_list1 {
+	#task-list-1 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -248,7 +248,7 @@
 	}
 
 /* task 2 */
-	#Task_list2 {
+	#task-list-2 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -259,7 +259,7 @@
 	}
 
 /* task 3 */
-	#Task_list3 {
+	#task-list-3 {
 		position: absolute;
 		width: 960px;
 		height: 195px;
@@ -270,7 +270,7 @@
 	}
 
 /*  next week */
-	#Next_Week {
+	#next-week {
 		position: absolute;
 		left: 70px;
 		top: 600px;
@@ -286,7 +286,7 @@
 	}
 
 /* september 2019 */
-	#Maerz_2020 {
+	#maerz-2020 {
 		position: absolute;
 		left: 80px;
 		top: 1185px;
@@ -302,7 +302,7 @@
 	}
 
 /* CSS popup window task */
-	#Popup_Task_Item {
+	#popup-task-item {
 		position: absolute;
         top: 300px;
         left: 146px;
@@ -320,7 +320,7 @@
 	}
 
 /* description */
-	#Task_Description {
+	#task-description {
 		position: absolute;
 		left: 63px;
 		top: 373px;
@@ -334,7 +334,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-    #textfield_description {
+    #textfield-description {
         position: absolute;
         width: 635px;
         height: 80px;
@@ -348,7 +348,7 @@
         outline: none;
     }
 /* date and deadline */
-	#Text_Field_datetask {
+	#text-field-datetask {
 		position: absolute;
 		width: 301px;
 		height: 83px;
@@ -356,7 +356,7 @@
 		top: 666px;
 		overflow: visible;
 	}
-	#dd_mm_yy {
+	#dd-mm-yy {
 		position: absolute;
 		left: 62px;
 		top: 17px;
@@ -370,13 +370,13 @@
 		font-size: 35px;
 		color: rgba(0,0,0,0.6);
 	}
-    #calendar_popup {
+    #calendar-popup {
         color: grey;
         font-size: 41.5px;
         margin-top: 20px;
         margin-left: 5px;
     }
-	#Deadline {
+	#deadline {
 		position: absolute;
 		left: 63px;
 		top: 593px;
@@ -390,7 +390,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-	#Text_Field_timetask {
+	#text-field-timetask {
 		position: absolute;
 		width: 301px;
 		height: 83px;
@@ -398,7 +398,7 @@
 		top: 666px;
 		overflow: visible;
 	}
-	.Surface {
+	.surface {
 		opacity: 0.07;
 		position: absolute;
 		width: 301px;
@@ -410,7 +410,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#hh_mm {
+	#hh-mm {
 		position: absolute;
 		left: 62px;
 		top: 17px;
@@ -424,14 +424,14 @@
 		font-size: 35px;
 		color: rgba(0,0,0,0.6);
 	}
-	 #time_popup {
+	 #time-popup {
         color: grey;
         font-size: 41.5px;
         margin-top: 20px;
         margin-left: 5px;
     }
 /* task name */
-	#Task_Name {
+	#task-name {
 		position: absolute;
 		left: 63px;
 		top: 153px;
@@ -445,7 +445,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-    #textfield_name {
+    #textfield-name {
         position: absolute;
         width: 635px;
         height: 80px;
@@ -459,7 +459,7 @@
         outline: none;
     }
 /* assign task */
-	#Assign_to {
+	#assign-to {
 		position: absolute;
 		left: 63px;
 		top: 817px;
@@ -473,7 +473,7 @@
 		font-size: 40px;
 		color: rgba(112,112,112,1);
 	}
-    #textfield_asignTo {
+    #textfield-asign-to {
         position: absolute;
         width: 635px;
         height: 80px;
@@ -505,12 +505,12 @@
 		border: 0;
 		overflow: hidden;
 	}
-    #delete_icon {
+    #delete-icon {
         color: #1A237E;
         font-size: 50px;
         margin-top: 2px;
     }
-	#Delete_Task {
+	#delete-task {
 		position: absolute;
 		left: 602px;
 		top: 53px;
@@ -525,7 +525,7 @@
 		color: #1A237E;
 	}
 /* save task button */
-	#Save_Button {
+	#save-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -533,7 +533,7 @@
 		top: 1067px;
 		overflow: visible;
 	}
-	#Rectangle_Save {
+	#rectangle-save {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -544,7 +544,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#SAVE {
+	#save {
 		position: absolute;
 		left: 79px;
 		top: 17px;
@@ -559,7 +559,7 @@
 		color: rgba(255,255,255,1);
 	}
 /* cancel button */
-	#Cancel_Button {
+	#cancel-button {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -567,7 +567,7 @@
 		top: 1067px;
 		overflow: visible;
 	}
-	#Rectangle_Cancel {
+	#rectangle-cancel {
 		position: absolute;
 		width: 255px;
 		height: 83px;
@@ -578,7 +578,7 @@
 		border: 0;
 		overflow: hidden;
 	}
-	#CANCEL {
+	#cancel {
 		position: absolute;
 		left: 52px;
 		top: 17px;
