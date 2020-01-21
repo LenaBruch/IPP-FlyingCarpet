@@ -96,7 +96,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -113,9 +113,6 @@
 <!-- content of the screen: tasks -->
     <!-- task 1 -->
 	<div id="task-list-1">
-		<svg viewBox="0 0 960 195">
-            <rect width="960px" height="195px" fill ="white"/>
-		</svg>
 		<div class="task-headline">
 			<span>Make Visa Appointment</span>
 		</div>
@@ -128,14 +125,11 @@
 			<span>11<br/>FEB</span>
 		</div>
 		<div class="check-no" onclick="taskOneDone();">
-             <i id="task1" class="far fa-circle"></i>
+             <i id="task-1" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- task 2 -->
 	<div id="task-list-2">
-		<svg viewBox="0 0 960 195">
-			 <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
-		</svg>
 		<div class="task-headline">
 			<span>Cancel Newspaper</span>
 		</div>
@@ -148,14 +142,12 @@
 			<span>14<br/>FEB</span>
 		</div>
         <div class="check-no" onclick="taskTwoDone();">
-             <i id="task2" class="far fa-circle check1"></i>
+             <i id="task-2" class="far fa-circle check1"></i>
 		</div>
 	</div>
     <!-- task 3 -->
 	<div id="task-list-3">
-		<svg viewBox="0 0 960 195">
-            <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
-		</svg>
+		
 		<div class="task-headline">
 			<span>Vaccine Yellow Fever</span>
 		</div>
@@ -168,7 +160,7 @@
 			<span>03<br/>MAY</span>
 		</div>
 		<div class="check-no" onclick="taskThreeDone();">
-             <i id="task3" class="far fa-circle"></i>
+             <i id="task-3" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- headlines / timeframes for tasks -->
@@ -206,7 +198,7 @@
 		<span>Deadline</span>
 	</div>
 	<div id="text-field-timetask">
-		<div class="Surface">
+		<div class="surface">
 		</div>
 		<div id="hh-mm">
 			<span>hh.mm</span>
@@ -253,6 +245,21 @@
 		</div>
 	</div>
 </div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
 </div>
 </body>
 </html>

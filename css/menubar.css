@@ -98,7 +98,7 @@
 	}
 	.new-trip {
 		position: absolute;
-		left: 0px;
+		left: -5px;
 		top: 56px;
 		overflow: visible;
 		width: 127px;
@@ -115,6 +115,7 @@
         font-size: 100px;
         line-height: 1px;
         margin-top: 28px;
+        margin-left: 8px;
     }
 /* my trips */
 	.my-trips-button {
@@ -144,7 +145,7 @@
         font-size: 85px;
         line-height: 1px;
         margin-top: 28px;
-        margin-left: 25px;
+        margin-left: 18px;
     }
 /* profile */
 	.profile-button {

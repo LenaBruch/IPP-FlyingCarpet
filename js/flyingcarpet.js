@@ -188,7 +188,7 @@ function addItem () {
     
     $('<div></div>').addClass('rectangle-items').appendTo(newItemDiv);
     $('<div></div>').addClass('new-item-name item-name-6').append('<span></span>').text(itemName).appendTo(newItemDiv);
-    $('<div onclick="item6Check();"></div>').addClass('check-no').append('<i class="far fa-circle item6"></i>').appendTo(newItemDiv);
+    $('<div onclick="item6Check();"></div>').addClass('check-no').append('<i class="far fa-circle item-6"></i>').appendTo(newItemDiv);
     
     $('#textfield-name').val("");
 }
@@ -198,6 +198,18 @@ $('.carousel').carousel( function() {
   interval: 0
 });
 
+
+/**
+* Clicking on menu item "Profile" displays an information message
+*/
+
+function showProfilePopup () {
+    $('#profile-popup').show();
+}
+
+function hideProfilePopup () {
+    $('#profile-popup').hide();
+}
 
 
 

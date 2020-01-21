@@ -270,7 +270,6 @@
     left: 63px;
     top: 445px;
     font-size: 35px;
-    color: rgba(112,112,112,1);
     border:  1px solid rgba(112,112,112,1);
     border-width: 1px;
     padding-left: 15px;
@@ -381,7 +380,6 @@
     left: 63px;
     top: 225px;
     font-size: 35px;
-    color: rgba(112,112,112,1);
     border:  1px solid rgba(112,112,112,1);
     border-width: 1px;
     padding-left: 15px;
@@ -408,7 +406,6 @@
     left: 63px;
     top: 890px;
     font-size: 35px;
-    color: rgba(112,112,112,1);
     border:  1px solid rgba(112,112,112,1);
     border-width: 1px;
     padding-left: 15px;
@@ -517,4 +514,84 @@
 		font-weight: normal;
 		font-size: 35px;
 		color: rgba(0,0,0,0.38);
+	}
+/* CSS popup window profile */
+
+	#profile-popup {
+		position: absolute;
+        top: 460px;
+        left: 146px;
+		background: #E5E5E5;
+		width: 789px;
+		height: 450px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #1A237E;
+        display: none;
+        box-shadow: 10px 10px 15px grey;
+        z-index: 6;
+	}
+/* popup text */
+	#profile-popup-text {
+		position: absolute;
+        left: 53px;
+        top: 40px;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		font-family: Roboto;
+		font-style: normal;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+        line-height: 55px;
+	}
+#construction {
+    padding-left: -400px;
+    
+}
+#check-back-soon {
+    padding-left: 111px;
+    
+}
+#build {
+    font-size: 50px;
+    padding-left: 294px;
+    padding-bottom: 28px;
+}
+
+/* ok button profile popup */
+	#ok-button {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 258px;
+		top: 315px;
+		overflow: visible;
+	}
+	#rectangle-ok {
+		position: absolute;
+		width: 255px;
+		height: 83px;
+		left: 0px;
+		top: 0px;
+		background-color: #1A237E;
+		border-radius: 4px 4px 4px 4px;
+		border: 0;
+		overflow: hidden;
+	}
+	#ok {
+		position: absolute;
+		left: 102px;
+		top: 17px;
+		overflow: visible;
+		width: 96px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
 	}

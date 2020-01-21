@@ -111,7 +111,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -120,9 +120,6 @@
 	</div>
     <!-- content of the screen: tasks -->
 	<div id="task-list-1">
-		<svg class="surface-task" viewBox="0 0 960 195">
-            <rect width="960px" height="195px" fill ="white" stroke="rgba(210,208,208,1)"/>
-		</svg>
 		<div class="task-headline">
 			<span>Make Visa Appointment</span>
 		</div>
@@ -139,9 +136,6 @@
 		</div>
 	</div>
 	<div id="task-list-2">
-		<svg class="surface-task" viewBox="0 0 960 195">
-			  <rect width="960px" height="195px" fill ="white"/>
-		</svg>
 		<div class="task-headline">
 			<span>Cancel Newspaper</span>
 		</div>
@@ -164,9 +158,6 @@
 		<span>MAY 2020</span>
 	</div>
 	<div id="task-list-3">
-		<svg class="Surface_Task" viewBox="0 0 960 195">
-			 <rect width="960px" height="195px" fill ="white"/>
-		</svg>
 		<div class="task-headline">
 			<span>Vaccine Yellow Fever</span>
 		</div>
@@ -248,8 +239,22 @@
 			<span>CANCEL</span>
 		</div>
 	</div>
-</div>
-    
+ </div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
 </div>
 </body>
 </html>

@@ -64,7 +64,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -211,6 +211,21 @@
 	<div id="roadtrip-icon" onclick="roadtripClicked();">
 		<img class="type-icon" src="pictures/roadtrip_icon.svg">
 	</div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
 </div>
 </body>
 </html>

@@ -98,7 +98,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -108,9 +108,6 @@
     
 <!-- task -->
 	<div id="task-list">
-		<svg viewBox="0 0 960 195">
-            <rect id ="task1_done" width="960px" height="195px" fill ="white"/>
-		</svg>
 		<div class="task-headline">
 			<span>Make Visa Appointment</span>
 		</div>
@@ -123,7 +120,7 @@
 			<span>11<br/>FEB</span>
 		</div>
         <div class="check-no" onclick="taskOneDone();">
-            <i id="task1" class="far fa-circle"></i>
+            <i id="task-1" class="far fa-circle"></i>
         </div>
 	</div>
     
@@ -147,7 +144,7 @@
 	</div>
     <!-- date and deadline -->
 	<div id="text-field-datetask">
-		<div class="Surface">
+		<div class="surface">
 		</div>
 		<div id="dd-mm-yy">
 			<span>dd.mm.yy</span>
@@ -169,7 +166,7 @@
 	<div id="task-name">
 		<span>Task Name</span>
 	</div>
-	<div id="name_rect">
+	<div id="name-rect">
         <input type="text" name="" id="textfield-name" placeholder="">
 	</div>
     <!-- assign task -->
@@ -205,6 +202,21 @@
 		</div>
 	</div>
 </div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
 </div>
 </body>
 </html>

@@ -79,7 +79,7 @@
             </div>
           </div>
         </a>
-        <div class="profile-button">
+        <div class="profile-button" onclick="showProfilePopup();">
           <i class="material-icons profile-icon">person</i>
           <div class="profile">
             <span>Profile</span>
@@ -158,7 +158,7 @@
                         <span>London</span>
                     </div>
                     <div class="trip-date">
-                        <span>29.06.2019</span>
+                        <span>14.02.2021</span>
                     </div>
 				</div>
 				<div class="carousel-item">
@@ -170,7 +170,7 @@
                         <span>Rome</span>
                     </div>
                     <div class="trip-date">
-                        <span>14.12.2019</span>
+                        <span>19.04.2021</span>
                     </div>
 				</div>
 				</div>
@@ -232,7 +232,7 @@
 			<span>11<br/>FEB</span>
 		</div>
 		<div class="check-no" onclick="taskOneDone();">
-             <i id="task1" class="far fa-circle"></i>
+             <i id="task-1" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- task 2 -->
@@ -252,7 +252,7 @@
 			<span>14<br/>FEB</span>
 		</div>
 		<div class="check-no" onclick="taskTwoDone();">
-             <i id="task2" class="far fa-circle check1"></i>
+             <i id="task-2" class="far fa-circle"></i>
 		</div>
 	</div>
     <!-- task 3 -->
@@ -272,7 +272,7 @@
 			<span>03<br/>MAY</span>
 		</div>
 	   <div class="check-no" onclick="taskThreeDone();">
-             <i id="task3" class="far fa-circle"></i>
+             <i id="task-3" class="far fa-circle"></i>
 		</div>
         </div>
 
@@ -280,7 +280,22 @@
       <div id="upcoming-deadlines">
         <span>Upcoming Deadlines</span>
       </div>
+<!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
     </div>
-      </div>
+     </div>
+    </div>
   </body>
 </html>

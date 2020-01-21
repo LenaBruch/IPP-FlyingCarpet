@@ -19,8 +19,11 @@
 <!-- embedd roboto font -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     
-<!-- embedd font awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!-- embedd jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+<!-- embedd javascript file -->
+<script src="js/flyingcarpet.js" async></script>
     
 <!-- embedd jquery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -71,7 +74,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -123,19 +126,18 @@
 				</ol>
 				<div class="carousel-inner">
 				<div class="carousel-item active">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>Brazil</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>05.10.2020</span>
                     </div>
                     <a href="My_Trips_DetailOverview.html">
-					     <div id="icon_edit_name">
-                            <i id="edit_icons" class="fas fa-edit">
-                            </i>
+					     <div id="icon-edit-div">
+                            <img id="edit-icon" src="./pictures/edit_icon.svg">
                         </div>
+                        <span id="edit">Edit</span>
                     </a>
-                     <span id="edit">Edit</span>
                     <a href="MyTrips_Information.html"><img
 					src="./pictures/01.Brazil_without.png"
 					class="d-block w-100"
@@ -143,10 +145,10 @@
                     </a>
 				</div>
 				<div class="carousel-item">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>London</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>14.02.2021</span>
                     </div>
 					<img
@@ -155,10 +157,10 @@
 					alt="..."/>
 				</div>
 				<div class="carousel-item">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>Rome</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>19.04.2021</span>
                     </div>
 					<img
@@ -218,10 +220,10 @@
 				</ol>
 				<div class="carousel-inner">
 				<div class="carousel-item active">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>Madrid</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>27.06.2018</span>
                     </div>
 				    <img
@@ -230,10 +232,10 @@
 					alt="..." /> 
 				</div>
 				<div class="carousel-item">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>Thailand</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>20.02.2018</span>
                     </div>
 					<img
@@ -242,10 +244,10 @@
 					alt="..."/>
 				</div>
 				<div class="carousel-item">
-                    <div class="trip_name">
+                    <div class="trip-name">
                         <span>Paris</span>
                     </div>
-                    <div class="trip_date">
+                    <div class="trip-date">
                         <span>12.10.2017</span>
                     </div>
                     <img
@@ -279,23 +281,38 @@
 			</div>
 			</div>
             </div>
-    	<div id="My_trips_carrousel1">
-          <div class="Rectangle_Carrousel">
+    	<div id="my-trips-carrousel1">
+          <div class="rectangle-carrousel">
           </div>
-          <div id="Upcoming_Trips">
+          <div id="upcoming-trips">
 			<span>Upcoming Trips</span>
 		  </div>
         </div>
-			<div id="My_trips_carrousel2">
-		<div id="My_Trips_Carrousel">
-			<div class="Rectangle_Carrousel">
+			<div id="my-trips-carrousel2">
+		<div id="my-trips-carrousel">
+			<div class="rectangle-carrousel">
 			</div>
-			<div id="Past_Trips">
+			<div id="past-trips">
 			<span>Past Trips</span>
 		</div>
     </div>
     </div>
 	</div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
   </div>
 </body>
 </html>

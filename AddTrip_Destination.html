@@ -65,7 +65,7 @@
 			</div>
 		</div>
         </a>
-		<div class="profile-button">
+		<div class="profile-button" onclick="showProfilePopup();">
             <i class="material-icons profile-icon">person</i>
 			<div class="profile">
 				<span>Profile</span>
@@ -101,7 +101,7 @@
 		<span>First Destination</span>
 	</div>
 	<div id="text-field-from-destination">
-        <i class="material-icons" id="location_icon">add_location
+        <i class="material-icons" id="location-icon">add_location
             <input type="text" name="" class="destination" placeholder="From">
         </i>
 	</div>
@@ -110,12 +110,12 @@
 	</div>
     <!-- first destination's travel dates -->
 	<div id="text-field-from-date">
-        <i class="material-icons" id="calendar_icon_little">calendar_today
-            <input type="text" class="datepicker" placeholder="Departure Date">
+        <i class="material-icons" id="calendar-icon-little">calendar_today
+            <input type="text" class="datepicker" placeholder="When">
         </i>
 	</div>
 	<div id="text-field-to-date">
-		<input type="text" class="datepicker" placeholder="Return Date">
+		<input type="text" class="datepicker" placeholder="Until">
 	</div>
 
 <!-- add destination -->
@@ -140,19 +140,13 @@
     <!-- second destination's travel dates -->
 	<div id="text-field-from-date">
         <i class="material-icons" id="calendar-icon-little">calendar_today
-            <input type="text" class="datepicker" placeholder="Departure Date">
+            <input type="text" class="datepicker" placeholder="When">
         </i>
 	</div>
 	<div id="text-field-to-date">
-		<input type="text" class="datepicker" placeholder="Return Date">
-	</div>
-    <!-- add further destination -->
-	<div id="add-destination" onclick="addDestination();">
-        <i class="material-icons" id="add-destination-icon">add_circle_outline</i>
-		<span>Add destination</span>
+		<input type="text" class="datepicker" placeholder="Until">
 	</div>
     </div>
-    
 <!-- next & back button -->
     <a href="AddTrip_Transportation.html">
 	<div class="next-button">
@@ -215,6 +209,21 @@
 			</ellipse>
 		</svg>
 	</div>
+    <!-- Information popup for profile screen in development -->
+    <div id="profile-popup">
+	<div id="profile-popup-text">
+        <img id="build"  src="https://img.icons8.com/officel/80/000000/under-construction.png"><br>
+		<span id="construction">Sorry, this page is under construction.</span><br>
+        <span id="check-back-soon">Please check back soon.</span>
+	</div>
+	<div id="ok-button" onclick="hideProfilePopup();">
+		<div id="rectangle-ok">
+		</div>
+		<div id="ok">
+			<span>OK</span>
+		</div>
+	</div>
+    </div>
 </div>
 </body>
 </html>
